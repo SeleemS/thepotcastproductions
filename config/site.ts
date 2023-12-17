@@ -10,7 +10,7 @@ export const siteConfig = {
 		},
     {
       label: "Productions",
-      href: "/ourproductions",
+      href: "/productions",
     },
     {
       label: "White Label",
