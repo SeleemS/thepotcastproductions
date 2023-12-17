@@ -52,29 +52,29 @@ export const Navbar = () => {
 
 	return (
 		<NextUINavbar maxWidth="xl" position="sticky" style={{ height: '80px' }}>
-			<NavbarContent className="basis-1/5 sm:basis-full" justify="start">
-				<NavbarBrand className="gap-3 max-w-fit">
-                    <NextLink className="flex justify-start items-center gap-5" href="/">
-                        <img src="/logo1.png" alt="Logo" width="120" height="36" /> {/* Update this line */}
+			<NavbarContent className="flex justify-between items-center w-full">
+                <NavbarBrand className="max-w-fit">
+                    <NextLink href="/">
+                        <img src="/logo1.png" alt="Logo" width="120" height="36" />
                     </NextLink>
                 </NavbarBrand>
-				<div className="hidden lg:flex gap-4 justify-start ml-2">
-					{siteConfig.navItems.map((item) => (
-						<NavbarItem key={item.href}>
-							<NextLink
-								className={clsx(
-									linkStyles({ color: "foreground" }),
-									"data-[active=true]:text-primary data-[active=true]:font-medium"
-								)}
-								color="foreground"
-								href={item.href}
-							>
-								{item.label}
-							</NextLink>
-						</NavbarItem>
-					))}
-				</div>
-			</NavbarContent>
+
+                <div className="hidden lg:flex gap-4 ml-auto"> {/* Note the addition of ml-auto */}
+                    {siteConfig.navItems.map((item) => (
+                        <NavbarItem key={item.href}>
+                            <NextLink
+                                className={clsx(
+                                    linkStyles({ color: "foreground" }),
+                                    "data-[active=true]:text-primary data-[active=true]:font-medium"
+                                )}
+                                href={item.href}
+                            >
+                                {item.label}
+                            </NextLink>
+                        </NavbarItem>
+                    ))}
+                </div>
+            </NavbarContent>
 
       <NavbarMenu>
 				{searchInput}
