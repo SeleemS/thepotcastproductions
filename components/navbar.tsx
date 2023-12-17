@@ -51,7 +51,7 @@ export const Navbar = () => {
 	);
 
 	return (
-		<NextUINavbar maxWidth="xl" position="sticky" style={{ height: '100px' }}>
+		<NextUINavbar className ="mt-2" maxWidth="xl" position="sticky" style={{ height: '120px' }}>
 			<NavbarContent className="flex justify-between items-center mt-5 mb-5 w-full">
                 <NavbarBrand className="max-w-fit">
                     <NextLink href="/">
