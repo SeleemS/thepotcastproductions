@@ -1,8 +1,8 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-	name: "Next.js + NextUI",
-	description: "Make beautiful websites regardless of your design experience.",
+	name: "The Potcast Productions",
+	description: "Podcasts baby",
 	navItems: [
 		{
 			label: "Home",
@@ -10,15 +10,15 @@ export const siteConfig = {
 		},
     {
       label: "Our Productions",
-      href: "/docs",
+      href: "/ourproductions",
     },
     {
       label: "White Label Services",
-      href: "/pricing",
+      href: "/whitelabel",
     },
     {
       label: "Contact Us",
-      href: "/about",
+      href: "/contactus",
     }
 	],
 	navMenuItems: [

@@ -7,10 +7,7 @@ export default function IndexPage() {
         <DefaultLayout>
             <div className="container mx-auto mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {[...Array(3)].map((_, index) => (
-                    <Card key={index} className="bg-transparent" isFooterBlurred
-					radius="lg"
-					className="border-none">
-                        
+                    <Card key={index} className="bg-transparent border-none" isFooterBlurred radius="lg">
                         <Image
                             src={`./images/card${index + 1}.jpeg`} // Replace with your image paths
                             alt={`Card Image ${index + 1}`}
@@ -18,7 +15,6 @@ export default function IndexPage() {
                             width="100%"
                             height="auto"
                         />
-						
                     </Card>
                 ))}
             </div>
