@@ -57,7 +57,6 @@ export const Navbar = () => {
 				<NavbarBrand className="gap-3 max-w-fit">
                     <NextLink className="flex justify-start items-center gap-5" href="/">
                         <img src="/logo.png" alt="Logo" width="80" height="36" /> {/* Update this line */}
-                        <p className="font-bold text-inherit">The Potcast Productions</p>
                     </NextLink>
                 </NavbarBrand>
 				<div className="hidden lg:flex gap-4 justify-start ml-2">
