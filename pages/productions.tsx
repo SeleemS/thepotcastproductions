@@ -15,7 +15,6 @@ const ProductionsPage = () => {
             <div className="text-right md:text-right md:ml-4 flex-grow md:max-h-[500px] overflow-auto">
                 <h2 className="text-2xl font-bold my-2">اشتري مني</h2>
                 <p className="text-lg">إحنا ٣ أصحاب بنتكلم من ٣ وجهات نظر مختلفة، قعدتنا مفيهاش استفادة لو مش بتعتبر الانبساط ده استفادة. من إنتاج ذا بوتكاست برودكشنز.</p>
-                <iframe id="ytplayer" width="640" height="360" src="https://www.youtube.com/embed/Q5m1j8dbvlo" allowfullscreen></iframe>
                         <div className="mt-4 flex justify-end gap-2">
                             <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-red-600 text-white rounded-full flex items-center justify-center gap-2">
                                 <FaYoutube /> YouTube
