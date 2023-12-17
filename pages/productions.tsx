@@ -1,6 +1,7 @@
 import DefaultLayout from '@/layouts/default';
 import { Card, Image } from '@nextui-org/react';
 import React from 'react';
+import { FaYoutube, FaSpotify, FaApple } from 'react-icons/fa';
 
 const ProductionsPage = () => {
     return (
@@ -14,6 +15,17 @@ const ProductionsPage = () => {
                     <div className="text-right md:text-right md:ml-4 flex-grow">
                         <h2 className="text-2xl font-bold my-2">اشتري مني</h2>
                         <p className="text-lg">إحنا ٣ أصحاب بنتكلم من ٣ وجهات نظر مختلفة، قعدتنا مفيهاش استفادة لو مش بتعتبر الانبساط ده استفادة. من إنتاج ذا بوتكاست برودكشنز.</p>
+                        <div className="mt-4 flex justify-end gap-2">
+                            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-red-600 text-white rounded-full flex items-center justify-center gap-2">
+                                <FaYoutube /> YouTube
+                            </a>
+                            <a href="https://www.spotify.com" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-green-600 text-white rounded-full flex items-center justify-center gap-2">
+                                <FaSpotify /> Spotify
+                            </a>
+                            <a href="https://www.apple.com/apple-music/" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gray-800 text-white rounded-full flex items-center justify-center gap-2">
+                                <FaApple /> Apple
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -24,6 +36,17 @@ const ProductionsPage = () => {
                     <div className="text-right md:text-right md:ml-4 flex-grow">
                         <h2 className="text-2xl font-bold my-2">كبرني بودكاست</h2>
                         <p className="text-lg">في أي قاعدة صُلح أو اختلاف في الكلام، بيبقى في حد لازم (نكبره).. احنا هنا هنكبر بعض، ونكبركم، ونكبر حاجات ملهاش حد يكبرها..بس من وجهة نظر بولا وريم</p>
+                        <div className="mt-4 flex justify-end gap-2">
+                            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-red-600 text-white rounded-full flex items-center justify-center gap-2">
+                                <FaYoutube /> YouTube
+                            </a>
+                            <a href="https://www.spotify.com" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-green-600 text-white rounded-full flex items-center justify-center gap-2">
+                                <FaSpotify /> Spotify
+                            </a>
+                            <a href="https://www.apple.com/apple-music/" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gray-800 text-white rounded-full flex items-center justify-center gap-2">
+                                <FaApple /> Apple
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -34,6 +57,17 @@ const ProductionsPage = () => {
                     <div className="text-right md:text-right md:ml-4 flex-grow">
                         <h2 className="text-2xl font-bold my-2">كبرني بودكاست</h2>
                         <p className="text-lg">في أي قاعدة صُلح أو اختلاف في الكلام، بيبقى في حد لازم (نكبره).. احنا هنا هنكبر بعض، ونكبركم، ونكبر حاجات ملهاش حد يكبرها..بس من وجهة نظر بولا وريم</p>
+                        <div className="mt-4 flex justify-end gap-2">
+                            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-red-600 text-white rounded-full flex items-center justify-center gap-2">
+                                <FaYoutube /> YouTube
+                            </a>
+                            <a href="https://www.spotify.com" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-green-600 text-white rounded-full flex items-center justify-center gap-2">
+                                <FaSpotify /> Spotify
+                            </a>
+                            <a href="https://www.apple.com/apple-music/" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gray-800 text-white rounded-full flex items-center justify-center gap-2">
+                                <FaApple /> Apple
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
