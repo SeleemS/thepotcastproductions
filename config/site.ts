@@ -9,11 +9,11 @@ export const siteConfig = {
 			href: "/",
 		},
     {
-      label: "Our Productions",
+      label: "Productions",
       href: "/ourproductions",
     },
     {
-      label: "White Label Services",
+      label: "White Label",
       href: "/whitelabel",
     },
     {

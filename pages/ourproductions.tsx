@@ -11,24 +11,27 @@ const OurProductionsPage = () => {
                 <div className="flex flex-col md:flex-row items-center mb-5">
                     <Image src="./images/card1.jpeg" width={500} height={500} alt="Image Description" objectFit="cover" />
                     <div className="text-center md:text-left md:ml-4">
-                        <h2 className="text-2xl font-bold my-2">Title</h2>
-                        <p className="text-lg">Description text here.</p>
+                        <h2 className="text-2xl font-bold my-2">اشتري مني</h2>
+                        <p className="text-lg">
+إحنا ٣ أصحاب بنتكلم من ٣ وجهات نظر مختلفة، قعدتنا مفيهاش استفادة لو مش بتعتبر الانبساط ده استفادة. من إنتاج ذا بوتكاست برودكشنز.</p>
                     </div>
                 </div>
 
                 <div className="flex flex-col md:flex-row items-center mb-5">
                     <Image src="./images/card2.jpeg" width={500} height={500} alt="Image Description" objectFit="cover" />
                     <div className="text-center md:text-left md:ml-4">
-                        <h2 className="text-2xl font-bold my-2">Title</h2>
-                        <p className="text-lg">Description text here.</p>
+                        <h2 className="text-2xl font-bold my-2">اشتري مني</h2>
+                        <p className="text-lg">
+إحنا ٣ أصحاب بنتكلم من ٣ وجهات نظر مختلفة، قعدتنا مفيهاش استفادة لو مش بتعتبر الانبساط ده استفادة. من إنتاج ذا بوتكاست برودكشنز.</p>
                     </div>
                 </div>
 
                 <div className="flex flex-col md:flex-row items-center mb-5">
                     <Image src="./images/card3.jpeg" width={500} height={500} alt="Image Description" objectFit="cover" />
                     <div className="text-center md:text-left md:ml-4">
-                        <h2 className="text-2xl font-bold my-2">Title</h2>
-                        <p className="text-lg">Description text here.</p>
+                        <h2 className="text-2xl font-bold my-2">اشتري مني</h2>
+                        <p className="text-lg">
+إحنا ٣ أصحاب بنتكلم من ٣ وجهات نظر مختلفة، قعدتنا مفيهاش استفادة لو مش بتعتبر الانبساط ده استفادة. من إنتاج ذا بوتكاست برودكشنز.</p>
                     </div>
                 </div>
             </div>
