@@ -19,10 +19,10 @@ const ProductionsPage = () => {
                             <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-red-600 text-white rounded-full flex items-center justify-center gap-2">
                                 <FaYoutube /> YouTube
                             </a>
-                            <a href="https://www.spotify.com" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-green-600 text-white rounded-full flex items-center justify-center gap-2">
+                            <a href="https://open.spotify.com/show/2GcpoqDhqssSxDeugg4ejF?si=y6UEsDGZSZWHrCc0fpmezQ&utm_medium=share&utm_source=linktree&nd=1&dlsi=afa9dae822884a7f" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-green-600 text-white rounded-full flex items-center justify-center gap-2">
                                 <FaSpotify /> Spotify
                             </a>
-                            <a href="https://www.apple.com/apple-music/" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gray-800 text-white rounded-full flex items-center justify-center gap-2">
+                            <a href="https://podcasts.apple.com/eg/podcast/eshtry-menny-%D8%A7%D8%B4%D8%AA%D8%B1%D9%8A-%D9%85%D9%86%D9%8A/id1625454150" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gray-800 text-white rounded-full flex items-center justify-center gap-2">
                                 <FaApple /> Apple
                             </a>
                         </div>
@@ -40,10 +40,10 @@ const ProductionsPage = () => {
                             <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-red-600 text-white rounded-full flex items-center justify-center gap-2">
                                 <FaYoutube /> YouTube
                             </a>
-                            <a href="https://www.spotify.com" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-green-600 text-white rounded-full flex items-center justify-center gap-2">
+                            <a href="https://open.spotify.com/show/1QLz7wgVVVdZt90vanHFNJ?si=XRsC0wHARq-GjwI3xPg2iQ&nd=1&dlsi=7ed718d582054f94" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-green-600 text-white rounded-full flex items-center justify-center gap-2">
                                 <FaSpotify /> Spotify
                             </a>
-                            <a href="https://www.apple.com/apple-music/" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gray-800 text-white rounded-full flex items-center justify-center gap-2">
+                            <a href="https://podcasts.apple.com/us/podcast/kabarni-podcast-%D9%83%D8%A8%D8%B1%D9%86%D9%8A-%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA/id1705559408?ign-itscg=30200&ign-itsct=lt_p" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gray-800 text-white rounded-full flex items-center justify-center gap-2">
                                 <FaApple /> Apple
                             </a>
                         </div>
@@ -55,16 +55,16 @@ const ProductionsPage = () => {
                         <Image src="./images/card3.jpeg" alt="Image Description" objectFit="cover" width="100%" height="500px" />
                     </div>
                     <div className="text-right md:text-right md:ml-4 flex-grow">
-                        <h2 className="text-2xl font-bold my-2">كبرني بودكاست</h2>
+                        <h2 className="text-2xl font-bold my-2">!!هو في إيه يا جماعة؟</h2>
                         <p className="text-lg">بودكاست عن جرائم قتل، وأماكن مسكونة، وأحداث تاريخية غريبة</p>
                         <div className="mt-4 flex justify-end gap-2">
                             <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-red-600 text-white rounded-full flex items-center justify-center gap-2">
                                 <FaYoutube /> YouTube
                             </a>
-                            <a href="https://www.spotify.com" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-green-600 text-white rounded-full flex items-center justify-center gap-2">
+                            <a href="https://open.spotify.com/show/4BV0CDamD2RoXSIURDA3zV" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-green-600 text-white rounded-full flex items-center justify-center gap-2">
                                 <FaSpotify /> Spotify
                             </a>
-                            <a href="https://www.apple.com/apple-music/" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gray-800 text-white rounded-full flex items-center justify-center gap-2">
+                            <a href="https://podcasts.apple.com/eg/podcast/howa-fi-eh-ya-gama3a-%D9%87%D9%88-%D9%81%D9%8A-%D8%A5%D9%8A%D9%87-%D9%8A%D8%A7-%D8%AC%D9%85%D8%A7%D8%B9%D8%A9/id1642322795" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gray-800 text-white rounded-full flex items-center justify-center gap-2">
                                 <FaApple /> Apple
                             </a>
                         </div>
