@@ -58,6 +58,8 @@ export const Navbar = () => {
                         <img src="/logo1.png" alt="Logo" width="125" height="36" />
                     </NextLink>
                 </NavbarBrand>
+				<ThemeSwitch/>
+				
 
                 <div className="hidden lg:flex gap-4 ml-auto"> {/* Note the addition of ml-auto */}
                     {siteConfig.navItems.map((item) => (
@@ -81,19 +83,16 @@ export const Navbar = () => {
 				<div className="mx-4 mt-2 flex flex-col gap-2">
 					{siteConfig.navMenuItems.map((item, index) => (
 						<NavbarMenuItem key={`${item}-${index}`}>
-							<Link
-								color={
-									index === 2
-										? "primary"
-										: index === siteConfig.navMenuItems.length - 1
-										? "danger"
-										: "foreground"
-								}
-								href="#"
+							<Button
+								color={index === 2 ? "primary" : index === siteConfig.navMenuItems.length - 1 ? "error" : "default"}
+								auto
+								bordered
+								shadow
 								size="lg"
+								className="button-hover-effect"
 							>
 								{item.label}
-							</Link>
+							</Button>
 						</NavbarMenuItem>
 					))}
 				</div>
@@ -101,3 +100,6 @@ export const Navbar = () => {
 		</NextUINavbar>
 	);
 };
+
+
+
