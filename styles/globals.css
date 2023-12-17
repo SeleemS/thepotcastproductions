@@ -8,3 +8,14 @@
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent image repetition */
 }
+
+.custom-flex-height {
+    height: auto; /* Default height for mobile */
+}
+
+/* Media query for larger screens (e.g., desktop) */
+@media (min-width: 768px) {
+    .custom-flex-height {
+        height: 80vh; /* Height for desktop */
+    }
+}
