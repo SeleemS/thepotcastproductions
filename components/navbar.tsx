@@ -12,6 +12,7 @@ import {
 	NavbarMenuItem,
 } from "@nextui-org/react";
 
+
 import { link as linkStyles } from "@nextui-org/theme";
 
 import { siteConfig } from "@/config/site";
@@ -19,6 +20,7 @@ import NextLink from "next/link";
 import clsx from "clsx";
 
 import { ThemeSwitch } from "@/components/theme-switch";
+
 import {
 	TwitterIcon,
 	GithubIcon,
