@@ -11,7 +11,7 @@ const ProductionsPage = () => {
                     <div className="flex-shrink-0" style={{ width: '500px' }}>
                         <Image src="./images/card1.jpeg" alt="Image Description" objectFit="cover" width="100%" height="500px" />
                     </div>
-                    <div className="text-center md:text-left md:ml-4 flex-grow">
+                    <div className="text-right md:text-right md:ml-4 flex-grow">
                         <h2 className="text-2xl font-bold my-2">اشتري مني</h2>
                         <p className="text-lg">إحنا ٣ أصحاب بنتكلم من ٣ وجهات نظر مختلفة، قعدتنا مفيهاش استفادة لو مش بتعتبر الانبساط ده استفادة. من إنتاج ذا بوتكاست برودكشنز.</p>
                     </div>
@@ -21,7 +21,7 @@ const ProductionsPage = () => {
                     <div className="flex-shrink-0" style={{ width: '500px' }}>
                         <Image src="./images/card2.jpeg" alt="Image Description" objectFit="cover" width="100%" height="500px" />
                     </div>
-                    <div className="text-center md:text-left md:ml-4 flex-grow">
+                    <div className="text-right md:text-right md:ml-4 flex-grow">
                         <h2 className="text-2xl font-bold my-2">كبرني بودكاست</h2>
                         <p className="text-lg">في أي قاعدة صُلح أو اختلاف في الكلام، بيبقى في حد لازم (نكبره).. احنا هنا هنكبر بعض، ونكبركم، ونكبر حاجات ملهاش حد يكبرها..بس من وجهة نظر بولا وريم</p>
                     </div>
@@ -31,7 +31,7 @@ const ProductionsPage = () => {
                     <div className="flex-shrink-0" style={{ width: '500px' }}>
                         <Image src="./images/card3.jpeg" alt="Image Description" objectFit="cover" width="100%" height="500px" />
                     </div>
-                    <div className="text-center md:text-left md:ml-4 flex-grow">
+                    <div className="text-right md:text-right md:ml-4 flex-grow">
                         <h2 className="text-2xl font-bold my-2">كبرني بودكاست</h2>
                         <p className="text-lg">في أي قاعدة صُلح أو اختلاف في الكلام، بيبقى في حد لازم (نكبره).. احنا هنا هنكبر بعض، ونكبركم، ونكبر حاجات ملهاش حد يكبرها..بس من وجهة نظر بولا وريم</p>
                     </div>
