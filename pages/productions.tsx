@@ -56,7 +56,7 @@ const ProductionsPage = () => {
                     </div>
                     <div className="text-right md:text-right md:ml-4 flex-grow">
                         <h2 className="text-2xl font-bold my-2">كبرني بودكاست</h2>
-                        <p className="text-lg">في أي قاعدة صُلح أو اختلاف في الكلام، بيبقى في حد لازم (نكبره).. احنا هنا هنكبر بعض، ونكبركم، ونكبر حاجات ملهاش حد يكبرها..بس من وجهة نظر بولا وريم</p>
+                        <p className="text-lg">بودكاست عن جرائم قتل، وأماكن مسكونة، وأحداث تاريخية غريبة</p>
                         <div className="mt-4 flex justify-end gap-2">
                             <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-red-600 text-white rounded-full flex items-center justify-center gap-2">
                                 <FaYoutube /> YouTube
