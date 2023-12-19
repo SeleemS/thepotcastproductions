@@ -37,7 +37,6 @@ export default function IndexPage() {
                                         <Image
                                             src={`./images/card${index + 1}.jpeg`}
                                             alt={`Card Image ${index + 1}`}
-                                            objectFit="cover"
                                             width="100%"
                                             height="100%"
                                         />
@@ -67,7 +66,6 @@ export default function IndexPage() {
                         <div className="md:w-1/2">
                             <Image
                                 src="/images/whitehero.png"
-                                objectFit="cover"
                                 width="100%"
                                 height="100%"
                                 alt="White Label Services"
@@ -98,7 +96,6 @@ export default function IndexPage() {
                                 <Image
                                     src="/images/hero.png" // Replace with your desired image path
                                     alt="Additional Details"
-                                    objectFit="contain" // Ensures the entire image fits within its container
                                     width="100%"
                                     height="auto"
                                 />
