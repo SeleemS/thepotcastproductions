@@ -2,14 +2,11 @@ import DefaultLayout from '@/layouts/default';
 import { Card, Image } from '@nextui-org/react';
 import React from 'react';
 import { FaYoutube, FaSpotify, FaApple } from 'react-icons/fa';
-import ProductionCard from '@/components/productioncard';
 
 const ProductionsPage = () => {
     return (
         <DefaultLayout>
-            <ProductionCard></ProductionCard>
             <div className="container mx-auto p-6">
-                
                 
             <div className="flex flex-col md:flex-row items-center mb-5">
             <div className="flex-shrink-0" style={{ width: '500px', height: '500px' }}>
