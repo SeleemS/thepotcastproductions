@@ -34,7 +34,6 @@ const WhiteLabelPage = () => {
                                 <Image
                                     src={strength.image}
                                     alt={strength.title}
-                                    objectFit="cover"
                                     width="100%"
                                     height={200}
                                 />
