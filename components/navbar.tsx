@@ -64,8 +64,7 @@ export const Navbar = () => {
 						<NavbarItem key={item.href} isActive={currentPath === item.href}>
 						<NextLink href={item.href} passHref>
 							<Link 
-							color="foreground" 
-							className={`text-lg lg:text-xl ${currentPath === item.href ? 'font-bold' : ''}`}
+							className={`text-lg lg:text-xl ${currentPath === item.href ? 'active-gradient-text font-bold' : 'gradient-text'}`}
 							>
 							{item.label}
 							</Link>

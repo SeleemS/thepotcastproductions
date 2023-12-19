@@ -27,3 +27,17 @@
     display: none;
 }
 }
+
+.gradient-text {
+    background: linear-gradient(to right, #03a07d, #006400);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .active-gradient-text {
+    background: linear-gradient(to right, #03a07d, #006400);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold; /* Make text bold */
+    text-shadow: 0px 0px 10px rgba(3,160,125,0.75); /* Add a shadow for emphasis */
+  }
