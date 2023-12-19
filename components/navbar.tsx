@@ -62,7 +62,7 @@ export const Navbar = () => {
 				
                     {siteConfig.navItems.map((item) => (
                         <NavbarItem key={item.href}>
-							<Link href={item.href} color="foreground" css={{ fontWeight: '$bold' }}>
+							<Link href={item.href} color="foreground">
 							{item.label}
 							</Link>
 						</NavbarItem>
