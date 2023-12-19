@@ -5,8 +5,27 @@ import { title as titler, subtitle } from "@/components/primitives";
 import {Skeleton} from "@nextui-org/react";
 import { motion } from 'framer-motion';
 import { Exo_2 } from "next/font/google";
+interface ProductionCardProps {
+    title: string;
+    description: string;
+    imageSrc: string;
+    youtubeLink: string;
+    youtubeEmbed: string;
+    spotifyLink: string;
+    appleLink: string;
+    anghamiLink: string;
+  }
 
-export default function ProductionCard({ title, description, imageSrc, youtubeLink, youtubeEmbed, spotifyLink, appleLink, anghamiLink }) {
+  export default function ProductionCard({ 
+    title, 
+    description, 
+    imageSrc, 
+    youtubeLink, 
+    youtubeEmbed, 
+    spotifyLink, 
+    appleLink, 
+    anghamiLink 
+  }: ProductionCardProps) {
   const [liked, setLiked] = React.useState(false);
 
   const wiggleVariants = {
@@ -24,7 +43,7 @@ export default function ProductionCard({ title, description, imageSrc, youtubeLi
     <Card
       isBlurred
       className="border-2 border-green-800 bg-white dark:bg-gray-900 shadow-xl rounded-lg overflow-hidden w-full mb-5 md:max-w-[1200px]"
-      shadow="xl"
+      shadow="lg"
     >
       <CardBody className="p-4">
         <div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center">
