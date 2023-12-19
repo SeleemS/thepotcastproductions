@@ -42,10 +42,12 @@ export default function IndexPage() {
                     ))}
                 </div>
                 {/* Button */}
-                <Button size="lg" radius="full" className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg">
-                    See More
-                    <FaArrowRight className="ml-2" /> {/* Icon added here */}
-                </Button>
+                <Link href="./productions">
+                    <Button size="lg" radius="full" className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg">
+                        See More
+                        <FaArrowRight className="ml-2" /> {/* Icon added here */}
+                    </Button>
+                </Link>
             </div>
             {/* Additional content */}
         </DefaultLayout>
