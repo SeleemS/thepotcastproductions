@@ -4,6 +4,7 @@ import { FaYoutube, FaSpotify, FaApple } from 'react-icons/fa';
 import { title as titler, subtitle } from "@/components/primitives";
 import {Skeleton} from "@nextui-org/react";
 import { motion } from 'framer-motion';
+import { Exo_2 } from "next/font/google";
 
 export default function ProductionCard({ title, description, imageSrc, youtubeLink, youtubeEmbed, spotifyLink, appleLink, anghamiLink }) {
   const [liked, setLiked] = React.useState(false);
@@ -42,7 +43,7 @@ export default function ProductionCard({ title, description, imageSrc, youtubeLi
             <div className="flex justify-between items-start">
               <div className="flex flex-col gap-2 mt-2 text-right"> {/* Adjusted gap */}
 
-                <p className={subtitle()}>{description}</p>
+                <p className={subtitle({className:"ml-5"})}>{description}</p>
 
                 <div className="hidden md:flex justify-center items-center mt-4">
                     <motion.iframe 
