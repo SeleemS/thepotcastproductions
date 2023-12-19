@@ -19,7 +19,9 @@ export default function DefaultLayout({
                 <div className="container mx-auto max-w-10xl px-6 flex flex-col md:flex-row justify-between items-center flex-wrap">
                     {/* Logo */}
                     <div className="order-1 md:order-none mb-4 md:mb-0">
-                        <img src="/images/logo3.png" alt="Logo" width="100" height="36" />
+						<Link href="./">
+                        	<img src="/images/logo3.png" alt="Logo" width="100" height="36" />
+						</Link>
                     </div>
                     
                     {/* Social Media Icons */}
