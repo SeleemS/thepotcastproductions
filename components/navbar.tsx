@@ -44,13 +44,13 @@ export const Navbar = () => {
 
 
 	return (
-		<NextUINavbar onMenuOpenChange={setIsMenuOpen} className ="mt-2" maxWidth="xl" position="sticky" style={{ height: '120px' }}>
-			<NavbarContent className="flex justify-between items-center mt-5 mb-5 w-full">
+		<NextUINavbar onMenuOpenChange={setIsMenuOpen} className ="mt-4 mb-5" maxWidth="xl" position="sticky">
+			<NavbarContent className="flex justify-between items-center mt-5 mb-5 w-full height-200">
 			
 				
                 <NavbarBrand className="max-w-fit">
                     <NextLink href="/">
-                        <img src="/logo1.png" alt="Logo" width="125" height="36" />
+                        <img src="/images/logo3.png" alt="Logo" width="125" height="36" />
                     </NextLink>
                 </NavbarBrand>
 				{/*<ThemeSwitch/>*/}

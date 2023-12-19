@@ -2,6 +2,7 @@ import React from "react";
 import { Card, CardBody, Image, Button, Slider } from "@nextui-org/react";
 import { FaYoutube, FaSpotify, FaApple } from 'react-icons/fa';
 import { title as titler, subtitle } from "@/components/primitives";
+import {Skeleton} from "@nextui-org/react";
 
 export default function ProductionCard({ title, description, imageSrc, youtubeLink, youtubeEmbed, spotifyLink, appleLink, anghamiLink }) {
   const [liked, setLiked] = React.useState(false);
@@ -14,7 +15,7 @@ export default function ProductionCard({ title, description, imageSrc, youtubeLi
     >
       <CardBody className="p-2">
         <div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center">
-          <div className="relative col-span-6 md:col-span-5">
+          <div className="relative col-span-6 md:col-span-4 md:ml-5">
             <Image
               alt={title}
               className="object-cover"
@@ -25,7 +26,7 @@ export default function ProductionCard({ title, description, imageSrc, youtubeLi
             />
           </div>
 
-          <div className="flex flex-col col-span-6 md:col-span-7">
+          <div className="flex flex-col col-span-6 md:col-span-8">
             <div className="flex justify-between items-start">
               <div className="flex flex-col gap-0  mt-2 text-right">
                 <h1 className={titler({color:"yellow"})}>{title}</h1>
@@ -36,7 +37,7 @@ export default function ProductionCard({ title, description, imageSrc, youtubeLi
                     width="560" 
                     height="315" 
                     src={youtubeEmbed}
-                    title="YouTube video player" 
+                    title="Spotify Podcast Player" 
                     frameBorder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                     allowFullScreen>
@@ -54,7 +55,7 @@ export default function ProductionCard({ title, description, imageSrc, youtubeLi
               </Button>
             </div>
 
-            <div className="flex justify-center gap-2 md:mt-[-40px]">
+            <div className="flex justify-center gap-2 md:mt-[-50px] mb-2">
               <a href={youtubeLink} target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-red-600 text-white rounded-full flex items-center justify-center gap-2">
                 <FaYoutube size="30" />
               </a>
