@@ -36,6 +36,7 @@ import {
 export const Navbar = () => {
 	const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 	const router = useRouter();
+	const currentPath = router.pathname;
 
 	const closeMenuAndNavigate = (url:string) => {
         setIsMenuOpen(false);
@@ -58,16 +59,17 @@ export const Navbar = () => {
 
 				
 
-                <div className="hidden lg:flex gap-4 ml-auto"> {/* Note the addition of ml-auto */}
-				
-                    {siteConfig.navItems.map((item) => (
-                        <NavbarItem key={item.href}>
-							<Link href={item.href} color="foreground">
+                <div className="hidden lg:flex gap-4 ml-auto">
+					{siteConfig.navItems.map((item) => (
+						<NavbarItem key={item.href} isActive={currentPath === item.href}>
+						<NextLink href={item.href} passHref>
+							<Link color="foreground" className={currentPath === item.href ? 'font-bold' : ''}>
 							{item.label}
 							</Link>
+						</NextLink>
 						</NavbarItem>
-                    ))}
-                </div>
+					))}
+					</div>
             </NavbarContent>
 
 			<NavbarMenuToggle
