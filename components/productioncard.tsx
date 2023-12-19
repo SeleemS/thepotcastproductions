@@ -12,7 +12,7 @@ export default function ProductionCard({ title, description, imageSrc, youtubeLi
       className="border-none bg-background/60 dark:bg-default-100/50 w-full mb-5 md:max-w-[1200px]"
       shadow="sm"
     >
-      <CardBody>
+      <CardBody className="p-2">
         <div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center">
           <div className="relative col-span-6 md:col-span-5">
             <Image
@@ -54,7 +54,7 @@ export default function ProductionCard({ title, description, imageSrc, youtubeLi
               </Button>
             </div>
 
-            <div className="mt-4 flex justify-center gap-2">
+            <div className="flex justify-center gap-2">
               <a href={youtubeLink} target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-red-600 text-white rounded-full flex items-center justify-center gap-2">
                 <FaYoutube size="30" />
               </a>
