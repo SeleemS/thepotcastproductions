@@ -27,7 +27,7 @@ const WhiteLabelPage = () => {
     return (
         <DefaultLayout>
             <div className="flex flex-col items-center justify-center ">
-                <h1 className={`${title({color:"yellow"})} text-4xl mb-8`}>White Label Solutions</h1>
+                <h1 className={`${title({color:"green"})} text-4xl mb-8`}>White Label Solutions</h1>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {strengths.map((strength, index) => (
                         <Card key={index} className="bg-white shadow-lg">

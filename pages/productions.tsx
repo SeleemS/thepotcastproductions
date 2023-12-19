@@ -3,10 +3,12 @@ import { Card, Image } from '@nextui-org/react';
 import React from 'react';
 import { FaYoutube, FaSpotify, FaApple } from 'react-icons/fa';
 import ProductionCard from '@/components/productioncard';
+import { title, subtitle } from "@/components/primitives";
 
 const ProductionsPage = () => {
     return (
         <DefaultLayout>
+            <h1 className={`${title({color:"green"})} text-4xl mb-4 text-center`}>Our Productions</h1>
             <ProductionCard
                 title="اشتري مني"
                 description=" ٣ أصحاب بنتكلم من ٣ وجهات نظر مختلفة، قعدتنا مفيهاش استفادة لو مش بتعتبر الانبساط ده استفادة. من إنتاج ذا بوتكاست برودكشنز"

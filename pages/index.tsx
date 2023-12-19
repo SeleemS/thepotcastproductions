@@ -76,12 +76,14 @@ export default function IndexPage() {
                             </p>
 
                             {/* See More Button */}
-                            <Link href="./whitelabel" passHref>
-                            <Button size="lg" radius="full" className="bg-gradient-to-tr bg-gray-800 hover:bg-gray-700 text-white shadow-lg mt-2">
-                                    Connect
+                            <div className="col-span-1 md:col-span-2 lg:col-span-3 flex justify-center">
+                            <Link href="./whitelabel">
+                                <Button size="lg" radius="full" className="bg-gradient-to-tr bg-gray-800 hover:bg-gray-700 text-white shadow-lg">
+                                    See More
                                     <FaArrowRight className="ml-2" />
                                 </Button>
                             </Link>
+                        </div>
                         </div>
                     </Card>
                 </div>
