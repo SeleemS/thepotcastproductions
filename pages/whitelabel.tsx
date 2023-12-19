@@ -10,24 +10,24 @@ const WhiteLabelPage = () => {
         {
             title: "Customization Flexibility",
             description: "Offering bespoke solutions tailored to client needs.",
-            image: "/images/customization.jpg" // Replace with your image path
+            image: "/images/hero.png" // Replace with your image path
         },
         {
             title: "Scalable Solutions",
             description: "Easily scalable services to grow with your clients.",
-            image: "/images/scalable.jpg" // Replace with your image path
+            image: "/images/whitehero.png" // Replace with your image path
         },
         {
             title: "Reliable Support",
             description: "Dedicated support team ensuring service reliability.",
-            image: "/images/support.jpg" // Replace with your image path
+            image: "/images/white3.png" // Replace with your image path
         }
     ];
 
     return (
         <DefaultLayout>
-            <div className="flex flex-col items-center justify-center py-10">
-                <h1 className={`${title()} text-4xl mb-8`}>White Label Services</h1>
+            <div className="flex flex-col items-center justify-center ">
+                <h1 className={`${title({color:"yellow"})} text-4xl mb-8`}>White Label Solutions</h1>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {strengths.map((strength, index) => (
                         <Card key={index} className="bg-white shadow-lg">

@@ -68,13 +68,20 @@ export default function IndexPage() {
                                 alt="White Label Services"
                             />
                         </div>
-                        <div className="p-8 flex flex-col justify-center md:w-1/2"> {/* Increased padding and adjusted width */}
-                            <h3 className={`${title({color:"violet"})} text-3xl font-semibold mb-4`}>White Label Solutions</h3>
+                        <div className="p-8 flex flex-col justify-center md:w-1/2">
+                            <h3 className={`${title({color:"yellow"})} text-3xl font-semibold mb-4`}>White Label Solutions</h3>
                             <p className={`${subtitle()} text-lg`}>
                                 Describe your white label services here. Include any relevant details
                                 or features that would interest potential clients.
                             </p>
-                            {/* Add more content or buttons as needed */}
+
+                            {/* See More Button */}
+                            <Link href="./whitelabel" passHref>
+                            <Button size="lg" radius="full" className="bg-gradient-to-tr bg-gray-800 hover:bg-gray-700 text-white shadow-lg mt-2">
+                                    Connect
+                                    <FaArrowRight className="ml-2" />
+                                </Button>
+                            </Link>
                         </div>
                     </Card>
                 </div>
