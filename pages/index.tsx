@@ -33,7 +33,7 @@ export default function IndexPage() {
                                     initial="offscreen"
                                     animate="onscreen"
                                 >
-                                    <Card className="bg-transparent border-none cursor-pointer" isFooterBlurred radius="lg">
+                                    <Card className="bg-transparent border-2 border-green-800 cursor-pointer" isFooterBlurred radius="lg">
                                         <Image
                                             src={`./images/card${index + 1}.jpeg`}
                                             alt={`Card Image ${index + 1}`}
@@ -62,7 +62,7 @@ export default function IndexPage() {
 
                 {/* White Label Services Card with more space for text */}
                 <div className="w-full max-w-6xl px-4 my-5">
-                    <Card isHoverable isPressable className="flex flex-col md:flex-row bg-white shadow-lg">
+                    <Card isHoverable isPressable className="flex flex-col md:flex-row bg-white border-2 border-green-800 shadow-lg">
                         <div className="md:w-1/2 p-4">
                             <Image
                                 src="/images/whitehero.png"

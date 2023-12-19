@@ -62,16 +62,10 @@ export const Navbar = () => {
 				
                     {siteConfig.navItems.map((item) => (
                         <NavbarItem key={item.href}>
-                            <NextLink
-                                className={clsx(
-                                    linkStyles({ color: "foreground" }),
-                                    "data-[active=true]:text-primary data-[active=true]:font-medium"
-                                )}
-                                href={item.href}
-                            >
-                                {item.label}
-                            </NextLink>
-                        </NavbarItem>
+							<Link href={item.href} color="foreground" css={{ fontWeight: '$bold' }}>
+							{item.label}
+							</Link>
+						</NavbarItem>
                     ))}
                 </div>
             </NavbarContent>
