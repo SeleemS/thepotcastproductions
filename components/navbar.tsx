@@ -18,6 +18,7 @@ import { link as linkStyles } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import NextLink from "next/link";
 import clsx from "clsx";
+import React from "react";
 
 import { ThemeSwitch } from "@/components/theme-switch";
 
@@ -31,30 +32,16 @@ import {
 
 
 export const Navbar = () => {
-	const searchInput = (
-		<Input
-			aria-label="Search"
-			classNames={{
-				inputWrapper: "bg-default-100",
-				input: "text-sm",
-			}}
-			endContent={
-				<Kbd className="hidden lg:inline-block" keys={["command"]}>
-					K
-				</Kbd>
-			}
-			labelPlacement="outside"
-			placeholder="Search..."
-			startContent={
-				<SearchIcon className="text-base text-default-400 pointer-events-none flex-shrink-0" />
-			}
-			type="search"
-		/>
-	);
+	const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+
 
 	return (
-		<NextUINavbar className ="mt-2" maxWidth="xl" position="sticky" style={{ height: '120px' }}>
+		<NextUINavbar onMenuOpenChange={setIsMenuOpen} className ="mt-2" maxWidth="xl" position="sticky" style={{ height: '120px' }}>
 			<NavbarContent className="flex justify-between items-center mt-5 mb-5 w-full">
+			<NavbarMenuToggle
+			aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+			className="sm:hidden"
+			/>
 				
                 <NavbarBrand className="max-w-fit">
                     <NextLink href="/">
@@ -82,7 +69,6 @@ export const Navbar = () => {
             </NavbarContent>
 
       <NavbarMenu>
-				{searchInput}
 				<div className="mx-4 mt-2 flex flex-col gap-2">
 					{siteConfig.navMenuItems.map((item, index) => (
 						<NavbarMenuItem key={`${item}-${index}`}>
