@@ -8,24 +8,18 @@ import { title, subtitle } from "@/components/primitives";
 
 export default function IndexPage() {
     const cardVariants = {
-        offscreen: {
-            y: 50,
-            opacity: 0
-        },
+        offscreen: { rotate: 0 },
         onscreen: {
-            y: 0,
-            opacity: 1,
-            transition: {
-                type: "spring",
-                bounce: 0.4,
-                duration: 0.2
-            }
+            rotate: [0, 5, -5, 5, -5, 0],
+            transition: { duration: 0.5 }
         }
     };
+
     return (
         <DefaultLayout>
             {/* Flex container for centering */}
             <div className="flex flex-col items-center justify-center">
+                <h2 className={`${title({color:"green"})} text-4xl mt-[-4px] mb-4 md:mb-[-24px]`}>Streaming Now..</h2>
                 {/* Grid for Cards and Button */}
                 <div className="flex items-center justify-center min-h-[70vh]">
                     
@@ -34,15 +28,21 @@ export default function IndexPage() {
                         
                         {[...Array(3)].map((_, index) => (
                             <Link href="./productions" passHref key={index}>
-                                <Card className="bg-transparent border-none cursor-pointer" isFooterBlurred radius="lg">
-                                    <Image
-                                        src={`./images/card${index + 1}.jpeg`}
-                                        alt={`Card Image ${index + 1}`}
-                                        objectFit="cover"
-                                        width="100%"
-                                        height="100%"
-                                    />
-                                </Card>
+                                <motion.div
+                                    variants={cardVariants}
+                                    initial="offscreen"
+                                    animate="onscreen"
+                                >
+                                    <Card className="bg-transparent border-none cursor-pointer" isFooterBlurred radius="lg">
+                                        <Image
+                                            src={`./images/card${index + 1}.jpeg`}
+                                            alt={`Card Image ${index + 1}`}
+                                            objectFit="cover"
+                                            width="100%"
+                                            height="100%"
+                                        />
+                                    </Card>
+                                </motion.div>
                             </Link>
                         ))}
                         {/* Button in the same grid */}
