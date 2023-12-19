@@ -8,41 +8,33 @@ export default function ContactUsPage() {
 
     return (
         <DefaultLayout>
-            <div className="flex flex-col items-center justify-center custom-flex-height mt-10">
-                <Card className="bg-transparent border-none w-full md:max-w-md p-6" isBlurred radius="lg">
+            <div className="flex flex-col items-center justify-center custom-flex-height mt-10 md:bg-[url('/images/landing2.png')] bg-no-repeat bg-contain bg-center">
+                <Card className="bg-white/90 backdrop-blur-md border border-gray-200 w-full md:max-w-md p-6" isBlurred radius="lg">
                     <h2 className="text-2xl font-semibold mb-4 text-center">Contact Us</h2>
                     
-                    <form className="flex flex-col gap-4 ">
+                    <form className="flex flex-col gap-4">
                         <Input
-                            clearable
-                            bordered={false} // Removed borders for a cleaner look
-                            fullWidth
-                            color="primary"
-                            size="lg"
-                            placeholder="Your Name"
-                            className="bg-white shadow-sm" // Added background color and shadow
-                        />
-                        <Input
-                            clearable
-                            bordered={false}
-                            fullWidth
-                            color="primary"
-                            size="lg"
-                            placeholder="Your Email"
+                            isRequired
+                            type="name"
+                            label="Name"
+                            className="max-w-full"
+                            />
+                         <Input
+                            isRequired
                             type="email"
-                            className="bg-white shadow-sm"
-                        />
-                        <Textarea
-                            bordered={false}
-                            fullWidth
-                            color="primary"
+                            label="Email"
+                            className="max-w-full"
+                            />
+                        <Input
+                            isRequired
+                            type="message"
+                            label="Message"
+                            className="max-w-full"
                             size="lg"
-                            placeholder="Your Message"
-                            className="bg-white shadow-sm"
-                        />
+                            />
                         <Button
                             size="lg"
-                            className="bg-gray-800 hover:bg-gray-700 text-white shadow-lg" // Darker button color
+                            className="bg-gray-800 hover:bg-gray-700 text-white shadow-lg"
                         >
                             Send Message
                             <FaPaperPlane className="ml-2" />

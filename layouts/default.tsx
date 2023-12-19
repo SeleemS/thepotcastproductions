@@ -15,9 +15,9 @@ export default function DefaultLayout({
 			<main className="container mx-auto max-w-10xl px-6 flex-grow">
 				{children}
 			</main>
-			<footer className="w-full py-4 mb-5 bg-gray-100 border-t">
+			<footer className="w-full py-4 mb-5 bg-gray-100 border-t ">
 				<div className="container mx-auto max-w-10xl px-6 flex justify-center items-center">
-				<div className="flex gap-4">
+				<div className="flex gap-4 ">
 					<Link href="https://www.instagram.com/thepotcastproductions/" isExternal>
 					<FaInstagram size={30} />
 					</Link>
