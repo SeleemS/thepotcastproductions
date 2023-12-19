@@ -27,8 +27,8 @@ export default function ProductionCard({ title, description, imageSrc, youtubeLi
           <div className="flex flex-col col-span-6 md:col-span-6">
             <div className="flex justify-between items-start">
               <div className="flex flex-col gap-0 text-right">
-                <h1 className="font-semibold text-foreground/90 text-3xl">{title}</h1>
-                <p className="text-small text-foreground/80">{description}</p>
+                <h1 className="font-semibold text-foreground/90 text-3xl mb-2 md:text-5xl">{title}</h1>
+                <p className="text-small md:text-xl text-foreground/80">{description}</p>
               </div>
               <Button
                 isIconOnly
