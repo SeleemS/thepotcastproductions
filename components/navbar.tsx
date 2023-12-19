@@ -38,10 +38,7 @@ export const Navbar = () => {
 	return (
 		<NextUINavbar onMenuOpenChange={setIsMenuOpen} className ="mt-2" maxWidth="xl" position="sticky" style={{ height: '120px' }}>
 			<NavbarContent className="flex justify-between items-center mt-5 mb-5 w-full">
-			<NavbarMenuToggle
-			aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-			className="sm:hidden"
-			/>
+			
 				
                 <NavbarBrand className="max-w-fit">
                     <NextLink href="/">
@@ -68,12 +65,17 @@ export const Navbar = () => {
                 </div>
             </NavbarContent>
 
+			<NavbarMenuToggle
+			aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+			className="sm:hidden"
+			/>
+
       <NavbarMenu>
 				<div className="mx-4 mt-2 flex flex-col gap-2">
 					{siteConfig.navMenuItems.map((item, index) => (
 						<NavbarMenuItem key={`${item}-${index}`}>
 							<Button
-								color={index === 2 ? "primary" : index === siteConfig.navMenuItems.length - 1 ? "error" : "default"}
+								color="white"
 								auto
 								bordered
 								shadow
