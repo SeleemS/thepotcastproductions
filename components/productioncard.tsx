@@ -9,8 +9,8 @@ export default function ProductionCard({ title, description, imageSrc, youtubeLi
   return (
     <Card
       isBlurred
-      className="border-none bg-background/60 dark:bg-default-100/50 w-full mb-5 md:max-w-[1200px]"
-      shadow="sm"
+      className="border bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden w-full mb-5 md:max-w-[1200px]" // Adjusted classes for border, shadow, and background
+      shadow="lg" // Enhanced shadow
     >
       <CardBody className="p-2">
         <div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center">
