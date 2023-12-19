@@ -31,6 +31,7 @@ export default function IndexPage() {
                     
                     <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 w-full max-w-6xl">
                         
+                        
                         {[...Array(3)].map((_, index) => (
                             <Link href="./productions" passHref key={index}>
                                 <Card className="bg-transparent border-none cursor-pointer" isFooterBlurred radius="lg">
