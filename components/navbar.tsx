@@ -37,7 +37,7 @@ export const Navbar = () => {
 	const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 	const router = useRouter();
 
-	const closeMenuAndNavigate = (url) => {
+	const closeMenuAndNavigate = (url:string) => {
         setIsMenuOpen(false);
         router.push(url);
     };
@@ -86,12 +86,6 @@ export const Navbar = () => {
           {siteConfig.navMenuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
               <Button
-                color="gradient"
-                auto
-                bordered
-                shadow
-                size="lg"
-				fontWeight="bold"
 				onClick={() => closeMenuAndNavigate(item.href)} // Handle navigation here
                 className="w-full text-xl py-4"
               >
