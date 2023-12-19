@@ -12,6 +12,8 @@ import {
 	NavbarMenuItem,
 } from "@nextui-org/react";
 
+import { useRouter } from 'next/router';
+
 
 import { link as linkStyles } from "@nextui-org/theme";
 
@@ -33,6 +35,12 @@ import {
 
 export const Navbar = () => {
 	const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+	const router = useRouter();
+
+	const closeMenuAndNavigate = (url) => {
+        setIsMenuOpen(false);
+        router.push(url);
+    };
 
 
 	return (
@@ -70,24 +78,26 @@ export const Navbar = () => {
 			className="sm:hidden"
 			/>
 
-      <NavbarMenu>
-				<div className="mx-4 mt-2 flex flex-col gap-2">
-					{siteConfig.navMenuItems.map((item, index) => (
-						<NavbarMenuItem key={`${item}-${index}`}>
-							<Button
-								color="white"
-								auto
-								bordered
-								shadow
-								size="lg"
-								className="button-hover-effect"
-							>
-								{item.label}
-							</Button>
-						</NavbarMenuItem>
-					))}
-				</div>
-			</NavbarMenu>
+      <NavbarMenu className="bg-white shadow-lg rounded-lg p-4">
+        <div className="flex flex-col gap-3">
+          {siteConfig.navMenuItems.map((item, index) => (
+            <NavbarMenuItem key={`${item}-${index}`}>
+              <Button
+                color="gradient"
+                auto
+                bordered
+                shadow
+                size="lg"
+				fontWeight="bold"
+				onClick={() => closeMenuAndNavigate(item.href)} // Handle navigation here
+                className="w-full text-xl py-4"
+              >
+                {item.label}
+              </Button>
+            </NavbarMenuItem>
+          ))}
+        </div>
+      </NavbarMenu>
 		</NextUINavbar>
 	);
 };
