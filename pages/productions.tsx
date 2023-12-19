@@ -20,7 +20,7 @@ const ProductionsPage = () => {
             <ProductionCard
                 title="كفاية بقى"
                 description="في أي قاعدة صُلح أو اختلاف في الكلام، بيبقى في حد لازم (نكبره).. احنا هنا هنكبر بعض، ونكبركم، ونكبر حاجات ملهاش حد يكبرها..بس من وجهة نظر بولا وريم"
-                imageSrc="./images/kefaya.png"
+                imageSrc="./images/card3.jpeg"
                 youtubeLink="https://www.youtube.com/watch?v=77XzsJZUojg&list=PL7TpI0K9I87JKd80KoWFhtVyf9T2jY2vW"
                 youtubeEmbed={"https://open.spotify.com/embed-podcast/show/1XhboCKaeAmNU4hObnaTpd"}
                 spotifyLink="https://open.spotify.com/show/1XhboCKaeAmNU4hObnaTpd?si=0kLUupamQsWSPYH3PmRbJQ&utm_source=copy-link&dl_branch=1&nd=1&dlsi=5b37ceaa8fe244d4"
@@ -40,7 +40,7 @@ const ProductionsPage = () => {
             <ProductionCard
                 title="!هو في إيه يا جماعة؟"
                 description="في أي قاعدة صُلح أو اختلاف في الكلام، بيبقى في حد لازم (نكبره).. احنا هنا هنكبر بعض، ونكبركم، ونكبر حاجات ملهاش حد يكبرها..بس من وجهة نظر بولا وريم"
-                imageSrc="./images/card3.jpeg"
+                imageSrc="./images/card5.jpeg"
                 youtubeEmbed={"https://open.spotify.com/embed-podcast/show/4BV0CDamD2RoXSIURDA3zV"}
                 youtubeLink="https://www.youtube.com/watch?v=uqfvFeDZccc&list=PL7TpI0K9I87JH7a-Ryk6gCStTiBrT3KhR"
                 spotifyLink="https://open.spotify.com/show/1QLz7wgVVVdZt90vanHFNJ?si=XRsC0wHARq-GjwI3xPg2iQ&nd=1&dlsi=7ed718d582054f94"
