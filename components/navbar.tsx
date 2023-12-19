@@ -75,8 +75,8 @@ export const Navbar = () => {
 			className="sm:hidden"
 			/>
 
-      <NavbarMenu className="bg-white shadow-lg rounded-lg p-4">
-        <div className="flex flex-col gap-3">
+      <NavbarMenu className=" shadow-lg rounded-lg p-4">
+        <div className="flex flex-col gap-3 mt-5">
           {siteConfig.navMenuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
               <Button
