@@ -8,7 +8,7 @@ export default function ProductionCard({ title, description, imageSrc, youtubeLi
   return (
     <Card
       isBlurred
-      className="border-none bg-background/60 dark:bg-default-100/50 w-full mb-5md:max-w-[1200px]"
+      className="border-none bg-background/60 dark:bg-default-100/50 w-full mb-5 md:max-w-[1200px]"
       shadow="sm"
     >
       <CardBody>
