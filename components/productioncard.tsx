@@ -2,7 +2,7 @@ import React from "react";
 import { Card, CardBody, Image, Button, Slider } from "@nextui-org/react";
 import { FaYoutube, FaSpotify, FaApple } from 'react-icons/fa';
 
-export default function ProductionCard({ title, description, imageSrc, youtubeLink, spotifyLink, appleLink }) {
+export default function ProductionCard({ title, description, imageSrc, youtubeLink, spotifyLink, appleLink, anghamiLink }) {
   const [liked, setLiked] = React.useState(false);
 
   return (
@@ -44,11 +44,14 @@ export default function ProductionCard({ title, description, imageSrc, youtubeLi
               <a href={youtubeLink} target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-red-600 text-white rounded-full flex items-center justify-center gap-2">
                 <FaYoutube size="30" />
               </a>
+              <a href={appleLink} target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gray-800 text-white rounded-full flex items-center justify-center gap-2">
+                <FaApple size="30"/>
+              </a>
               <a href={spotifyLink} target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-green-600 text-white rounded-full flex items-center justify-center gap-2 md:text-small">
                 <FaSpotify size="30"/>
               </a>
-              <a href={appleLink} target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gray-800 text-white rounded-full flex items-center justify-center gap-2">
-                <FaApple size="30"/>
+              <a href={anghamiLink} target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-black text-white rounded-full flex items-center justify-center gap-2">
+              <img src="/images/anghami.png" alt="Logo" style={{ width: '30px', height: '30px' }} />
               </a>
             </div>
           </div>
