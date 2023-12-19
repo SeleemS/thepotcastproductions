@@ -9,17 +9,17 @@ const WhiteLabelPage = () => {
     const strengths = [
         {
             title: "Customization Flexibility",
-            description: "Offering bespoke solutions tailored to client needs.",
+            description: ".",
             image: "/images/hero.png" // Replace with your image path
         },
         {
             title: "Scalable Solutions",
-            description: "Easily scalable services to grow with your clients.",
+            description: "Easis.",
             image: "/images/whitehero.png" // Replace with your image path
         },
         {
             title: "Reliable Support",
-            description: "Dedicated support team ensuring service reliability.",
+            description: "Dedicat",
             image: "/images/white3.png" // Replace with your image path
         }
     ];
