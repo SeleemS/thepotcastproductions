@@ -54,7 +54,7 @@ export default function ProductionCard({ title, description, imageSrc, youtubeLi
               </Button>
             </div>
 
-            <div className="flex justify-center gap-2">
+            <div className="flex justify-center gap-2 md:mt-[-40px]">
               <a href={youtubeLink} target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-red-600 text-white rounded-full flex items-center justify-center gap-2">
                 <FaYoutube size="30" />
               </a>
