@@ -27,10 +27,9 @@ export default function productioncard() {
 
           <div className="flex flex-col col-span-6 md:col-span-8">
             <div className="flex justify-between items-start">
-              <div className="flex flex-col gap-0">
-                <h3 className="font-semibold text-foreground/90">Daily Mix</h3>
-                <p className="text-small text-foreground/80">12 Tracks</p>
-                <h1 className="text-large font-medium mt-2">Frontend Radio</h1>
+              <div className="flex flex-col gap-0 text-right">
+                <h1 className="font-semibold text-foreground/90">اشتري مني</h1>
+                <p className="text-small text-foreground/80">إحنا ٣ أصحاب بنتكلم من ٣ وجهات نظر مختلفة، قعدتنا مفيهاش استفادة لو مش بتعتبر الانبساط ده استفادة. من إنتاج ذا بوتكاست برودكشنز.</p>
               </div>
               <Button
                 isIconOnly
@@ -43,15 +42,15 @@ export default function productioncard() {
             </div>
 
 
-            <div className="mt-4 flex justify-end gap-2">
+            <div className="mt-4 flex justify-center gap-2">
                             <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-red-600 text-white rounded-full flex items-center justify-center gap-2">
-                                <FaYoutube /> YouTube
+                                <FaYoutube size="30" /> 
                             </a>
                             <a href="https://open.spotify.com/show/2GcpoqDhqssSxDeugg4ejF?si=y6UEsDGZSZWHrCc0fpmezQ&utm_medium=share&utm_source=linktree&nd=1&dlsi=afa9dae822884a7f" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-green-600 text-white rounded-full flex items-center justify-center gap-2 md:text-small">
-                                <FaSpotify /> Spotify
+                                <FaSpotify size="30"/> 
                             </a>
                             <a href="https://podcasts.apple.com/eg/podcast/eshtry-menny-%D8%A7%D8%B4%D8%AA%D8%B1%D9%8A-%D9%85%D9%86%D9%8A/id1625454150" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gray-800 text-white rounded-full flex items-center justify-center gap-2">
-                                <FaApple /> Apple
+                                <FaApple size="30"/> 
                             </a>
                         </div>
           </div>
