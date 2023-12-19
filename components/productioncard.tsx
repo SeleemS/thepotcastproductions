@@ -10,15 +10,15 @@ export default function ProductionCard({ title, description, imageSrc, youtubeLi
   return (
     <Card
       isBlurred
-      className="border bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden w-full mb-5 md:max-w-[1200px]" // Adjusted classes for border, shadow, and background
-      shadow="lg" // Enhanced shadow
+      className="border-2 border-green-800 bg-white dark:bg-gray-900 shadow-xl rounded-lg overflow-hidden w-full mb-5 md:max-w-[1200px]" // Enhanced border and shadow, adjusted dark mode background
+      shadow="xl" // Extra-large shadow for more depth
     >
-      <CardBody className="p-2">
+      <CardBody className="p-4"> {/* Increased padding */}
         <div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center">
-          <div className="relative col-span-6 md:col-span-4 md:ml-5">
+          <div className="relative col-span-6 md:col-span-4">
             <Image
               alt={title}
-              className="object-cover"
+              className="object-cover rounded-md" // Added border radius to the image
               height={200}
               shadow="md"
               src={imageSrc}
@@ -28,8 +28,8 @@ export default function ProductionCard({ title, description, imageSrc, youtubeLi
 
           <div className="flex flex-col col-span-6 md:col-span-8">
             <div className="flex justify-between items-start">
-              <div className="flex flex-col gap-0  mt-2 text-right">
-              {/*<h1 className={titler({color:"yellow"})}>{title}</h1>*/}
+              <div className="flex flex-col gap-2 mt-2 text-right"> {/* Adjusted gap */}
+
                 <p className={subtitle()}>{description}</p>
 
                 <div className="hidden md:flex justify-center items-center mt-4">
