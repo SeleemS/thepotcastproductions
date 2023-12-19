@@ -43,7 +43,7 @@ export default function IndexPage() {
                 </div>
                 {/* Button */}
                 <Link href="./productions">
-                    <Button size="lg" radius="full" className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg">
+                    <Button size="lg" radius="full" className="bg-gradient-to-tr bg-gray-800 hover:bg-gray-700 text-white shadow-lg">
                         See More
                         <FaArrowRight className="ml-2" /> {/* Icon added here */}
                     </Button>
