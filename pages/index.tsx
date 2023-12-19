@@ -5,6 +5,7 @@ import DefaultLayout from "@/layouts/default";
 import { motion } from "framer-motion";
 import { FaArrowRight } from 'react-icons/fa';
 import { title, subtitle, features } from "@/components/primitives";
+import NextLink from 'next/link';
 
 export default function IndexPage() {
     const cardVariants = {
@@ -62,46 +63,46 @@ export default function IndexPage() {
 
                 {/* White Label Services Card with more space for text */}
                 <div className="w-full max-w-6xl px-4 my-5">
-                    <Card isHoverable isPressable className="flex flex-col md:flex-row bg-white border-2 border-green-800 shadow-lg">
-                        <div className="md:w-1/2 p-4">
-                            <Image
-                                src="/images/whitehero.png"
-                                width="100%"
-                                height="100%"
-                                alt="White Label Services"
-                            />
-                        </div>
-                        <div className="p-8 flex flex-col justify-center md:w-1/2">
-                            <h3 className={`${title({color:"green"})} text-3xl font-semibold mt-[-15px] mb-4`}>White Label Solutions</h3>
-                            <h4 className={`${features({color:"yellow"})} text-lg mb-2`}>Podcast Editing</h4>
-                            <h4 className={`${features({color:"blue"})} text-lg mb-2`}>Podcast Hosting</h4>
-                            <h4 className={`${features({color:"cyan"})} text-lg mb-2`}>Podcast Analytics</h4>
+                    <NextLink href="./whitelabel" passHref>
+        <Card isHoverable isPressable className="flex flex-col md:flex-row bg-white border-2 border-green-800 shadow-lg cursor-pointer">
+            <div className="md:w-1/2 p-4">
+                <Image
+                    src="/images/whitehero.png"
+                    width="100%"
+                    height="100%"
+                    alt="White Label Services"
+                />
+            </div>
+            <div className="p-8 flex flex-col justify-center md:w-1/2">
+                <h3 className={`${title({color:"green"})} text-3xl font-semibold mt-[-15px] mb-4`}>White Label Solutions</h3>
+                <h4 className={`${features({color:"yellow"})} text-lg mb-2`}>Podcast Editing</h4>
+                <h4 className={`${features({color:"blue"})} text-lg mb-2`}>Podcast Hosting</h4>
+                <h4 className={`${features({color:"cyan"})} text-lg mb-2`}>Podcast Analytics</h4>
 
-                            {/* See More Button */}
-                            <div className="mt-4 mb-4 flex justify-center">
-                                <Link href="./whitelabel">
-                                <Button 
-                                    size="lg" 
-                                    radius="full" 
-                                    className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 ease-in-out"
-                                >
-                                        Connect
-                                        <FaArrowRight className="ml-2" />
-                                    </Button>
-                                </Link>
-                            </div>
+                {/* See More Button */}
+                <div className="mt-4 mb-4 flex justify-center">
+                    <Button 
+                        size="lg" 
+                        radius="full" 
+                        className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 ease-in-out"
+                    >
+                        Connect
+                        <FaArrowRight className="ml-2" />
+                    </Button>
+                </div>
 
-                            {/* Additional Image */}
-                            <div className="max-w-[400px] mx-auto">  {/* Adjusted to max-w-sm for a smaller image */}
-                                <Image
-                                    src="/images/hero.png" // Replace with your desired image path
-                                    alt="Additional Details"
-                                    width="100%"
-                                    height="auto"
-                                />
-                            </div>
-                        </div>
-                    </Card>
+                {/* Additional Image */}
+                <div className="max-w-[400px] mx-auto">
+                    <Image
+                        src="/images/hero.png"
+                        alt="Additional Details"
+                        width="100%"
+                        height="auto"
+                    />
+                </div>
+            </div>
+        </Card>
+    </NextLink>
                 </div>
 
             </div>
