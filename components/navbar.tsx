@@ -79,15 +79,16 @@ export const Navbar = () => {
 			className="sm:hidden"
 			/>
 
-			<NavbarMenu className="bg-white/30 backdrop-blur-md shadow-lg rounded-lg p-4">
+			<NavbarMenu className="bg-white  shadow-lg rounded-lg p-4">
 			<div className="flex flex-col bg-white/30 backdrop-blur-md gap-3 mt-5">
 				{siteConfig.navMenuItems.map((item, index) => (
 				<NavbarMenuItem key={`${item}-${index}`}>
 					<Button
 					onClick={() => closeMenuAndNavigate(item.href)}
 					className="w-full text-xl py-4 bg-white/20 hover:bg-white/30 text-gray-800 font-medium transition duration-300 ease-in-out shadow-md rounded-lg"
+					style={{ backgroundClip: 'text', WebkitTextFillColor: 'transparent' }}
 					>
-					{item.label}
+					<span className="gradient-button-text">{item.label}</span>
 					</Button>
 				</NavbarMenuItem>
 				))}
