@@ -3,9 +3,21 @@ import { Card, CardBody, Image, Button, Slider } from "@nextui-org/react";
 import { FaYoutube, FaSpotify, FaApple } from 'react-icons/fa';
 import { title as titler, subtitle } from "@/components/primitives";
 import {Skeleton} from "@nextui-org/react";
+import { motion } from 'framer-motion';
 
 export default function ProductionCard({ title, description, imageSrc, youtubeLink, youtubeEmbed, spotifyLink, appleLink, anghamiLink }) {
   const [liked, setLiked] = React.useState(false);
+
+  const wiggleVariants = {
+    initial: { rotate: 0 },
+    animate: {
+      rotate: [0, -10, 10, -10, 10, 0], // A sequence of rotations
+      transition: {
+        duration: 0.6, // Total duration for the entire sequence
+        ease: "easeInOut",
+      },
+    },
+  };
 
   return (
     <Card
@@ -33,7 +45,10 @@ export default function ProductionCard({ title, description, imageSrc, youtubeLi
                 <p className={subtitle()}>{description}</p>
 
                 <div className="hidden md:flex justify-center items-center mt-4">
-                  <iframe 
+                    <motion.iframe 
+                    initial="initial"
+                    animate="animate"
+                    variants={wiggleVariants}
                     width="560" 
                     height="315" 
                     src={youtubeEmbed}
@@ -41,7 +56,7 @@ export default function ProductionCard({ title, description, imageSrc, youtubeLi
                     frameBorder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                     allowFullScreen>
-                  </iframe>
+                    </motion.iframe>
                 </div>
               </div>
               
