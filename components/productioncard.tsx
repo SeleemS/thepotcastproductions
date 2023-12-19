@@ -23,15 +23,15 @@ export default function ProductionCard({ title, description, imageSrc, youtubeLi
   return (
     <Card
       isBlurred
-      className="border-2 border-green-800 bg-white dark:bg-gray-900 shadow-xl rounded-lg overflow-hidden w-full mb-5 md:max-w-[1200px]" // Enhanced border and shadow, adjusted dark mode background
-      shadow="xl" // Extra-large shadow for more depth
+      className="border-2 border-green-800 bg-white dark:bg-gray-900 shadow-xl rounded-lg overflow-hidden w-full mb-5 md:max-w-[1200px]"
+      shadow="xl"
     >
-      <CardBody className="p-4"> {/* Increased padding */}
+      <CardBody className="p-4">
         <div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center">
           <div className="relative col-span-6 md:col-span-4">
             <Image
               alt={title}
-              className="object-cover rounded-md" // Added border radius to the image
+              className="object-cover rounded-md"
               height={200}
               shadow="md"
               src={imageSrc}
@@ -41,12 +41,9 @@ export default function ProductionCard({ title, description, imageSrc, youtubeLi
 
           <div className="flex flex-col col-span-6 md:col-span-8">
             <div className="flex justify-between items-start">
-              <div className="flex flex-col gap-2 mt-2 text-right"> {/* Adjusted gap */}
-
-                <p className={subtitle({className:"ml-5"})}>{description}</p>
-
-                <div className="hidden md:flex justify-center items-center mt-4">
-                    <motion.iframe 
+              <div className="flex flex-col">
+                <div className="hidden md:flex justify-center items-center mt-4 md:mb-[-60px]">
+                  <motion.iframe 
                     initial="initial"
                     animate="animate"
                     variants={wiggleVariants}
@@ -57,8 +54,11 @@ export default function ProductionCard({ title, description, imageSrc, youtubeLi
                     frameBorder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                     allowFullScreen>
-                    </motion.iframe>
+                  </motion.iframe>
                 </div>
+
+                {/* Subtitle text positioned here */}
+                <p className={`${subtitle({className:"mt-2 ml-5"})}`}>{description}</p>
               </div>
               
               <Button
@@ -67,11 +67,10 @@ export default function ProductionCard({ title, description, imageSrc, youtubeLi
                 radius="full"
                 variant="light"
                 onPress={() => setLiked((v) => !v)}
-              >
-              </Button>
+              />
             </div>
 
-            <div className="flex justify-center gap-2 mt-3 md:mt-[-50px] mb-2">
+            <div className="flex justify-center gap-2 mt-3  mb-2">
               <a href={youtubeLink} target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-red-600 text-white rounded-full flex items-center justify-center gap-2">
                 <FaYoutube size="30" />
               </a>
