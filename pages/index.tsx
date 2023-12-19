@@ -69,8 +69,8 @@ export default function IndexPage() {
                             />
                         </div>
                         <div className="p-8 flex flex-col justify-center md:w-1/2">
-                            <h3 className={`${title({color:"yellow"})} text-3xl font-semibold mb-4`}>White Label Solutions</h3>
-                            <p className={`${subtitle()} text-lg`}>
+                            <h3 className={`${title({color:"green"})} text-3xl font-semibold mb-4`}>White Label Solutions</h3>
+                            <p className={`${subtitle()} text-lg mb-2`}>
                                 Describe your white label services here. Include any relevant details
                                 or features that would interest potential clients.
                             </p>
