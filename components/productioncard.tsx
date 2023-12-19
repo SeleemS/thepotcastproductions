@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, CardBody, Image, Button, Slider } from "@nextui-org/react";
 import { FaYoutube, FaSpotify, FaApple } from 'react-icons/fa';
+import { title as titler, subtitle } from "@/components/primitives";
 
 export default function ProductionCard({ title, description, imageSrc, youtubeLink, youtubeEmbed, spotifyLink, appleLink, anghamiLink }) {
   const [liked, setLiked] = React.useState(false);
@@ -27,8 +28,8 @@ export default function ProductionCard({ title, description, imageSrc, youtubeLi
           <div className="flex flex-col col-span-6 md:col-span-7">
             <div className="flex justify-between items-start">
               <div className="flex flex-col gap-0  mt-2 text-right">
-                <h1 className="font-semibold text-foreground/90 text-3xl mb-2 md:text-5xl">{title}</h1>
-                <p className="text-small md:text-xl text-foreground/80">{description}</p>
+                <h1 className={titler({color:"yellow"})}>{title}</h1>
+                <p className={subtitle()}>{description}</p>
 
                 <div className="hidden md:flex justify-center items-center mt-4">
                   <iframe 
