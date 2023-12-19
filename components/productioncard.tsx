@@ -29,7 +29,7 @@ export default function ProductionCard({ title, description, imageSrc, youtubeLi
           <div className="flex flex-col col-span-6 md:col-span-8">
             <div className="flex justify-between items-start">
               <div className="flex flex-col gap-0  mt-2 text-right">
-                <h1 className={titler({color:"yellow"})}>{title}</h1>
+              {/*<h1 className={titler({color:"yellow"})}>{title}</h1>*/}
                 <p className={subtitle()}>{description}</p>
 
                 <div className="hidden md:flex justify-center items-center mt-4">
@@ -55,7 +55,7 @@ export default function ProductionCard({ title, description, imageSrc, youtubeLi
               </Button>
             </div>
 
-            <div className="flex justify-center gap-2 md:mt-[-50px] mb-2">
+            <div className="flex justify-center gap-2 mt-3 md:mt-[-50px] mb-2">
               <a href={youtubeLink} target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-red-600 text-white rounded-full flex items-center justify-center gap-2">
                 <FaYoutube size="30" />
               </a>
