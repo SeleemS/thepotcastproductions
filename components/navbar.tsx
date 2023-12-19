@@ -53,7 +53,7 @@ export const Navbar = () => {
                         <img src="/logo1.png" alt="Logo" width="125" height="36" />
                     </NextLink>
                 </NavbarBrand>
-				<ThemeSwitch/>
+				{/*<ThemeSwitch/>*/}
 				
 
                 <div className="hidden lg:flex gap-4 ml-auto"> {/* Note the addition of ml-auto */}

@@ -25,14 +25,7 @@ export default function IndexPage() {
             <div className="flex items-center justify-center custom-flex-height">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     {[...Array(3)].map((_, index) => (
-                        <motion.div
-                            key={index}
-                            initial={index >= 2 ? "offscreen" : {}}
-                            animate={index >= 2 ? {} : "onscreen"}
-                            whileInView={index >= 2 ? "onscreen" : {}}
-                            viewport={{ once: true, amount: 0.8 }}
-                            variants={cardVariants}
-                        >
+
                             <Link href="./productions" passHref>
                                 <Card className="bg-transparent border-none cursor-pointer" isFooterBlurred radius="lg">
                                     <Image
@@ -44,7 +37,6 @@ export default function IndexPage() {
                                     />
                                 </Card>
                             </Link>
-                        </motion.div>
                     ))}
                 </div>
             </div>
