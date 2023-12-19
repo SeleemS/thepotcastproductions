@@ -63,7 +63,7 @@ export default function IndexPage() {
                 {/* White Label Services Card with more space for text */}
                 <div className="w-full max-w-6xl px-4 my-5">
                     <Card isHoverable isPressable className="flex flex-col md:flex-row bg-white shadow-lg">
-                        <div className="md:w-1/2">
+                        <div className="md:w-1/2 p-4">
                             <Image
                                 src="/images/whitehero.png"
                                 width="100%"
@@ -92,7 +92,7 @@ export default function IndexPage() {
                             </div>
 
                             {/* Additional Image */}
-                            <div className="max-w-[425px] mx-auto">  {/* Adjusted to max-w-sm for a smaller image */}
+                            <div className="max-w-[400px] mx-auto">  {/* Adjusted to max-w-sm for a smaller image */}
                                 <Image
                                     src="/images/hero.png" // Replace with your desired image path
                                     alt="Additional Details"
