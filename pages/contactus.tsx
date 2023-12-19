@@ -34,7 +34,7 @@ export default function ContactUsPage() {
                             />
                         <Button
                             size="lg"
-                            className="bg-gray-800 hover:bg-gray-700 text-white shadow-lg"
+                            className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 ease-in-out"
                         >
                             Send Message
                             <FaPaperPlane className="ml-2" />

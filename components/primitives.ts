@@ -8,7 +8,7 @@ export const title = tv({
 			yellow: "from-[#FF705B] to-[#FFB457]",
 			blue: "from-[#5EA2EF] to-[#0072F5]",
 			cyan: "from-[#00b7fa] to-[#01cfea]",
-			green: "from-[#2F9E44] to-[#006400]", 
+			green: "from-[#03a07d] to-[#006400]",
 			pink: "from-[#FF72E1] to-[#F54C7A]",
 			foreground: "dark:from-[#FFFFFF] dark:to-[#4B4B4B]",
 		},

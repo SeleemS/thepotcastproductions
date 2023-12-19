@@ -48,11 +48,11 @@ export default function IndexPage() {
                         {/* Button in the same grid */}
                         <div className="col-span-1 md:col-span-2 lg:col-span-3 flex justify-center">
                             <Link href="./productions">
-                                <Button 
-                                    size="lg" 
-                                    radius="full" 
-                                    className="bg-gradient-to-tr from-[#2F9E44] to-[#006400] hover:from-[#276c3b] hover:to-[#005700] text-white shadow-lg transition-all duration-300 ease-in-out"
-                                    >
+                            <Button 
+                                size="lg" 
+                                radius="full" 
+                                className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 ease-in-out"
+                            >
                                     See More
                                     <FaArrowRight className="ml-2" />
                                     </Button>
@@ -82,11 +82,11 @@ export default function IndexPage() {
                             {/* See More Button */}
                             <div className="mt-4 mb-4 flex justify-center">
                                 <Link href="./whitelabel">
-                                    <Button 
-                                        size="lg" 
-                                        radius="full" 
-                                        className="bg-gradient-to-tr from-[#2F9E44] to-[#006400] hover:from-[#276c3b] hover:to-[#005700] text-white shadow-lg transition-all duration-300 ease-in-out"
-                                    >
+                                <Button 
+                                    size="lg" 
+                                    radius="full" 
+                                    className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 ease-in-out"
+                                >
                                         Connect
                                         <FaArrowRight className="ml-2" />
                                     </Button>

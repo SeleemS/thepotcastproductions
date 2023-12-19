@@ -24,22 +24,22 @@ export default function DefaultLayout({
                     
                     {/* Social Media Icons */}
                     <div className="order-3 md:order-none flex gap-4 mt-4 md:mt-0 mb-4 md:mb-0">
-                        <Link href="https://www.instagram.com/thepotcastproductions/" isExternal>
-                            <FaInstagram size={30} />
-                        </Link>
-                        <Link href="https://www.youtube.com/@thepotcastproductions" isExternal>
-                            <FaYoutube size={30} />
-                        </Link>
-                        <Link href="mailto:info@thepotcastproductions.com">
-                            <FaEnvelope size={30} />
-                        </Link>
-                        <Link href="https://www.facebook.com/thepotcastegypt" isExternal>
-                            <FaFacebookF size={30} />
-                        </Link>
-                        <Link href="https://www.tiktok.com/@thepotcastproductions" isExternal>
-                            <FaTiktok size={30} />
-                        </Link>
-                    </div>
+						<Link href="https://www.instagram.com/thepotcastproductions/" isExternal>
+							<FaInstagram size={30} style={{ color: '#03a07d' }} />
+						</Link>
+						<Link href="https://www.youtube.com/@thepotcastproductions" isExternal>
+							<FaYoutube size={30} style={{ color: '#03a07d' }} />
+						</Link>
+						<Link href="mailto:info@thepotcastproductions.com">
+							<FaEnvelope size={30} style={{ color: '#03a07d' }} />
+						</Link>
+						<Link href="https://www.facebook.com/thepotcastegypt" isExternal>
+							<FaFacebookF size={30} style={{ color: '#03a07d' }} />
+						</Link>
+						<Link href="https://www.tiktok.com/@thepotcastproductions" isExternal>
+							<FaTiktok size={30} style={{ color: '#03a07d' }} />
+						</Link>
+					</div>
                 </div>
             </footer>
 		</div>
