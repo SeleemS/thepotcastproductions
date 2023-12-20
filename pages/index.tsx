@@ -62,7 +62,8 @@ export default function IndexPage() {
                 </div>
 
                 {/* White Label Services Card with more space for text */}
-                <div className="w-full max-w-6xl px-4 my-5">
+                <div className="w-full max-w-6xl  my-5">
+                
                     <NextLink href="./whitelabel" passHref>
         <Card isHoverable isPressable className="flex flex-col md:flex-row bg-white border-2 border-green-800 shadow-lg cursor-pointer">
             <div className="md:w-1/2 p-4">
