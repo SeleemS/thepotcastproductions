@@ -23,7 +23,7 @@ export default function IndexPage() {
                 duration: 1,
                 ease: "easeInOut",
                 repeat: Infinity,
-                repeatType: "loop"
+                repeatType: "loop" as "loop" // Explicitly specify the type
             }
         }
     };

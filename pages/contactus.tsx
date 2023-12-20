@@ -11,6 +11,11 @@ export default function ContactUsPage() {
         { value: 'General Inquiry', label: 'General Inquiry' }
     ];
 
+    const inputStyle = {
+        border: "1px solid black", // Define the border color and width
+        // Add more styles if needed
+    };
+
     return (
         <DefaultLayout>
             <div className="flex flex-col items-center justify-center custom-flex-height  md:bg-[url('/images/landing2.png')] bg-no-repeat bg-contain bg-center">
@@ -49,13 +54,12 @@ export default function ContactUsPage() {
                             ))}
                         </Select>
                         
-                        <Input
+                        <Textarea
                             isRequired
-                            type="message"
                             label="Message"
                             className="max-w-full"
-                            size="lg"
-                            />
+                            rows={3} // Adjust the number of rows as needed
+                        />
                         <Button
                             size="lg"
                             className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 ease-in-out"
