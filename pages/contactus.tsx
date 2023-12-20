@@ -57,6 +57,7 @@ export default function ContactUsPage() {
                         <Textarea
                             isRequired
                             label="Message"
+                            placeholder="How can we help?"
                             className="max-w-full border-2 border-green-800 rounded-lg mb-[-7px]"
                             rows={3} // Adjust the number of rows as needed
                         />
