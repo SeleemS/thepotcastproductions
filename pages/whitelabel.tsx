@@ -29,7 +29,7 @@ const WhiteLabelPage = () => {
                     <Image
                         src="/images/whitehero.png" // Replace with your image path
                         alt="Scalable Solutions"
-                        className="md:w-4/5 p-2 w-full object-cover"
+                        className="md:w-4/5 w-full object-cover"
                     />
                 </Card>
 
