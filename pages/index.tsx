@@ -35,7 +35,7 @@ export default function IndexPage() {
                 <div className="flex items-center justify-center mt-[-4px] mb-4 md:mb-[-24px]">
                         
                         {/* Static Streaming Now Text */}
-                        <h2 className={`${title({ color: "green" })} text-4xl`}>
+                        <h2 className={`${title({ color: "violet" })} text-4xl`}>
                             Streaming Now
                         </h2>
                         {/* Animated Broadcasting Icon */}
