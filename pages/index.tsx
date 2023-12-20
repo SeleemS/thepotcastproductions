@@ -76,7 +76,7 @@ export default function IndexPage() {
                 </div>
 
                 {/* White Label Services Card with more space for text */}
-                <div className="w-full max-w-6xl mt-4">
+                <div className="w-full max-w-6xl md:mt-[-25px] mt-4">
                 
                     <NextLink href="./whitelabel" passHref>
         <Card isHoverable isPressable className="flex flex-col md:flex-row bg-white border-2 border-green-800 shadow-lg cursor-pointer">
@@ -95,7 +95,7 @@ export default function IndexPage() {
                 <h4 className={`${features({color:"violet"})} text-lg mb-2`}>Podcast Analytics</h4>
 
                 {/* See More Button */}
-                <div className="mt-4 mb-4 flex justify-center">
+                <div className="mt-4 mb-7 flex justify-center">
                     <Button 
                         size="lg" 
                         radius="full" 
