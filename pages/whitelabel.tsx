@@ -4,13 +4,16 @@ import DefaultLayout from "@/layouts/default";
 import { title, features } from "@/components/primitives";
 import { FaArrowRight } from 'react-icons/fa';
 import Link from "next/link";
+import NextLink from 'next/link';
 
 const WhiteLabelPage = () => {
+    
     return (
         <DefaultLayout>
             <div className="flex flex-col items-center justify-center">
 
                 <div className="flex flex-col space-y-6 w-full">
+               
                 <Card className="flex flex-col border-2 border-green-800 md:flex-row bg-white shadow-lg">
                     <Image
                         src="/images/hero.png" // Replace with your image path
