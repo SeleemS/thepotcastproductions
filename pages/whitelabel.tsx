@@ -27,7 +27,7 @@ const WhiteLabelPage = () => {
                             className="md:w-4/5 w-full"
                         />
                         <div className="flex items-center p-4 md:w-1/5 w-full">
-                            <h3 className={`${title()} text-lg md:text-xl`}>Podcast Hosting</h3>
+                            <h3 className={`${title()} text-lg md:text-xl`}>Podcast Production</h3>
                         </div>
                     </Card>
 
