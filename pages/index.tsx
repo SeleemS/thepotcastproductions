@@ -20,7 +20,7 @@ export default function IndexPage() {
         pulse: {
             scale: [1, 1.05, 1],
             transition: {
-                duration: 1,
+                duration: 2,
                 ease: "easeInOut",
                 repeat: Infinity,
                 repeatType: "loop" as "loop" // Explicitly specify the type
