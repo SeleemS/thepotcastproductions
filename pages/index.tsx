@@ -34,7 +34,7 @@ export default function IndexPage() {
                 {/* New container div with a border */}
                 <div className="p-4 rounded-lg max-w-7xl mt-[-25px]"> {/* Adjust border and padding styles as needed */}
                     <div className="flex items-center justify-center px-4 mt-[-4px] mb-4 md:mb-[-24px]">
-                        <h2 className={`${title({ color: "violet" })} text-4xl shineText`}>Streaming Now</h2>
+                        <h2 className={`${title({ color: "green" })} text-4xl`}>Streaming Now</h2>
                         <motion.div variants={pulseVariants} initial="pulse" animate="pulse">
                             <FaBroadcastTower className="text-4xl ml-4" />
                         </motion.div>
