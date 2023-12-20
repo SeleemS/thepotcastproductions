@@ -27,7 +27,7 @@ const WhiteLabelPage = () => {
                         alt="Scalable Solutions"
                         className="md:w-4/5 w-full object-cover"
                     />
-                    <div className="flex flex-col items-center justify-center md:p-1 md:mr-20 p-4 md:w-2/5 w-full">
+                    <div className="flex flex-col items-center justify-center md:p-1 md:mr-21 p-4 md:w-2/5 w-full">
                         <h3 className={`${title({color:"green", size:"lg"})} text-center md:text-2xl md:py-2`}>Podcast Production</h3>
                         <h4 className={`${features({color:"blue"})} text-lg p-2 text-center mb-2`}>Expert Hosting, Advanced Sound & Video Editing, and Creative Scriptwriting.</h4>
                     </div>
