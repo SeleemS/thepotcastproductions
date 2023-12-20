@@ -1,46 +1,46 @@
-// Import necessary components
 import React from "react";
 import { Card, Image } from "@nextui-org/react";
 import DefaultLayout from "@/layouts/default";
-import { title, subtitle } from "@/components/primitives";
+import { title } from "@/components/primitives";
 
 const WhiteLabelPage = () => {
-    // Define the strengths or features
-    const strengths = [
-        {
-            title: "Customization Flexibility",
-            description: ".",
-            image: "/images/hero.png" // Replace with your image path
-        },
-        {
-            title: "Scalable Solutions",
-            description: "Easis.",
-            image: "/images/whitehero.png" // Replace with your image path
-        },
-        {
-            title: "Reliable Support",
-            description: "Dedicat",
-            image: "/images/white3.png" // Replace with your image path
-        }
-    ];
-
     return (
         <DefaultLayout>
-            <div className="flex flex-col items-center justify-center ">
+            <div className="flex flex-col items-center justify-center">
                 <h1 className={`${title({color:"green"})} text-4xl mb-8`}>White Label Solutions</h1>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    {strengths.map((strength, index) => (
-                        <Card key={index} className="bg-white shadow-lg">
-                                <Image
-                                    src={strength.image}
-                                    alt={strength.title}
-                                    width="100%"
-                                    height={200}
-                                />
-                                <h3 className={`${title()} text-2xl mt-4`}>{strength.title}</h3>
-                                <p className={`${subtitle()}`}>{strength.description}</p>
-                        </Card>
-                    ))}
+                <div className="flex flex-col space-y-6 w-full">
+                    <Card className="flex flex-col md:flex-row bg-white shadow-lg">
+                        <Image
+                            src="/images/hero.png" // Replace with your image path
+                            alt="Turnkey Designs"
+                            className="md:w-4/5 w-full"
+                        />
+                        <div className="flex items-center p-4 md:w-1/5 w-full">
+                            <h3 className={`${title()} text-lg md:text-xl`}>Turnkey Designs</h3>
+                        </div>
+                    </Card>
+
+                    <Card className="flex flex-col md:flex-row bg-white shadow-lg">
+                        <Image
+                            src="/images/whitehero.png" // Replace with your image path
+                            alt="Scalable Solutions"
+                            className="md:w-4/5 w-full"
+                        />
+                        <div className="flex items-center p-4 md:w-1/5 w-full">
+                            <h3 className={`${title()} text-lg md:text-xl`}>Podcast Hosting</h3>
+                        </div>
+                    </Card>
+
+                    <Card className="flex flex-col md:flex-row bg-white shadow-lg">
+                        <Image
+                            src="/images/white3.png" // Replace with your image path
+                            alt="Reliable Support"
+                            className="md:w-4/5 w-full"
+                        />
+                        <div className="flex items-center p-4 md:w-1/5 w-full">
+                            <h3 className={`${title()} text-lg md:text-xl`}>Podcast Analytics</h3>
+                        </div>
+                    </Card>
                 </div>
             </div>
         </DefaultLayout>
