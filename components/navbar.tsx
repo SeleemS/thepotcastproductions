@@ -93,6 +93,13 @@ export const Navbar = () => {
 				</NavbarMenuItem>
 				))}
 			</div>
+			<div className="flex justify-center mt-20 ml-20">
+			<NavbarBrand className="mb-4">
+                    <NextLink href="/">
+                        <img src="/images/logo3.png" alt="Logo" width="231" height="84" />
+                    </NextLink>
+                </NavbarBrand>
+				</div>
 			</NavbarMenu>
 		</NextUINavbar>
 	);
