@@ -41,7 +41,7 @@ const WhiteLabelPage = () => {
                         />
                         <div className="flex flex-col items-center justify-center md:p-1 md:mr-20 p-4 md:w-2/5 w-full">
                             <h3 className={`${title({color:"green", size:"lg"})} text-center md:text-2xl md:py-2`}>Podcast Analytics</h3>
-                            <h4 className={`${features({color:"cyan"})} text-lg p-2 text-center mb-2`}>Streamlined Tools for Enhanced Audience Engagement</h4>
+                            <h4 className={`${features({color:"violet"})} text-lg p-2 text-center mb-2`}>Streamlined Tools for Enhanced Audience Engagement</h4>
                         </div>
                     </Card>
                 </div>

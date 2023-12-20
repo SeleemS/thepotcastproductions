@@ -77,7 +77,7 @@ export default function IndexPage() {
                 <h3 className={`${title({color:"green"})} text-3xl font-semibold mt-[-15px] mb-4`}>White Label Solutions</h3>
                 <h4 className={`${features({color:"yellow"})} text-lg mb-2`}>Turnkey Designs</h4>
                 <h4 className={`${features({color:"blue"})} text-lg mb-2`}>Podcast Production</h4>
-                <h4 className={`${features({color:"cyan"})} text-lg mb-2`}>Podcast Analytics</h4>
+                <h4 className={`${features({color:"violet"})} text-lg mb-2`}>Podcast Analytics</h4>
 
                 {/* See More Button */}
                 <div className="mt-4 mb-4 flex justify-center">
