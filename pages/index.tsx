@@ -66,7 +66,7 @@ export default function IndexPage() {
                         <div className="col-span-1 md:col-span-2 lg:col-span-3 flex justify-center mb-[-10px]">
                                 <Link href="./productions">
                                     <Button size="lg" className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 ease-in-out">
-                                        See More
+                                        Listen Now
                                         <FaArrowRight className="ml-2" />
                                     </Button>
                                 </Link>
