@@ -46,7 +46,7 @@ const WhiteLabelPage = () => {
                                     radius="full" 
                                     className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 ease-in-out"
                                 >
-                                    More Info
+                                    Connect
                                     <FaArrowRight className="ml-2" />
                                 </Button>
                             </Link>
@@ -75,7 +75,7 @@ const WhiteLabelPage = () => {
                                     radius="full" 
                                     className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 ease-in-out"
                                 >
-                                    More Info
+                                    Get Started
                                     <FaArrowRight className="ml-2" />
                                 </Button>
                             </Link>
