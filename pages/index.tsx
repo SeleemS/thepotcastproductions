@@ -20,7 +20,7 @@ export default function IndexPage() {
         <DefaultLayout>
             {/* Flex container for centering */}
             <div className="flex flex-col items-center justify-center">
-                <h2 className={`${title({color:"violet"})} text-4xl mt-[-4px] mb-4 md:mb-[-24px]`}>Streaming Now..</h2>
+                <h2 className={`${title({color:"green"})} text-4xl mt-[-4px] mb-4 md:mb-[-24px]`}>Streaming Now..</h2>
                 {/* Grid for Cards and Button */}
                 <div className="flex items-center justify-center min-h-[70vh]">
                     
