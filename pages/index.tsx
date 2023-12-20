@@ -3,7 +3,7 @@ import { Card, Button, Image } from "@nextui-org/react";
 import Link from "next/link";
 import DefaultLayout from "@/layouts/default";
 import { motion } from "framer-motion";
-import { FaArrowRight } from 'react-icons/fa';
+import { FaArrowRight, FaBroadcastTower } from 'react-icons/fa';
 import { title, subtitle, features } from "@/components/primitives";
 import NextLink from 'next/link';
 
@@ -16,11 +16,37 @@ export default function IndexPage() {
         }
     };
 
+    const pulseVariants = {
+        pulse: {
+            scale: [1, 1.05, 1],
+            transition: {
+                duration: 1,
+                ease: "easeInOut",
+                repeat: Infinity,
+                repeatType: "loop"
+            }
+        }
+    };
+
     return (
         <DefaultLayout>
             {/* Flex container for centering */}
             <div className="flex flex-col items-center justify-center">
-                <h2 className={`${title({color:"green"})} text-4xl mt-[-4px] mb-4 md:mb-[-24px]`}>Streaming Now..</h2>
+                <div className="flex items-center justify-center mt-[-4px] mb-4 md:mb-[-24px]">
+                        
+                        {/* Static Streaming Now Text */}
+                        <h2 className={`${title({ color: "green" })} text-4xl`}>
+                            Streaming Now
+                        </h2>
+                        {/* Animated Broadcasting Icon */}
+                        <motion.div
+                            variants={pulseVariants}
+                            initial="pulse"
+                            animate="pulse"
+                        >
+                            <FaBroadcastTower className="text-4xl ml-4" />
+                        </motion.div>
+                    </div>
                 {/* Grid for Cards and Button */}
                 <div className="flex items-center justify-center min-h-[70vh]">
                     
@@ -62,7 +88,7 @@ export default function IndexPage() {
                 </div>
 
                 {/* White Label Services Card with more space for text */}
-                <div className="w-full max-w-6xl">
+                <div className="w-full max-w-6xl mt-4">
                 
                     <NextLink href="./whitelabel" passHref>
         <Card isHoverable isPressable className="flex flex-col md:flex-row bg-white border-2 border-green-800 shadow-lg cursor-pointer">
