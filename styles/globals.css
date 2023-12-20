@@ -48,4 +48,31 @@
     -webkit-text-fill-color: transparent;
   }
 
+  @keyframes shineAnimation {
+    0% { left: -100%; }
+    100% { left: 100%; }
+  }
+  
+  .shineText {
+    position: relative;
+    color: #009D7A; /* Replace with a valid violet color code */
+  }
+  
+  .shineText .shineOverlay {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+      45deg, 
+      transparent, 
+      rgba(255, 255, 255, 0.8), 
+      transparent
+    );
+    background-size: 200% 200%;
+    animation: shineAnimation 1.5s ease-in-out infinite;
+    pointer-events: none;
+  }
+
   

@@ -30,27 +30,18 @@ export default function IndexPage() {
 
     return (
         <DefaultLayout>
-            {/* Flex container for centering */}
             <div className="flex flex-col items-center justify-center">
-                <div className="flex items-center justify-center mt-[-4px] mb-4 md:mb-[-24px]">
-                        
-                        {/* Static Streaming Now Text */}
-                        <h2 className={`${title({ color: "violet" })} text-4xl`}>
-                            Streaming Now
-                        </h2>
-                        {/* Animated Broadcasting Icon */}
-                        <motion.div
-                            variants={pulseVariants}
-                            initial="pulse"
-                            animate="pulse"
-                        >
+                {/* New container div with a border */}
+                <div className="p-4 rounded-lg max-w-7xl mt-[-25px]"> {/* Adjust border and padding styles as needed */}
+                    <div className="flex items-center justify-center px-4 mt-[-4px] mb-4 md:mb-[-24px]">
+                        <h2 className={`${title({ color: "violet" })} text-4xl shineText`}>Streaming Now</h2>
+                        <motion.div variants={pulseVariants} initial="pulse" animate="pulse">
                             <FaBroadcastTower className="text-4xl ml-4" />
                         </motion.div>
                     </div>
-                {/* Grid for Cards and Button */}
-                <div className="flex items-center justify-center min-h-[70vh]">
-                    
-                    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 w-full max-w-6xl">
+
+                    <div className="flex items-center justify-center min-h-[70vh]">
+                        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 w-full max-w-6xl">
                         
                         
                         {[...Array(3)].map((_, index) => (
@@ -72,17 +63,14 @@ export default function IndexPage() {
                             </Link>
                         ))}
                         {/* Button in the same grid */}
-                        <div className="col-span-1 md:col-span-2 lg:col-span-3 flex justify-center">
-                            <Link href="./productions">
-                            <Button 
-                                size="lg" 
-                                radius="full" 
-                                className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 ease-in-out"
-                            >
-                                    See More
-                                    <FaArrowRight className="ml-2" />
+                        <div className="col-span-1 md:col-span-2 lg:col-span-3 flex justify-center mb-[-10px]">
+                                <Link href="./productions">
+                                    <Button size="lg" className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 ease-in-out">
+                                        See More
+                                        <FaArrowRight className="ml-2" />
                                     </Button>
-                            </Link>
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </div>
