@@ -9,7 +9,7 @@ const WhiteLabelPage = () => {
     return (
         <DefaultLayout>
             <div className="flex flex-col items-center justify-center">
-                <h1 className={`${title({color:"violet"})} text-4xl mb-8`}>White Label Solutions</h1>
+
                 <div className="flex flex-col space-y-6 w-full">
                 <Card className="flex flex-col border-2 border-green-800 md:flex-row bg-white shadow-lg">
                     <Image
