@@ -8,7 +8,7 @@ export default function ContactUsPage() {
 
     return (
         <DefaultLayout>
-            <div className="flex flex-col items-center justify-center custom-flex-height mt-10  md:bg-[url('/images/landing2.png')] bg-no-repeat bg-contain bg-center">
+            <div className="flex flex-col items-center justify-center custom-flex-height  md:bg-[url('/images/landing2.png')] bg-no-repeat bg-contain bg-center">
                 <Card className="bg-white/90 backdrop-blur-md border border-gray-200 w-full md:max-w-md p-6" isBlurred radius="lg">
                     <h2 className="text-2xl font-semibold mb-4 text-center">Contact Us</h2>
                     
