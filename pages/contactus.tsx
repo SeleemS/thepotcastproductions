@@ -1,10 +1,15 @@
 import React from "react";
-import { Card, Button, Input, Textarea } from "@nextui-org/react";
+import { Card, Button, Input, Textarea, Select, SelectItem } from "@nextui-org/react";
 import DefaultLayout from "@/layouts/default";
 import { FaPaperPlane } from 'react-icons/fa';
 
 export default function ContactUsPage() {
-    // You can add state and form handling logic here
+    const subjects = [
+        { value: 'Advertising', label: 'Advertising' },
+        { value: 'White Label Services', label: 'White Label Services' },
+        { value: 'Feedback', label: 'Feedback' },
+        { value: 'General Inquiry', label: 'General Inquiry' }
+    ];
 
     return (
         <DefaultLayout>
@@ -25,6 +30,24 @@ export default function ContactUsPage() {
                             label="Email"
                             className="max-w-full"
                             />
+                          <Input
+                            type="tel"
+                            label="Phone Number"
+                            className="max-w-full"
+                        />
+
+                          {/* Dropdown for Subject */}
+                        <Select
+                            isRequired
+                            label="Subject"
+                            className="max-w-full"
+                        >
+                            {subjects.map((subject) => (
+                                <SelectItem key={subject.value} value={subject.value}>
+                                    {subject.label}
+                                </SelectItem>
+                            ))}
+                        </Select>
                         
                         <Input
                             isRequired
