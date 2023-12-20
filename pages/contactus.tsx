@@ -18,8 +18,8 @@ export default function ContactUsPage() {
 
     return (
         <DefaultLayout>
-            <div className="flex flex-col items-center justify-center custom-flex-height  md:bg-[url('/images/landing2.png')] bg-no-repeat bg-contain bg-center">
-                <Card className="bg-white/90 backdrop-blur-md border border-gray-200 w-full md:max-w-md p-6" isBlurred radius="lg">
+            <div className="flex flex-col items-center justify-center custom-flex-height  mt-[-10px] md:bg-[url('/images/landing2.png')] bg-no-repeat bg-contain bg-center">
+                <Card className="bg-white/90 backdrop-blur-md border border-gray-200 w-full md:max-w-md p-4" isBlurred radius="lg">
                     <h2 className="text-2xl font-semibold mb-4 text-center">Contact Us</h2>
                     
                     <form className="flex flex-col gap-4">
@@ -27,25 +27,25 @@ export default function ContactUsPage() {
                             isRequired
                             type="name"
                             label="Name"
-                            className="max-w-full"
+                            className="max-w-full border-2 border-green-800 rounded-lg"
                             />
                          <Input
                             isRequired
                             type="email"
                             label="Email"
-                            className="max-w-full"
+                            className="max-w-full border-2 border-green-800 rounded-lg"
                             />
                           <Input
                             type="tel"
                             label="Phone Number"
-                            className="max-w-full"
+                            className="max-w-full border-2 border-green-800 rounded-lg"
                         />
 
                           {/* Dropdown for Subject */}
                         <Select
                             isRequired
                             label="Subject"
-                            className="max-w-full"
+                            className="max-w-full border-2 border-green-800 rounded-lg"
                         >
                             {subjects.map((subject) => (
                                 <SelectItem key={subject.value} value={subject.value}>
@@ -57,7 +57,7 @@ export default function ContactUsPage() {
                         <Textarea
                             isRequired
                             label="Message"
-                            className="max-w-full"
+                            className="max-w-full border-2 border-green-800 rounded-lg mb-[-7px]"
                             rows={3} // Adjust the number of rows as needed
                         />
                         <Button
