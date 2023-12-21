@@ -63,7 +63,7 @@ export default function IndexPage() {
                             ))}
 
                             {/* Button */}
-                            <div className="col-span-1 md:col-span- lg:col-span-3 flex justify-center ">
+                            <div className="col-span-1 md:col-span-3 lg:col-span-3 flex justify-center ">
                                 <Link href="./productions">
                                     <Button 
                                         size="lg" 
@@ -80,7 +80,7 @@ export default function IndexPage() {
                 </div>
 
                 {/* White Label Services Card*/}
-                <div className="w-full max-w-7xl md:mt-[-15px] mt-4">
+                <div className="w-full max-w-7xl md:mt-[-35px] mt-4">
                 
                     <Link href="./whitelabel" passHref> {/* Wrap Card in Link */}
                         <Card isHoverable isPressable className="flex flex-col md:flex-row bg-white border-2 border-green-800 shadow-lg cursor-pointer">
