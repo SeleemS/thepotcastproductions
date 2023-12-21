@@ -2,7 +2,7 @@ export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
 	name: "The Potcast Productions",
-	description: "Podcasts baby",
+	description: "We make podcasts.",
 	navItems: [
 		{
 			label: "Home",
