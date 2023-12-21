@@ -15,6 +15,10 @@ export const Head = () => {
 				name="viewport"
 			/>
 			<link href="/favicon.ico" rel="icon" />
+			<link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito:wght@400;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&family=Lato:wght@400;700&display=swap"
+            rel="stylesheet"
+          />
 		</NextHead>
 	);
 };

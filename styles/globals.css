@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Using Nunito */
+.nunito {
+  font-family: 'Nunito', sans-serif;
+}
+
+/* Using Poppins */
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
 .custom-flex-height {
     height: auto; /* Default height for mobile */
 }

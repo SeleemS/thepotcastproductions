@@ -35,11 +35,8 @@ export default function IndexPage() {
                 <div className="p-4 rounded-lg max-w-7xl mt-[-25px]">
 
                     {/* Title */}
-                    <div className="flex items-center justify-center px-4 mt-[-4px] mb-4 md:mb-[-24px]">
-                        <h2 className={`${title({ color: "green" })} text-4xl`}>Streaming Now</h2>
-                        <motion.div variants={pulseVariants} initial="pulse" animate="pulse">
-                            <FaBroadcastTower className="text-4xl ml-4" />
-                        </motion.div>
+                    <div className="flex flex-row items-center justify-center px-4 mt-[-4px] mb-4 md:mb-[-24px]">
+                        <h2 className={`${title({ color: "green" })}  text-4xl`}>Streaming Now..</h2>
                     </div>
 
                     {/* Cards */}
