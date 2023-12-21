@@ -35,7 +35,7 @@ export default function IndexPage() {
                 <div className="rounded-lg max-w-9xl mt-[-30px]">
 
                     {/* Title */}
-                    <div className="flex flex-row items-center justify-center px-4 mt-[-4px] mb-4 md:mb-[-24px]">
+                    <div className="flex flex-row items-center justify-center px-4 mt-[-4px] mb-4 ">
                         <h2 className={`${title({ color: "green" })}  text-4xl`}>Streaming Now..</h2>
                     </div>
 
@@ -68,7 +68,7 @@ export default function IndexPage() {
                                     <Button 
                                         size="lg" 
                                         radius="full" 
-                                        className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 font-semibold ease-in-out"
+                                        className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 font-semibold md: mb-10 ease-in-out"
                                     >
                                         Listen Now
                                         <FaArrowRight className="ml-2" />
