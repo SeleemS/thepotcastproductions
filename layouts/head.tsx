@@ -11,6 +11,7 @@ export const Head = () => {
 			<meta content={siteConfig.description} name="description" />
 			<link rel="icon" type="image/x-icon" href="/favicon.ico"></link>
 			<meta name="robots" content="index, follow"></meta>
+			<meta property="og:site_name" content="The Potcast Productions"></meta>
 			<meta
 				key="viewport"
 				content="viewport-fit=cover, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
