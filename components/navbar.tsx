@@ -49,7 +49,7 @@ export const Navbar = () => {
 						<NavbarItem key={item.href} isActive={currentPath === item.href}>
 							<Link href={item.href}>
 								<Link 
-								className={`text-lg lg:text-xl ${currentPath === item.href ? 'active-gradient-text font-bold' : 'gradient-text'}`}
+								className={`text-lg nunito lg:text-xl ${currentPath === item.href ? 'active-gradient-text font-bold' : 'gradient-text'}`}
 								>
 								{item.label}
 								</Link>
