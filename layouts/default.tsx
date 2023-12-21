@@ -20,8 +20,8 @@ export default function DefaultLayout({
 				<Analytics />
 			</main>
 
-			<footer className="max-w-6xl py-2 px-5 bg-gray-100 border-t">
-                <div className="container mx-auto max-w-8xl flex flex-col md:flex-row justify-between items-center flex-wrap">
+			<footer className="w-full py-2 px-5 bg-gray-100 border-t">
+                <div className="container mx-auto max-w-10xl px-10 flex flex-col md:flex-row justify-between items-center flex-wrap">
                     {/* Logo */}
                     <div className="order-1 md:order-none mb-2 md:mb-0">
 						<Link href="./">
