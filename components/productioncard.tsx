@@ -1,16 +1,15 @@
 import React from "react";
-import { Card, CardBody, Image, Button, Slider } from "@nextui-org/react";
+import { Card, CardBody, Image, Button,} from "@nextui-org/react";
 import { FaYoutube, FaSpotify, FaApple } from 'react-icons/fa';
-import { title as titler, subtitle } from "@/components/primitives";
-import {Skeleton} from "@nextui-org/react";
+import {subtitle } from "@/components/primitives";
 import { motion } from 'framer-motion';
-import { Exo_2 } from "next/font/google";
+
 interface ProductionCardProps {
     title: string;
     description: string;
     imageSrc: string;
     youtubeLink: string;
-    youtubeEmbed: string;
+    spotifyEmbed: string;
     spotifyLink: string;
     appleLink: string;
     anghamiLink: string;
@@ -21,7 +20,7 @@ interface ProductionCardProps {
     description, 
     imageSrc, 
     youtubeLink, 
-    youtubeEmbed, 
+    spotifyEmbed, 
     spotifyLink, 
     appleLink, 
     anghamiLink 
@@ -61,6 +60,8 @@ interface ProductionCardProps {
           <div className="flex flex-col col-span-6 md:col-span-8">
             <div className="flex justify-between items-start">
               <div className="flex flex-col">
+
+                {/* Embedded Spotify Player */}
                 <div className="hidden md:flex justify-center items-center mt-4 md:mb-[-60px]">
                   <motion.iframe 
                     initial="initial"
@@ -68,7 +69,7 @@ interface ProductionCardProps {
                     variants={wiggleVariants}
                     width="560" 
                     height="315" 
-                    src={youtubeEmbed}
+                    src={spotifyEmbed}
                     title="Spotify Podcast Player" 
                     frameBorder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -76,7 +77,7 @@ interface ProductionCardProps {
                   </motion.iframe>
                 </div>
 
-                {/* Subtitle text positioned here */}
+                {/* Subtitle */}
                 <p className={`${subtitle({className:"mt-2 ml-5"})}`}>{description}</p>
               </div>
               
@@ -100,7 +101,7 @@ interface ProductionCardProps {
                 <FaSpotify size="30"/>
               </a>
               <a href={anghamiLink} target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-black text-white rounded-full flex items-center justify-center gap-2">
-              <img src="/images/anghami.png" alt="Logo" style={{ width: '30px', height: '30px' }} />
+              <Image src="/images/anghami.png" alt="Logo" style={{ width: '30px', height: '30px' }} />
               </a>
             </div>
           </div>
