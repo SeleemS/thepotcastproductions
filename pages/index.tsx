@@ -63,12 +63,12 @@ export default function IndexPage() {
                             ))}
 
                             {/* Button */}
-                            <div className="col-span-1 md:col-span-3 lg:col-span-3 flex justify-center ">
+                            <div className="col-span-1 md:col-span- lg:col-span-3 flex justify-center ">
                                 <Link href="./productions">
                                     <Button 
                                         size="lg" 
                                         radius="full" 
-                                        className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 font-semibold  ease-in-out"
+                                        className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 font-semibold md: mb-10 ease-in-out"
                                     >
                                         Listen Now
                                         <FaArrowRight className="ml-2" />
@@ -80,7 +80,7 @@ export default function IndexPage() {
                 </div>
 
                 {/* White Label Services Card*/}
-                <div className="w-full max-w-7xl mt-4">
+                <div className="w-full max-w-7xl md:mt-[-15px] mt-4">
                 
                     <Link href="./whitelabel" passHref> {/* Wrap Card in Link */}
                         <Card isHoverable isPressable className="flex flex-col md:flex-row bg-white border-2 border-green-800 shadow-lg cursor-pointer">
