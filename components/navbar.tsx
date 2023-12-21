@@ -20,16 +20,7 @@ import { link as linkStyles } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import clsx from "clsx";
 import React from "react";
-
 import { ThemeSwitch } from "@/components/theme-switch";
-
-import {
-	TwitterIcon,
-	GithubIcon,
-	DiscordIcon,
-	HeartFilledIcon,
-	SearchIcon,
-} from "@/components/icons";
 
 export const Navbar = () => {
 	const [isMenuOpen, setIsMenuOpen] = React.useState(false);
