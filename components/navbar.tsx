@@ -61,7 +61,7 @@ export const Navbar = () => {
 
 			<NavbarMenuToggle
 			aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-			className="md:hidden "
+			className="lg:hidden "
 			/>
 
 			<NavbarMenu className="bg-white  shadow-lg rounded-lg p-4">
