@@ -115,7 +115,7 @@ export default function IndexPage() {
                                 </div>
 
                                 {/* Additional Image */}
-                                <div className="max-w-[400px] mx-auto">
+                                <div className="max-w-[500px] mx-auto">
                                     <Image
                                         src="/images/hero.png"
                                         alt="Additional Details"
