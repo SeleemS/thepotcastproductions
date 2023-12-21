@@ -2,6 +2,7 @@ import { Navbar } from "@/components/navbar";
 import { Link } from "@nextui-org/link";
 import { Head } from "./head";
 import { FaInstagram, FaYoutube, FaEnvelope, FaFacebookF, FaTiktok } from "react-icons/fa";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export default function DefaultLayout({
 	children,
@@ -14,7 +15,9 @@ export default function DefaultLayout({
 			<Navbar />
 			<main className="container mx-auto max-w-10xl p-4">
 				{children}
+				<SpeedInsights />
 			</main>
+
 			<footer className="w-full py-4 bg-gray-100 border-t">
                 <div className="container mx-auto max-w-10xl px-6 flex flex-col md:flex-row justify-between items-center flex-wrap">
                     {/* Logo */}
