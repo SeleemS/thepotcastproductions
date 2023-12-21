@@ -1,9 +1,6 @@
 import DefaultLayout from '@/layouts/default';
-import { Card, Image } from '@nextui-org/react';
 import React from 'react';
-import { FaYoutube, FaSpotify, FaApple } from 'react-icons/fa';
 import ProductionCard from '@/components/productioncard';
-import { title, subtitle } from "@/components/primitives";
 
 const ProductionsPage = () => {
     return (
