@@ -3,6 +3,7 @@ import { Link } from "@nextui-org/link";
 import { Head } from "./head";
 import { FaInstagram, FaYoutube, FaEnvelope, FaFacebookF, FaTiktok } from "react-icons/fa";
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function DefaultLayout({
 	children,
@@ -16,10 +17,11 @@ export default function DefaultLayout({
 			<main className="container mx-auto max-w-10xl p-4">
 				{children}
 				<SpeedInsights />
+				<Analytics />
 			</main>
 
-			<footer className="w-full py-2 px-5 bg-gray-100 border-t">
-                <div className="container mx-auto max-w-10xl px-10 flex flex-col md:flex-row justify-between items-center flex-wrap">
+			<footer className="max-w-6xl py-2 px-5 bg-gray-100 border-t">
+                <div className="container mx-auto max-w-8xl flex flex-col md:flex-row justify-between items-center flex-wrap">
                     {/* Logo */}
                     <div className="order-1 md:order-none mb-2 md:mb-0">
 						<Link href="./">
