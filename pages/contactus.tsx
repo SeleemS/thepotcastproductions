@@ -6,20 +6,15 @@ import { FaPaperPlane } from 'react-icons/fa';
 export default function ContactUsPage() {
     const subjects = [
         { value: 'Advertising', label: 'Advertising' },
-        { value: 'White Label Services', label: 'White Label Services' },
+        { value: 'White Label Solutions', label: 'White Label Solutions' },
         { value: 'Feedback', label: 'Feedback' },
         { value: 'General Inquiry', label: 'General Inquiry' }
     ];
 
-    const inputStyle = {
-        border: "1px solid black", // Define the border color and width
-        // Add more styles if needed
-    };
-
     return (
         <DefaultLayout>
-            <div className="flex flex-col items-center justify-center   mt-[-20px] md:bg-[url('/images/landing2.png')] bg-no-repeat bg-contain bg-center">
-                <Card className="bg-white/90 backdrop-blur-md border border-gray-200 w-full md:max-w-md p-4" isBlurred radius="lg">
+            <div className="flex flex-col items-center justify-center w-[325px] md:w-[500px]  md:bg-[url('/images/landing2.png')] bg-no-repeat bg-contain bg-center">
+                <Card className="bg-white/90 backdrop-blur-md border border-gray-200 w-full p-4 " isBlurred radius="lg">
                     <h2 className="text-2xl font-semibold mb-4 text-center">Contact Us</h2>
                     
                     <form className="flex flex-col gap-4">
@@ -41,7 +36,7 @@ export default function ContactUsPage() {
                             className="max-w-full border-2 border-green-800 rounded-lg"
                         />
 
-                          {/* Dropdown for Subject */}
+                        {/* Dropdown for Subject */}
                         <Select
                             isRequired
                             label="Subject"
@@ -59,7 +54,7 @@ export default function ContactUsPage() {
                             label="Message"
                             placeholder="How can we help?"
                             className="max-w-full border-2 border-green-800 rounded-lg mb-[-7px]"
-                            rows={3} // Adjust the number of rows as needed
+                            rows={3}
                         />
                         <Button
                             size="lg"
