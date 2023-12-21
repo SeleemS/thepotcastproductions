@@ -18,10 +18,10 @@ export default function DefaultLayout({
 				<SpeedInsights />
 			</main>
 
-			<footer className="w-full py-4 bg-gray-100 border-t">
+			<footer className="w-full py-2 px-5 bg-gray-100 border-t">
                 <div className="container mx-auto max-w-10xl px-6 flex flex-col md:flex-row justify-between items-center flex-wrap">
                     {/* Logo */}
-                    <div className="order-1 md:order-none mb-4 md:mb-0">
+                    <div className="order-1 md:order-none mb-2 md:mb-0">
 						<Link href="./">
                         	<img src="/images/logo3.png" alt="Logo" width="100" height="36" />
 						</Link>
