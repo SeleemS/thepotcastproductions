@@ -31,7 +31,7 @@ export default function IndexPage() {
     return (
         <DefaultLayout>
             <div className="flex flex-col items-center justify-center">
-                {/* New container div with a border */}
+                {/* Hero Container */}
                 <div className="p-4 rounded-lg max-w-7xl mt-[-25px]"> {/* Adjust border and padding styles as needed */}
                     <div className="flex items-center justify-center px-4 mt-[-4px] mb-4 md:mb-[-24px]">
                         <h2 className={`${title({ color: "green" })} text-4xl`}>Streaming Now</h2>
