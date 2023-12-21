@@ -32,7 +32,7 @@ export default function IndexPage() {
             <div className="flex flex-col items-center justify-center">
 
                 {/* Hero Container */}
-                <div className="p-4 rounded-lg max-w-7xl mt-[-25px]">
+                <div className="p-4 rounded-lg max-w-7xl mt-[-35px]">
 
                     {/* Title */}
                     <div className="flex flex-row items-center justify-center px-4 mt-[-4px] mb-4 md:mb-[-24px]">
