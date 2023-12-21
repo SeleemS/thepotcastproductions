@@ -1,7 +1,7 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-	name: "The Potcast Productions",
+	name: "The Potcast Productions | ذا بوتكاست برودكشنز",
 	description: "We make podcasts.",
 	navItems: [
 		{
