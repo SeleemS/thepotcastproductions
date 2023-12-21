@@ -32,7 +32,9 @@ export default function IndexPage() {
             <div className="flex flex-col items-center justify-center">
 
                 {/* Hero Container */}
-                <div className="p-4 rounded-lg max-w-7xl mt-[-25px]"> {/* Adjust border and padding styles as needed */}
+                <div className="p-4 rounded-lg max-w-7xl mt-[-25px]">
+
+                    {/* Title */}
                     <div className="flex items-center justify-center px-4 mt-[-4px] mb-4 md:mb-[-24px]">
                         <h2 className={`${title({ color: "green" })} text-4xl`}>Streaming Now</h2>
                         <motion.div variants={pulseVariants} initial="pulse" animate="pulse">
@@ -40,9 +42,9 @@ export default function IndexPage() {
                         </motion.div>
                     </div>
 
+                    {/* Cards */}
                     <div className="flex items-center justify-center min-h-[70vh]">
                         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 w-full max-w-6xl">
-                        
                         
                             {[...Array(3)].map((_, index) => (
                                 <Link href="./productions" passHref key={index}>
@@ -79,7 +81,7 @@ export default function IndexPage() {
                 {/* White Label Services Card*/}
                 <div className="w-full max-w-6xl md:mt-[-25px] mt-4">
                 
-                    <Link href="./whitelabel" passHref>
+                    <Link href="./whitelabel" passHref> {/* Wrap Card in Link */}
                         <Card isHoverable isPressable className="flex flex-col md:flex-row bg-white border-2 border-green-800 shadow-lg cursor-pointer">
                             <div className="md:w-1/2 p-4">
                                 <Image
@@ -89,6 +91,8 @@ export default function IndexPage() {
                                     alt="White Label Services"
                                 />
                             </div>
+
+                            {/* Card Body */}
                             <div className="p-8 flex flex-col justify-center md:w-1/2">
 
                                 {/* Features */}
