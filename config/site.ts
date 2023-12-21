@@ -40,7 +40,12 @@ export const siteConfig = {
 		},
 	],
 	links: {
-		github: "https://github.com/nextui-org/nextui",
-		twitter: "https://twitter.com/getnextui",
+		instagram: "https://www.instagram.com/thepotcastproductions/",
+		youtube: "https://www.youtube.com/@thepotcastproductions",
+		email: "mailto:info@thepotcastproductions.com",
+		facebook: "https://www.facebook.com/thepotcastegypt",
+		tiktok: "https://www.tiktok.com/@thepotcastproductions",
+
+
 	},
 };

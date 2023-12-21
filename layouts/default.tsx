@@ -4,6 +4,7 @@ import { Head } from "./head";
 import { FaInstagram, FaYoutube, FaEnvelope, FaFacebookF, FaTiktok } from "react-icons/fa";
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Analytics } from '@vercel/analytics/react';
+import { siteConfig } from "@/config/site";
 
 export default function DefaultLayout({
 	children,
@@ -31,19 +32,19 @@ export default function DefaultLayout({
                     
                     {/* Social Media Icons */}
                     <div className="order-3 md:order-none flex gap-4 mt-4 md:mt-0 mb-4 md:mb-0">
-						<Link href="https://www.instagram.com/thepotcastproductions/" isExternal>
+						<Link href={siteConfig.links.instagram} isExternal>
 							<FaInstagram size={30} style={{ color: '#03a07d' }} />
 						</Link>
-						<Link href="https://www.youtube.com/@thepotcastproductions" isExternal>
+						<Link href={siteConfig.links.youtube} isExternal>
 							<FaYoutube size={30} style={{ color: '#03a07d' }} />
 						</Link>
-						<Link href="mailto:info@thepotcastproductions.com">
+						<Link href={siteConfig.links.email}>
 							<FaEnvelope size={30} style={{ color: '#03a07d' }} />
 						</Link>
-						<Link href="https://www.facebook.com/thepotcastegypt" isExternal>
+						<Link href={siteConfig.links.facebook} isExternal>
 							<FaFacebookF size={30} style={{ color: '#03a07d' }} />
 						</Link>
-						<Link href="https://www.tiktok.com/@thepotcastproductions" isExternal>
+						<Link href={siteConfig.links.tiktok} isExternal>
 							<FaTiktok size={30} style={{ color: '#03a07d' }} />
 						</Link>
 					</div>
