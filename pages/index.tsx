@@ -41,7 +41,7 @@ export default function IndexPage() {
 
                     {/* Cards */}
                     <div className="flex items-center justify-center min-h-[70vh]">
-                        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 w-full max-w-6xl">
+                        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 w-full max-w-7xl">
                         
                             {[...Array(3)].map((_, index) => (
                                 <Link href="./productions" passHref key={index}>
@@ -63,7 +63,7 @@ export default function IndexPage() {
                             ))}
 
                             {/* Button */}
-                            <div className="col-span-1 md:col-span-2 lg:col-span-3 flex justify-center mb-[-10px]">
+                            <div className="col-span-1 md:col-span-2 lg:col-span-3 flex justify-center ">
                                 <Link href="./productions">
                                     <Button size="lg" className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 font-semibold ease-in-out">
                                         Listen Now
@@ -76,7 +76,7 @@ export default function IndexPage() {
                 </div>
 
                 {/* White Label Services Card*/}
-                <div className="w-full max-w-6xl md:mt-[-25px] mt-4">
+                <div className="w-full max-w-7xl md:mt-[-15px] mt-4">
                 
                     <Link href="./whitelabel" passHref> {/* Wrap Card in Link */}
                         <Card isHoverable isPressable className="flex flex-col md:flex-row bg-white border-2 border-green-800 shadow-lg cursor-pointer">
