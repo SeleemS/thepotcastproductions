@@ -66,7 +66,7 @@ interface ProductionCardProps {
                 <div className="flex flex-col">
 
                   {/* Embedded Spotify Player */}
-                  <div className="flex justify-center items-center mb-[-60px] md:mb-[-30px] ">
+                  <div className="flex justify-center items-center mb-[-60px] md:mb-[-30px] md:px-6 ">
                     <motion.iframe 
                       initial="initial"
                       animate="animate"
