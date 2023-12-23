@@ -51,6 +51,7 @@ interface ProductionCardProps {
         <CardBody className="p-4">
           <div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center">
             <div className="flex relative col-span-6 justify-center md:col-span-4">
+
               <Image
                 alt={title}
                 className="object-cover rounded-md"
@@ -98,6 +99,7 @@ interface ProductionCardProps {
                 <Image src="/images/anghami.png" alt="Logo" style={{ width: '30px', height: '30px' }} />
                 </a>
               </div>
+
             </div>
           </div>
         </CardBody>
