@@ -65,7 +65,7 @@ interface ProductionCardProps {
                 <div className="flex flex-col">
 
                   {/* Embedded Spotify Player */}
-                  <div className="flex justify-center items-center ml-8 mb-[-60px] md:mb-[-30px] ">
+                  <div className="flex justify-center items-center mb-[-60px] md:mb-[-30px] ">
                     <motion.iframe 
                       initial="initial"
                       animate="animate"
@@ -80,7 +80,7 @@ interface ProductionCardProps {
                   </div>
 
                   {/* Subtitle */}
-                  <p className={`${subtitle({className:"mt-2 ml-5"})}`}>{description}</p>
+                  <p className={`${subtitle({className:"mt-2"})}`}>{description}</p>
                 </div>
               </div>
 
