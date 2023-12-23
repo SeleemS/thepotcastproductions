@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 
 
 interface ProductionCardProps {
+    id: string;
     title: string;
     description: string;
     imageSrc: string;
@@ -17,6 +18,7 @@ interface ProductionCardProps {
   }
 
   export default function ProductionCard({ 
+    id,
     title, 
     description, 
     imageSrc, 
@@ -40,7 +42,7 @@ interface ProductionCardProps {
   };
 
   return (
-    <div className="px-4">
+    <div id={id} className="px-4">
       <Card
         isBlurred
         className="border-2 border-green-800 bg-white dark:bg-gray-900 shadow-xl rounded-lg overflow-hidden w-full mb-10 mt-[-20px] sm:max-w-[50%] md:max-w-7xl"

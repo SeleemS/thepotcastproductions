@@ -7,6 +7,7 @@ const ProductionsPage = () => {
         <DefaultLayout>
 
             <ProductionCard
+                id="eshtry-menny"
                 title="اشتري مني"
                 description=" ٣ أصحاب بنتكلم من ٣ وجهات نظر مختلفة، قعدتنا مفيهاش استفادة لو مش بتعتبر الانبساط ده استفادة. من إنتاج ذا بوتكاست برودكشنز"
                 imageSrc="./images/card1.jpeg"
@@ -17,6 +18,7 @@ const ProductionsPage = () => {
                 anghamiLink={"https://play.anghami.com/podcast/1028337860?adj_t=dgl0aa8_64v1dnl&adj_campaign=ios&adj_adgroup=podcast&adj_creative=51120208"}
             />
             <ProductionCard
+                id='kefaya-ba2a'
                 title="كفاية بقى"
                 description="
                 كفاية بقى مع علاء الشيخ. قعدة دردشة صحاب مع بعض بننتقد حاجات و ناس معينة في المجتمع، بصراحة و بدون رحمة او تهاون و بدون وضع فيلتر يزين الكلام (ليس لاصحاب القلوب الضعيفة)."
@@ -28,6 +30,7 @@ const ProductionsPage = () => {
                 anghamiLink={"https://play.anghami.com/podcast/1018033070"}
             />
             <ProductionCard
+                id="kabarni"
                 title="كبرني "
                 description="في أي قاعدة صُلح أو اختلاف في الكلام، بيبقى في حد لازم (نكبره).. احنا هنا هنكبر بعض، ونكبركم، ونكبر حاجات ملهاش حد يكبرها..بس من وجهة نظر بولا وريم"
                 imageSrc="./images/card3.jpeg"
@@ -39,6 +42,7 @@ const ProductionsPage = () => {
             />
             <div className="mb-[-25px]"> {/* Remove Margin Bottom from last card */}
                 <ProductionCard
+                    id='howa-fee-eh'
                     title="!هو في إيه يا جماعة؟"
                     description="في أي قاعدة صُلح أو اختلاف في الكلام، بيبقى في حد لازم (نكبره).. احنا هنا هنكبر بعض، ونكبركم، ونكبر حاجات ملهاش حد يكبرها..بس من وجهة نظر بولا وريم"
                     imageSrc="./images/card5.jpeg"
