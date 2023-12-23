@@ -82,14 +82,6 @@ interface ProductionCardProps {
                   {/* Subtitle */}
                   <p className={`${subtitle({className:"mt-2 ml-5"})}`}>{description}</p>
                 </div>
-                
-                <Button
-                  isIconOnly
-                  className="text-default-900/60 data-[hover]:bg-foreground/10 -translate-y-2 translate-x-2"
-                  radius="full"
-                  variant="light"
-                  onPress={() => setLiked((v) => !v)}
-                />
               </div>
 
               <div className="flex justify-center gap-2 mt-3  mb-2">
