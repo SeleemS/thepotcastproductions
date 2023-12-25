@@ -45,7 +45,7 @@ const ProductionsPage = () => {
                     id='howa-fee-eh'
                     title="!هو في إيه يا جماعة؟"
                     description="بودكاست عن جرائم قتل، وأماكن مسكونة، وأحداث تاريخية غريبة. بودكاست عن جرائم قتل، وأماكن مسكونة، وأحداث تاريخية غريبة."
-                    imageSrc="./images/card5.jpeg"
+                    imageSrc="./images/card5.png"
                     spotifyEmbed={"https://open.spotify.com/embed-podcast/show/4BV0CDamD2RoXSIURDA3zV?utm_source=generator&theme=0"}
                     youtubeLink="https://www.youtube.com/watch?v=uqfvFeDZccc&list=PL7TpI0K9I87JH7a-Ryk6gCStTiBrT3KhR"
                     spotifyLink="https://open.spotify.com/show/1QLz7wgVVVdZt90vanHFNJ?si=XRsC0wHARq-GjwI3xPg2iQ&nd=1&dlsi=7ed718d582054f94"
