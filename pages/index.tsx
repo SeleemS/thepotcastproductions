@@ -43,7 +43,7 @@ export default function IndexPage() {
 
                     {/* Cards */}
                     <div className="flex items-center justify-center min-h-[70vh]">
-                        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 w-full max-w-9xl">
+                        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4 w-full max-w-9xl">
                         
                             {/* Manually specify links for each card */}
                             <Link href="/productions" passHref>
