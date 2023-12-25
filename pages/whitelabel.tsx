@@ -14,7 +14,7 @@ const WhiteLabelPage = () => {
                 <div className="flex flex-col space-y-6 w-full">
 
                     {/* Feature Card One */}
-                    <Card className="flex flex-col border-4 border-green-800 md:flex-row bg-white shadow-lg md:max-w-7xl">
+                    <Card className="flex flex-col border-4 border-green-800 md:flex-row bg-white shadow-lg md:max-w-9xl">
                         <Image
                             src="/images/hero.png"
                             alt="Turnkey Designs"
@@ -39,7 +39,7 @@ const WhiteLabelPage = () => {
                     </Card>
 
                     {/* Feature Card Two */}
-                    <Card className="flex flex-col border-4 border-green-800 md:flex-row bg-white shadow-lg md:max-w-7xl">
+                    <Card className="flex flex-col border-4 border-green-800 md:flex-row bg-white shadow-lg md:max-w-9xl">
                         <div className="flex flex-col items-center justify-center md:p-1 md:ml-20 md: mr-20 p-4 md:w-2/5 w-full">
                             <h3 className={`${title({color:"violet", size:"lg"})} text-center md:text-2xl md:py-2`}>Podcast Production</h3>
                             <h4 className={`${features({color:"cyan"})} text-lg p-2 text-center mb-2`}>Advanced Sound & Video Editing, and Creative Scriptwriting.</h4>
@@ -64,7 +64,7 @@ const WhiteLabelPage = () => {
                     </Card>
 
                     {/* Feature Card Three */}
-                    <Card className="flex flex-col border-4 border-green-800 md:flex-row bg-white shadow-lg md:max-w-7xl">
+                    <Card className="flex flex-col border-4 border-green-800 md:flex-row bg-white shadow-lg md:max-w-9xl">
                         <Image
                             src="/images/white3.png" // Replace with your image path
                             alt="Reliable Support"
