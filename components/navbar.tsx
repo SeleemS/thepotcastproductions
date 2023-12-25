@@ -45,12 +45,12 @@ export const Navbar = () => {
 					{/*<ThemeSwitch/>*/}
 				</div>
 
-                <div className="hidden lg:flex gap-4 ml-auto">
+                <div className="hidden lg:flex gap-6 ml-auto">
 					{siteConfig.navItems.map((item) => (
 						<NavbarItem key={item.href} isActive={currentPath === item.href}>
 							<Link href={item.href}>
 								<Link 
-								className={`text-lg nunito lg:text-xl ${currentPath === item.href ? 'active-gradient-text font-bold' : 'gradient-text'}`}
+								className={`text-lg font-semibold nunito lg:text-xl ${currentPath === item.href ? 'active-gradient-text font-bold' : 'gradient-text'}`}
 								>
 								{item.label}
 								</Link>
