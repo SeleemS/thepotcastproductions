@@ -34,7 +34,7 @@ export default function IndexPage() {
             <div className="flex flex-col items-center justify-center">
 
                 {/* Hero Container */}
-                <div className="rounded-lg max-w-9xl mt-[-10px]">
+                <div className="rounded-lg max-w-9xl mt-[-10px] mb-5">
 
                     {/* Title */}
                     <div className="flex flex-row items-center justify-center px-4 mt-[-4px] mb-4 ">
@@ -98,12 +98,12 @@ export default function IndexPage() {
                             </Link>
 
                             {/* Button */}
-                            <div className="col-span-1 md:col-span-3 lg:col-span-3 flex justify-center mb-4">
+                            <div className="col-span-1 md:col-span-3 lg:col-span-3 flex justify-center">
                                 <Link href="./productions">
                                     <Button 
                                         size="lg" 
                                         radius="full" 
-                                        className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 font-semibold md: mb-10 ease-in-out"
+                                        className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 font-semibold  md:mb-4 ease-in-out"
                                     >
                                         Listen Now
                                         <FaArrowRight className="ml-2" />
@@ -115,7 +115,7 @@ export default function IndexPage() {
                 </div>
 
                 {/* White Label Services Card*/}
-                <div className="w-full max-w-7xl md:mt-[-35px] mt-4">
+                <div className="w-full max-w-7xl md:mt-[-35px] ">
                 
                     <Link href="./whitelabel" passHref> {/* Wrap Card in Link */}
                         <Card isHoverable isPressable className="flex flex-col md:flex-row bg-white border-4 border-green-800 shadow-lg cursor-pointer">
