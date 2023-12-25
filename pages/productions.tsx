@@ -40,7 +40,7 @@ const ProductionsPage = () => {
                 appleLink="https://podcasts.apple.com/us/podcast/kabarni-podcast-%D9%83%D8%A8%D8%B1%D9%86%D9%8A-%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA/id1705559408?ign-itscg=30200&ign-itsct=lt_p"
                 anghamiLink="https://play.anghami.com/podcast/1043057720?adj_t=dgl0aa8_64v1dnl&adj_campaign=ios&adj_adgroup=podcast&adj_creative=127495014"
             />
-            <div className="mb-[-25px]"> {/* Remove Margin Bottom from last card */}
+            <div className="mb-[-35px]"> {/* Remove Margin Bottom from last card */}
                 <ProductionCard
                     id='howa-fee-eh'
                     title="!هو في إيه يا جماعة؟"
