@@ -14,7 +14,7 @@ export default function ContactUsPage() {
 
     return (
         <DefaultLayout>
-            <div className="flex flex-col items-center justify-center w-[325px] md:w-[500px]  md:mb-5 mt-[-5px] md:bg-[url('/images/landing2.png')] bg-no-repeat bg-contain bg-center">
+            <div className="flex flex-col items-center justify-center w-[325px] md:w-[500px] mt-[-5px] md:bg-[url('/images/landing2.png')] bg-no-repeat bg-contain bg-center">
                 <Card className="bg-white/90 backdrop-blur-md border-4 border-green-800 w-full p-4 " isBlurred radius="lg">
                     <h2 className={`${title({ color: "green" })} font-semibold mb-4 text-center`}>Contact Us</h2>
                     
