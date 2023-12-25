@@ -43,24 +43,57 @@ export default function IndexPage() {
                     <div className="flex items-center justify-center min-h-[70vh]">
                         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 w-full max-w-7xl">
                         
-                            {[...Array(3)].map((_, index) => (
-                                <Link href="./productions" passHref key={index}>
-                                    <motion.div
-                                        variants={cardVariants}
-                                        initial="offscreen"
-                                        animate="onscreen"
-                                    >
-                                        <Card className="bg-transparent border-2 border-green-800 cursor-pointer" isFooterBlurred radius="lg">
-                                            <Image
-                                                src={`./images/card${index + 1}.jpeg`}
-                                                alt={`Card Image ${index + 1}`}
-                                                width="100%"
-                                                height="100%"
-                                            />
-                                        </Card>
-                                    </motion.div>
-                                </Link>
-                            ))}
+                            {/* Manually specify links for each card */}
+                            <Link href="/productions" passHref>
+                                <motion.div
+                                    variants={cardVariants}
+                                    initial="offscreen"
+                                    animate="onscreen"
+                                >
+                                    <Card className="bg-transparent border-2 border-green-800 cursor-pointer" isFooterBlurred radius="lg">
+                                        <Image
+                                            src="./images/card1.jpeg"
+                                            alt="Card Image 1"
+                                            width="100%"
+                                            height="100%"
+                                        />
+                                    </Card>
+                                </motion.div>
+                            </Link>
+                            
+                            <Link href="/productions#kefaya-ba2a" passHref>
+                                <motion.div
+                                    variants={cardVariants}
+                                    initial="offscreen"
+                                    animate="onscreen"
+                                >
+                                    <Card className="bg-transparent border-2 border-green-800 cursor-pointer" isFooterBlurred radius="lg">
+                                        <Image
+                                            src="./images/card2.jpeg"
+                                            alt="Card Image 2"
+                                            width="100%"
+                                            height="100%"
+                                        />
+                                    </Card>
+                                </motion.div>
+                            </Link>
+                            
+                            <Link href="/productions#kabarni" passHref>
+                                <motion.div
+                                    variants={cardVariants}
+                                    initial="offscreen"
+                                    animate="onscreen"
+                                >
+                                    <Card className="bg-transparent border-2 border-green-800 cursor-pointer" isFooterBlurred radius="lg">
+                                        <Image
+                                            src="./images/card3.jpeg"
+                                            alt="Card Image 3"
+                                            width="100%"
+                                            height="100%"
+                                        />
+                                    </Card>
+                                </motion.div>
+                            </Link>
 
                             {/* Button */}
                             <div className="col-span-1 md:col-span-3 lg:col-span-3 flex justify-center ">
