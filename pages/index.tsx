@@ -43,7 +43,7 @@ export default function IndexPage() {
 
                     {/* Cards */}
                     <div className="flex items-center justify-center min-h-[70vh]">
-                        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 w-full max-w-7xl">
+                        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 w-full max-w-9xl">
                         
                             {/* Manually specify links for each card */}
                             <Link href="/productions" passHref>
@@ -115,7 +115,7 @@ export default function IndexPage() {
                 </div>
 
                 {/* White Label Services Card*/}
-                <div className="w-full max-w-7xl md:mt-[-30px] lg:mt-[-70px] ">
+                <div className="w-full max-w-9xl md:mt-[-30px] lg:mt-[-50px] ">
                 
                     <Link href="./whitelabel" passHref> {/* Wrap Card in Link */}
                         <Card isHoverable isPressable className="flex flex-col md:flex-row bg-white border-4 border-green-800 shadow-lg cursor-pointer">

@@ -9,7 +9,7 @@ const WhiteLabelPage = () => {
     
     return (
         <DefaultLayout>
-            <div className="flex flex-col items-center justify-center mt-[-5px] md:px-8">
+            <div className="flex flex-col items-center justify-center mt-[-5px]">
 
                 <div className="flex flex-col space-y-6 w-full">
 
