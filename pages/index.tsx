@@ -38,7 +38,7 @@ export default function IndexPage() {
 
                     {/* Title */}
                     <div className="flex flex-row items-center justify-center px-4 mt-[-4px] mb-4 ">
-                        <h2 className={`${title({ color: "green" })}  text-4xl`}>Streaming Now..</h2>
+                        <h2 className={`${title({ color: "green" })} text-4xl`}>Streaming Now..</h2>
                     </div>
 
                     {/* Cards */}

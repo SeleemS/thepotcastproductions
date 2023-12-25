@@ -33,7 +33,7 @@ export const Navbar = () => {
     };
 
 	return (
-		<NextUINavbar onMenuOpenChange={setIsMenuOpen} height="105px" maxWidth="xl" position="sticky">
+		<NextUINavbar onMenuOpenChange={setIsMenuOpen} height="105px" maxWidth="xl" position="static">
 			<NavbarContent className="flex justify-between items-center  mt-10 mb-10 w-full">
 			
 				<div>
