@@ -13,7 +13,7 @@ export const siteConfig = {
       href: "/productions",
     },
     {
-      label: "White Label",
+      label: "Branded Podcasts",
       href: "/whitelabel",
     },
     {
@@ -31,7 +31,7 @@ export const siteConfig = {
 			href: "/productions",
 		},
 		{
-			label: "White Label",
+			label: "Branded Podcasts",
 			href: "/whitelabel",
 		},
 		{
