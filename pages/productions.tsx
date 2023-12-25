@@ -11,7 +11,7 @@ const ProductionsPage = () => {
                 title="اشتري مني"
                 description=" ٣ أصحاب بنتكلم من ٣ وجهات نظر مختلفة، قعدتنا مفيهاش استفادة لو مش بتعتبر الانبساط ده استفادة. من إنتاج ذا بوتكاست برودكشنز"
                 imageSrc="./images/card1.jpeg"
-                spotifyEmbed={"https://open.spotify.com/embed-podcast/show/2GcpoqDhqssSxDeugg4ejF"}
+                spotifyEmbed={"https://open.spotify.com/embed-podcast/show/2GcpoqDhqssSxDeugg4ejF?utm_source=generator&theme=0"}
                 youtubeLink={"https://www.youtube.com/watch?v=VjWgQZ7p9t4&list=PL7TpI0K9I87K5qQte9awzBO2QkeMl-UAN"}
                 spotifyLink="https://open.spotify.com/show/2GcpoqDhqssSxDeugg4ejF?si=y6UEsDGZSZWHrCc0fpmezQ&utm_medium=share&utm_source=linktree&nd=1&dlsi=afa9dae822884a7f"
                 appleLink="https://podcasts.apple.com/eg/podcast/eshtry-menny-%D8%A7%D8%B4%D8%AA%D8%B1%D9%8A-%D9%85%D9%86%D9%8A/id1625454150"
@@ -24,7 +24,7 @@ const ProductionsPage = () => {
                 كفاية بقى مع علاء الشيخ. قعدة دردشة صحاب مع بعض بننتقد حاجات و ناس معينة في المجتمع، بصراحة و بدون رحمة او تهاون و بدون وضع فيلتر يزين الكلام (ليس لاصحاب القلوب الضعيفة)."
                 imageSrc="./images/card2.jpeg"
                 youtubeLink="https://www.youtube.com/watch?v=77XzsJZUojg&list=PL7TpI0K9I87JKd80KoWFhtVyf9T2jY2vW"
-                spotifyEmbed={"https://open.spotify.com/embed-podcast/show/1XhboCKaeAmNU4hObnaTpd"}
+                spotifyEmbed={"https://open.spotify.com/embed-podcast/show/1XhboCKaeAmNU4hObnaTpd?utm_source=generator&theme=0"}
                 spotifyLink="https://open.spotify.com/show/1XhboCKaeAmNU4hObnaTpd?si=0kLUupamQsWSPYH3PmRbJQ&utm_source=copy-link&dl_branch=1&nd=1&dlsi=5b37ceaa8fe244d4"
                 appleLink="https://podcasts.apple.com/us/podcast/%D9%83%D9%81%D8%A7%D9%8A%D8%A9-%D8%A8%D9%82%D9%89-kefaya-ba2a/id1553857121"
                 anghamiLink={"https://play.anghami.com/podcast/1018033070"}
@@ -34,7 +34,7 @@ const ProductionsPage = () => {
                 title="كبرني "
                 description="في أي قاعدة صُلح أو اختلاف في الكلام، بيبقى في حد لازم (نكبره).. احنا هنا هنكبر بعض، ونكبركم، ونكبر حاجات ملهاش حد يكبرها..بس من وجهة نظر بولا وريم"
                 imageSrc="./images/card3.jpeg"
-                spotifyEmbed={"https://open.spotify.com/embed-podcast/show/1QLz7wgVVVdZt90vanHFNJ"}
+                spotifyEmbed={"https://open.spotify.com/embed/show/1QLz7wgVVVdZt90vanHFNJ?utm_source=generator&theme=0"}
                 youtubeLink={"https://www.youtube.com/watch?v=0hr3z4Gz06I&list=PL7TpI0K9I87JnLcqY8x5d4lBP3eLlHCMX"}
                 spotifyLink="https://open.spotify.com/show/1XhboCKaeAmNU4hObnaTpd?si=0kLUupamQsWSPYH3PmRbJQ&utm_source=copy-link&dl_branch=1&nd=1&dlsi=4ab227a26466438a"
                 appleLink="https://podcasts.apple.com/us/podcast/kabarni-podcast-%D9%83%D8%A8%D8%B1%D9%86%D9%8A-%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA/id1705559408?ign-itscg=30200&ign-itsct=lt_p"
@@ -46,7 +46,7 @@ const ProductionsPage = () => {
                     title="!هو في إيه يا جماعة؟"
                     description="بودكاست عن جرائم قتل، وأماكن مسكونة، وأحداث تاريخية غريبة. بودكاست عن جرائم قتل، وأماكن مسكونة، وأحداث تاريخية غريبة."
                     imageSrc="./images/card5.jpeg"
-                    spotifyEmbed={"https://open.spotify.com/embed-podcast/show/4BV0CDamD2RoXSIURDA3zV"}
+                    spotifyEmbed={"https://open.spotify.com/embed-podcast/show/4BV0CDamD2RoXSIURDA3zV?utm_source=generator&theme=0"}
                     youtubeLink="https://www.youtube.com/watch?v=uqfvFeDZccc&list=PL7TpI0K9I87JH7a-Ryk6gCStTiBrT3KhR"
                     spotifyLink="https://open.spotify.com/show/1QLz7wgVVVdZt90vanHFNJ?si=XRsC0wHARq-GjwI3xPg2iQ&nd=1&dlsi=7ed718d582054f94"
                     appleLink="https://podcasts.apple.com/us/podcast/kabarni-podcast-%D9%83%D8%A8%D8%B1%D9%86%D9%8A-%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA/id1705559408?ign-itscg=30200&ign-itsct=lt_p"
