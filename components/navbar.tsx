@@ -37,9 +37,9 @@ export const Navbar = () => {
 			<NavbarContent className="flex justify-between items-center  mt-10 mb-10 w-full">
 			
 				
-				<NavbarBrand className="max-w-fit">
+				<NavbarBrand className="max-w-fit mt-5">
                     <Link href="/">
-                        <img src="/images/logo3.png" alt="Logo" width="100" height="36" />
+                        <img src="/images/logo3.png" alt="Logo" width="150" height="100%" />
                     </Link>
                 </NavbarBrand>
 				{/*<ThemeSwitch/>*/}
