@@ -33,16 +33,17 @@ export const Navbar = () => {
     };
 
 	return (
-		<NextUINavbar onMenuOpenChange={setIsMenuOpen} className ="mt-4 mb-5 " maxWidth="xl" position="sticky">
+		<NextUINavbar onMenuOpenChange={setIsMenuOpen} height="105px" maxWidth="xl" position="sticky">
 			<NavbarContent className="flex justify-between items-center  mt-10 mb-10 w-full">
 			
-				
-				<NavbarBrand className="max-w-fit mt-5">
-                    <Link href="/">
-                        <img src="/images/logo3.png" alt="Logo" width="150" height="100%" />
-                    </Link>
-                </NavbarBrand>
-				{/*<ThemeSwitch/>*/}
+				<div>
+					<NavbarBrand className="max-w-fit">
+						<Link href="/">
+							<img src="/images/logo3.png" alt="Logo" width="150" height="100%" />
+						</Link>
+					</NavbarBrand>
+					{/*<ThemeSwitch/>*/}
+				</div>
 
                 <div className="hidden lg:flex gap-4 ml-auto">
 					{siteConfig.navItems.map((item) => (
