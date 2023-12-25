@@ -79,12 +79,14 @@ export const Navbar = () => {
 					))}
 				</div>
 
-				<div className="flex justify-center mt-20 ml-20">
-					<NavbarBrand className="mb-4">
-						<Link href="/">
-							<img src="/images/logo3.png" alt="Logo" width="231" height="84" />
-						</Link>
-					</NavbarBrand>
+				<div className="flex justify-center items-center mt-20">
+					<div>
+						<NavbarBrand className="mb-4">
+							<Link href="/">
+								<img src="/images/logo3.png" alt="Logo" width="231" height="84" />
+							</Link>
+						</NavbarBrand>
+					</div>
 				</div>
 			</NavbarMenu>
 		</NextUINavbar>
