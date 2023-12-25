@@ -1,12 +1,49 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import { Card, Button, Image } from "@nextui-org/react";
 import Link from "next/link";
 import DefaultLayout from "@/layouts/default";
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import { FaArrowRight, FaBroadcastTower } from 'react-icons/fa';
 import { title, subtitle, features } from "@/components/primitives";
 
 export default function IndexPage() {
+
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+        // Set a timeout for the loading effect
+        const timer = setTimeout(() => {
+          setIsLoading(false);
+        }, 1500); //seconds
+      
+        // Clean up the timer if the component unmounts
+        return () => clearTimeout(timer);
+      }, []);
+
+      const fullscreenImageVariants = {
+        initial: {
+          opacity: 0,
+          scale: 1.1, // start slightly zoomed in to create a dynamic entry
+        },
+        animate: {
+          opacity: 1,
+          scale: 1,
+          transition: {
+            duration: 0.5, // snappy transition
+            ease: [0.6, -0.05, 0.01, 0.99], // customized cubic bezier ease for snappiness
+          }
+        },
+        exit: {
+          opacity: 0,
+          scale: 0.9, // zoom out slightly while fading out
+          transition: {
+            duration: 0.5, // quick fade out
+            ease: [0.6, -0.05, 0.01, 0.99], // keep the ease consistent for both in and out
+          }
+        }
+      };
+
+
     const cardVariants = {
         offscreen: { rotate: 0 },
         onscreen: {
@@ -29,6 +66,28 @@ export default function IndexPage() {
 
     return (
         <DefaultLayout>
+
+            <AnimatePresence>
+            {isLoading && (
+                <motion.div
+                initial="initial"
+                animate="animate"
+                exit="exit"
+                variants={fullscreenImageVariants}
+                style={{
+                    position: 'fixed',
+                    top: 0,
+                    left: 0,
+                    width: '100vw',
+                    height: '100vh',
+                    background: `url('/images/onload.png') center center no-repeat`,
+                    backgroundSize: 'cover',
+                    zIndex: 9999
+                }}
+                />
+            )}
+            </AnimatePresence>
+
             <div className="flex flex-col items-center justify-center">
 
                 {/* Hero Container */}
