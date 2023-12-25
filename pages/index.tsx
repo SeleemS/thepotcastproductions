@@ -8,42 +8,6 @@ import { title, subtitle, features } from "@/components/primitives";
 
 export default function IndexPage() {
 
-    const [isLoading, setIsLoading] = useState(true);
-
-    useEffect(() => {
-        // Set a timeout for the loading effect
-        const timer = setTimeout(() => {
-          setIsLoading(false);
-        }, 1500); //seconds
-      
-        // Clean up the timer if the component unmounts
-        return () => clearTimeout(timer);
-      }, []);
-
-      const fullscreenImageVariants = {
-        initial: {
-          opacity: 0,
-          x: '100vw', // start off to the right of the screen
-        },
-        animate: {
-          opacity: 1,
-          x: 0,
-          transition: {
-            duration: 0.5, // duration for the fade in
-            ease: "easeOut",
-          }
-        },
-        exit: {
-          opacity: 0,
-          x: '-100vw', // end off to the left of the screen
-          transition: {
-            duration: 0.5, // duration for the slide out
-            ease: "easeIn",
-          }
-        }
-      };
-
-
     const cardVariants = {
         offscreen: { rotate: 0 },
         onscreen: {
@@ -66,27 +30,6 @@ export default function IndexPage() {
 
     return (
         <DefaultLayout>
-
-            <AnimatePresence>
-            {isLoading && (
-                <motion.div
-                initial="initial"
-                animate="animate"
-                exit="exit"
-                variants={fullscreenImageVariants}
-                style={{
-                    position: 'fixed',
-                    top: 0,
-                    left: 0,
-                    width: '100vw',
-                    height: '100vh',
-                    background: `url('/images/onload.png') center center no-repeat`,
-                    backgroundSize: 'cover',
-                    zIndex: 9999
-                }}
-                />
-            )}
-            </AnimatePresence>
 
             <div className="flex flex-col items-center justify-center">
 
