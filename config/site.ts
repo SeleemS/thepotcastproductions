@@ -27,7 +27,7 @@ export const siteConfig = {
 			href: "/",
 		},
 		{
-			label: "Productions",
+			label: "Original Productions",
 			href: "/productions",
 		},
 		{
