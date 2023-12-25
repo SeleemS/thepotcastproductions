@@ -98,7 +98,7 @@ export default function IndexPage() {
                             </Link>
 
                             {/* Button */}
-                            <div className="col-span-1 md:col-span-3 lg:col-span-3 flex justify-center ">
+                            <div className="col-span-1 md:col-span-3 lg:col-span-3 flex justify-center mb-4">
                                 <Link href="./productions">
                                     <Button 
                                         size="lg" 
