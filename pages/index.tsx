@@ -29,7 +29,7 @@ export default function IndexPage() {
           opacity: 1,
           scale: 1,
           transition: {
-            duration: 0.5, // snappy transition
+            duration: 1, // snappy transition
             ease: [0.6, -0.05, 0.01, 0.99], // customized cubic bezier ease for snappiness
           }
         },
@@ -37,7 +37,7 @@ export default function IndexPage() {
           opacity: 0,
           scale: 0.9, // zoom out slightly while fading out
           transition: {
-            duration: 0.5, // quick fade out
+            duration: 1, // quick fade out
             ease: [0.6, -0.05, 0.01, 0.99], // keep the ease consistent for both in and out
           }
         }
