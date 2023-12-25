@@ -23,22 +23,22 @@ export default function IndexPage() {
       const fullscreenImageVariants = {
         initial: {
           opacity: 0,
-          scale: 1.1, // start slightly zoomed in to create a dynamic entry
+          x: '100vw', // start off to the right of the screen
         },
         animate: {
           opacity: 1,
-          scale: 1,
+          x: 0,
           transition: {
-            duration: 1, // snappy transition
-            ease: [0.6, -0.05, 0.01, 0.99], // customized cubic bezier ease for snappiness
+            duration: 0.5, // duration for the fade in
+            ease: "easeOut",
           }
         },
         exit: {
           opacity: 0,
-          scale: 0.9, // zoom out slightly while fading out
+          x: '-100vw', // end off to the left of the screen
           transition: {
-            duration: 1, // quick fade out
-            ease: [0.6, -0.05, 0.01, 0.99], // keep the ease consistent for both in and out
+            duration: 0.5, // duration for the slide out
+            ease: "easeIn",
           }
         }
       };
