@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, Button, Input, Textarea, Select, SelectItem } from "@nextui-org/react";
 import DefaultLayout from "@/layouts/default";
+import { title } from "@/components/primitives";
 import { FaPaperPlane } from 'react-icons/fa';
 
 export default function ContactUsPage() {
@@ -15,7 +16,7 @@ export default function ContactUsPage() {
         <DefaultLayout>
             <div className="flex flex-col items-center justify-center w-[325px] md:w-[500px]  md:mb-5 mt-[-5px] md:bg-[url('/images/landing2.png')] bg-no-repeat bg-contain bg-center">
                 <Card className="bg-white/90 backdrop-blur-md border-4 border-green-800 w-full p-4 " isBlurred radius="lg">
-                    <h2 className="text-2xl font-semibold mb-4 text-center">Contact Us</h2>
+                    <h2 className={`${title({ color: "green" })} font-semibold mb-4 text-center`}>Contact Us</h2>
                     
                     <form 
                         action="https://formspree.io/f/mrgnzyak" 
