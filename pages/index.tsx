@@ -52,7 +52,7 @@ export default function IndexPage() {
                                     initial="offscreen"
                                     animate="onscreen"
                                 >
-                                    <Card className="bg-transparent border-2 border-green-800 cursor-pointer" isFooterBlurred radius="lg">
+                                    <Card className="bg-transparent border-4 border-green-800 cursor-pointer" isFooterBlurred radius="lg">
                                         <Image
                                             src="./images/card1.jpeg"
                                             alt="Card Image 1"
@@ -69,7 +69,7 @@ export default function IndexPage() {
                                     initial="offscreen"
                                     animate="onscreen"
                                 >
-                                    <Card className="bg-transparent border-2 border-green-800 cursor-pointer" isFooterBlurred radius="lg">
+                                    <Card className="bg-transparent border-4 border-green-800 cursor-pointer" isFooterBlurred radius="lg">
                                         <Image
                                             src="./images/card2.jpeg"
                                             alt="Card Image 2"
@@ -86,7 +86,7 @@ export default function IndexPage() {
                                     initial="offscreen"
                                     animate="onscreen"
                                 >
-                                    <Card className="bg-transparent border-2 border-green-800 cursor-pointer" isFooterBlurred radius="lg">
+                                    <Card className="bg-transparent border-4 border-green-800 cursor-pointer" isFooterBlurred radius="lg">
                                         <Image
                                             src="./images/card3.jpeg"
                                             alt="Card Image 3"
@@ -118,7 +118,7 @@ export default function IndexPage() {
                 <div className="w-full max-w-7xl md:mt-[-35px] mt-4">
                 
                     <Link href="./whitelabel" passHref> {/* Wrap Card in Link */}
-                        <Card isHoverable isPressable className="flex flex-col md:flex-row bg-white border-2 border-green-800 shadow-lg cursor-pointer">
+                        <Card isHoverable isPressable className="flex flex-col md:flex-row bg-white border-4 border-green-800 shadow-lg cursor-pointer">
                             <div className="md:w-1/2 p-4">
                                 <Image
                                     src="/images/whitehero.png"

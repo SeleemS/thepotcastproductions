@@ -45,7 +45,7 @@ interface ProductionCardProps {
     <div id={id} className="px-4">
       <Card
         isBlurred
-        className="border-2 border-green-800 bg-white dark:bg-gray-900 shadow-xl rounded-lg overflow-hidden w-full mb-10 mt-[-5px] sm:max-w-[50%] md:max-w-7xl"
+        className="border-4 border-green-800 bg-white dark:bg-gray-900 shadow-xl rounded-lg overflow-hidden w-full mb-10 mt-[-5px] sm:max-w-[50%] md:max-w-7xl"
         shadow="lg"
       >
         <CardBody className="p-4">
