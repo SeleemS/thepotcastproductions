@@ -132,7 +132,7 @@ export default function IndexPage() {
                             <div className="p-8 flex flex-col justify-center md:w-1/2">
 
                                 {/* Features */}
-                                <h3 className={`${title({color:"violet"})} text-3xl font-semibold mt-[-15px] mb-4`}>White Label Solutions</h3>
+                                <h3 className={`${title({color:"violet"})} text-3xl font-semibold mt-[-15px] mb-4`}>Branded Podcasts</h3>
                                 <h4 className={`${features({color:"yellow"})} text-lg mb-2`}>Turnkey Designs</h4>
                                 <h4 className={`${features({color:"blue"})} text-lg mb-2`}>Podcast Production</h4>
                                 <h4 className={`${features({color:"violet"})} text-lg mb-2`}>Podcast Analytics</h4>
