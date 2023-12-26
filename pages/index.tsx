@@ -131,7 +131,7 @@ export default function IndexPage() {
                         <Card isHoverable isPressable className="flex flex-col md:flex-row bg-white border-4 border-green-800 shadow-lg cursor-pointer">
                             <div className="md:w-1/2 p-4">
                                 <Image
-                                    src="/images/whitehero.png"
+                                    src="/images/whitehero.jpg"
                                     width="100%"
                                     height="100%"
                                     alt="White Label Services"
