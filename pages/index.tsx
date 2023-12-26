@@ -33,19 +33,19 @@ export default function IndexPage() {
 
             <div className="flex flex-col items-center justify-center">
 
-                <Card className="w-full max-w-9xl mb-10">
+                <Card className="w-full max-w-7xl mb-10">
                     <Image
                         src="/images/onload.png"
                         alt="The Potcast Productions"
                         objectFit="cover"
                         width="100%"
                         height="auto"
-                        className="max-h-[500px]" // Replace 500px with your desired max height
+                        className="max-h-[500px] " // Replace 500px with your desired max height
                     />
                 </Card>
 
                 {/* Hero Container */}
-                <div className="rounded-lg max-w-9xl mt-[-10px] md:mb-10">
+                <div className="rounded-lg max-w-7xl mt-[-10px] md:mb-10">
 
                     {/* Title */}
                     <div className="flex flex-row items-center justify-center px-4 mt-[-4px] mb-4 ">
@@ -126,7 +126,7 @@ export default function IndexPage() {
                 </div>
 
                 {/* White Label Services Card*/}
-                <div className="w-full max-w-9xl md:mt-[-30px] lg:mt-[-50px] ">
+                <div className="w-full max-w-7xl md:mt-[-30px] lg:mt-[-50px] ">
                 
                     <Link href="./whitelabel" passHref> {/* Wrap Card in Link */}
                         <Card isHoverable isPressable className="flex flex-col md:flex-row bg-white border-4 border-green-800 shadow-lg cursor-pointer">
