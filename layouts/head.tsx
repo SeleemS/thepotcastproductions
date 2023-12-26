@@ -12,11 +12,11 @@ interface HeadProps {
 }
 
 export const Head = ({
-    title,
-    description,
-    ogTitle,
-    ogDescription,
-    favicon = '/favicon.ico',
+    title = "The Potcast Productions | ذا بوتكاست بروداكشنز",
+    description = "Top-charting podcasts exploring fascinating genres and captivating narratives you won't find anywhere else.",
+    ogTitle = "The Potcast Productions | ذا بوتكاست بروداكشنز",
+    ogDescription = "Top-charting podcasts exploring fascinating genres and captivating narratives you won't find anywhere else.",
+    favicon = '/favicon.ico', // Default value for favicon
     customScripts,
 }: HeadProps) => {
     // Default OG image
