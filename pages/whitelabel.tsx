@@ -35,7 +35,7 @@ const WhiteLabelPage = () => {
 
 
                     {/* Feature Card Two */}
-                    <Card className="flex flex-col border-4 border-green-800 lg:flex-row bg-white shadow-lg lg:max-w-9xl">
+                    <Card className="flex flex-col border-4 border-green-800 lg:flex-row bg-white shadow-lg lg:max-w-7xl">
                         <div className="flex justify-center items-center w-full lg:w-4/5 p-5"> {/* Add margin-top on small screens, remove it on lg screens */}
                             <Image
                                 src="/images/whitehero.png"
@@ -50,7 +50,7 @@ const WhiteLabelPage = () => {
                     </Card>
 
                     {/* Feature Card Three */}
-                    <Card className="flex flex-col border-4 border-green-800 lg:flex-row bg-white shadow-lg lg:max-w-9xl">
+                    <Card className="flex flex-col border-4 border-green-800 lg:flex-row bg-white shadow-lg lg:max-w-7xl">
                         <div className="flex justify-center items-center w-full lg:w-4/5 p-5"> {/* Add margin-top on small screens, remove it on lg screens */}
                             <Image
                                 src="/images/white3.png"
@@ -59,8 +59,23 @@ const WhiteLabelPage = () => {
                             />
                         </div>
                         <div className="flex flex-col items-center justify-center p-4 lg:p-1 w-full lg:mr-10 lg:w-2/5">
-                            <h3 className={`${title({color:"violet", size:"lg"})} text-center text-2xl mt-[-15px] lg:mt-0 lg:py-2`}>Content</h3>
-                            <h4 className={`${subtitle()} text-lg p-2 text-center mb-2`}>We understand the significance of compelling content in podcasting. Our services include comprehensive consultation sessions, research to identify relevant topics, development of engaging narratives, and proficient writing that resonates with your target audience. We strive to deliver content that keeps your listeners engaged and coming back for more.</h4>
+                            <h3 className={`${title({color:"violet", size:"lg"})} text-center text-2xl mt-[-15px] lg:mt-0 lg:py-2`}>Production</h3>
+                            <h4 className={`${subtitle()} text-lg p-2 text-center mb-2`}>With our expertise in production, we take care of the technical aspects of podcasting. Our services encompass professional recording, ensuring high-quality audio, as well as sound design to enhance the overall listening experience. Additionally, we offer video shooting services for those looking to incorporate visual elements into their podcasts, allowing you to connect with your audience on multiple platforms.</h4>
+                        </div>
+                    </Card>
+
+                    {/* Feature Card Four */}
+                    <Card className="flex flex-col border-4 border-green-800 lg:flex-row bg-white shadow-lg lg:max-w-7xl">
+                        <div className="flex justify-center items-center w-full lg:w-4/5 p-5"> {/* Add margin-top on small screens, remove it on lg screens */}
+                            <Image
+                                src="/images/white3.png"
+                                alt="Turnkey Designs"
+                                className="w-full lg:w-auto max-w-xl" // Make sure the image takes the full width on small screens, and auto on larger screens
+                            />
+                        </div>
+                        <div className="flex flex-col items-center justify-center p-4 lg:p-1 w-full lg:mr-10 lg:w-2/5">
+                            <h3 className={`${title({color:"violet", size:"lg"})} text-center text-2xl mt-[-15px] lg:mt-0 lg:py-2`}>Publishing</h3>
+                            <h4 className={`${subtitle()} text-lg p-2 text-center mb-2`}>We provide seamless solutions for hosting your podcast, ensuring its accessibility to listeners across various podcast platforms. Additionally, we offer YouTube management services, enabling you to expand your reach and leverage the power of video content. Our publishing services guarantee that your podcast is readily available to your audience, maximizing its visibility and impact.</h4>
                         </div>
                     </Card>
 
