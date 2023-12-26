@@ -19,7 +19,7 @@ const WhiteLabelPage = () => {
 
                     {/* Feature Card One */}
                     <Card className="flex flex-col border-4 border-green-800 lg:flex-row bg-white shadow-lg lg:max-w-7xl">
-                        <div className="flex justify-center items-center w-full lg:w-4/5 p-5"> {/* Add margin-top on small screens, remove it on lg screens */}
+                        <div className="flex justify-center items-center w-full lg:w-3/5 p-5"> {/* Add margin-top on small screens, remove it on lg screens */}
                             <Image
                                 src="/images/hero.png"
                                 alt="Turnkey Designs"
