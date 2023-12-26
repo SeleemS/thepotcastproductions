@@ -33,13 +33,13 @@ export default function IndexPage() {
 
             <div className="flex flex-col items-center justify-center">
 
-                <Card className="w-full max-w-7xl mb-10">
+                <Card className="w-full max-w-5xl mb-10">
                     <Image
                         src="/images/onload.png"
                         alt="The Potcast Productions"
-                        width="100%"
+                        width="auto"
                         height="auto"
-                        className="max-h-[500px] " // Replace 500px with your desired max height
+                        className="max-h-[500px] border-4 border-green-800" // Replace 500px with your desired max height
                     />
                 </Card>
 
