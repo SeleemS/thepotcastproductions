@@ -10,8 +10,8 @@ const ProductionsPage = () => {
     return (
         <DefaultLayout>
 
-            <div className="flex flex-col items-center justify-center mb-10 mt-5">
-                <h2 className={`${title({color:"green"})} text-3xl text-center font-semibold mt-[-15px] mb-4 px-2`}>Our top-charting podcasts explore fascinating genres and captivating narratives you won&apos;t find anywhere else.</h2>
+            <div className="flex flex-col items-center justify-center mb-10 ">
+                <h2 className={`${title({color:"green"})} text-3xl text-center font-semibold mb-2 px-2`}>Our top-charting podcasts explore fascinating genres and captivating narratives you won&apos;t find anywhere else.</h2>
                 <p className={`${subtitle({className:"mt-2"})}`}>Discover fresh perspectives, diverse voices, and thought-provoking topics; there&apos;s something for every curious mind.</p>
             </div>
 
