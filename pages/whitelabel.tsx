@@ -9,7 +9,7 @@ const WhiteLabelPage = () => {
     
     return (
         <DefaultLayout>
-            <div className="flex flex-col items-center justify-center mt-[-5px]">
+            <div className="flex flex-col items-center justify-center">
 
                 <div className="flex flex-col items-center justify-center mb-10">
                     <h2 className={`${title({color:"green"})} text-3xl text-center font-semibold px-2`}>We create premium, customized podcasts that amplify your brand message, engage your audience, and drive results. </h2>
