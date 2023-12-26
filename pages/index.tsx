@@ -37,7 +37,6 @@ export default function IndexPage() {
                     <Image
                         src="/images/onload.png"
                         alt="The Potcast Productions"
-                        objectFit="cover"
                         width="100%"
                         height="auto"
                         className="max-h-[500px] " // Replace 500px with your desired max height
