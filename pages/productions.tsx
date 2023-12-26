@@ -2,8 +2,8 @@ import DefaultLayout from '@/layouts/default';
 import React from 'react';
 import ProductionCard from '@/components/productioncard';
 import Link from 'next/link';
-import {Button} from '@nextui-org/react';
-import { FaArrowRight } from 'react-icons/fa';
+import { Card, CardBody, Image, Button,} from "@nextui-org/react";
+import { FaArrowRight,  FaYoutube, FaSpotify, FaApple  } from 'react-icons/fa';
 import {title, subtitle} from '@/components/primitives';
 
 const ProductionsPage = () => {
@@ -62,6 +62,53 @@ const ProductionsPage = () => {
                 appleLink="https://podcasts.apple.com/us/podcast/kabarni-podcast-%D9%83%D8%A8%D8%B1%D9%86%D9%8A-%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA/id1705559408?ign-itscg=30200&ign-itsct=lt_p"
                 anghamiLink="https://play.anghami.com/podcast/1031506050?adj_t=dgl0aa8_64v1dnl&adj_campaign=ios&adj_adgroup=podcast&adj_creative=20016051"
             />
+
+            {/*Coming Soon Card */}
+            <Card
+                isBlurred
+                className="border-4 border-green-800 bg-white dark:bg-gray-900 shadow-xl rounded-lg overflow-hidden max-w-7xl mb-10 mt-[-5px] "
+                shadow="lg"
+            >
+                <CardBody className="p-4">
+                <div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center">
+                    <div className="flex relative col-span-6 justify-center md:col-span-4">
+
+                    <Image
+                        alt={"Coming Soon"}
+                        className="object-cover rounded-md"
+                        shadow="md"
+                        src={"./images/card6.jpg"}
+                        width="100%"
+                    />
+                    </div>
+
+                    <div className="flex flex-col col-span-6 md:col-span-8">
+                    <div>
+                        <div className="flex flex-col justify-center items-center">
+                            <h3 className={`${title({color:"green"})} text-3xl font-semibold my-4 text-center`}>Coming Soon..</h3>
+                        </div>
+                    </div>
+
+                    <div className="flex justify-center gap-2 mt-3  mb-2">
+                        <a href={"/"} target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-red-600 text-white rounded-full flex items-center justify-center gap-2">
+                        <FaYoutube size="30" />
+                        </a>
+                        <a href={"/"} target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gray-800 text-white rounded-full flex items-center justify-center gap-2">
+                        <FaApple size="30"/>
+                        </a>
+                        <a href={"/"} target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-green-600 text-white rounded-full flex items-center justify-center gap-2 md:text-small">
+                        <FaSpotify size="30"/>
+                        </a>
+                        <a href={"/"} target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-black text-white rounded-full flex items-center justify-center gap-2">
+                        <Image src="/images/anghami.png" alt="Logo" style={{ width: '30px', height: '30px' }} />
+                        </a>
+                    </div>
+
+                    </div>
+                </div>
+                </CardBody>
+            </Card>
+
 
             </div>
 
