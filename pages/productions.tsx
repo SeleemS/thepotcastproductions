@@ -54,7 +54,7 @@ const ProductionsPage = () => {
             <ProductionCard
                 id='howa-fee-eh'
                 title="!هو في إيه يا جماعة؟"
-                description="بودكاست عن جرائم قتل، وأماكن مسكونة، وأحداث تاريخية غريبة. بودكاست عن جرائم قتل، وأماكن مسكونة، وأحداث تاريخية غريبة."
+                description="بودكاست عن جرائم قتل، وأماكن مسكونة، وأحداث تاريخية غريبة. بودكاست عن جرائم قتل، وأماكن مسكونة، وأحداث تاريخية غريبة"
                 imageSrc="./images/card5.png"
                 spotifyEmbed={"https://open.spotify.com/embed/episode/0zroGmO7uzfzDFBZkkFcFc?utm_source=generator&theme=0"}
                 youtubeLink="https://www.youtube.com/watch?v=uqfvFeDZccc&list=PL7TpI0K9I87JH7a-Ryk6gCStTiBrT3KhR"
