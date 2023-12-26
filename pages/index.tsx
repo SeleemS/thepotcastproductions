@@ -139,13 +139,11 @@ export default function IndexPage() {
                             </div>
 
                             {/* Card Body */}
-                            <div className="p-8 flex flex-col justify-center md:w-1/2">
+                            <div className="p-8 flex flex-col items-center justify-center md:w-1/2 lg:mt-10">
 
                                 {/* Features */}
-                                <h3 className={`${title({color:"green"})} text-3xl font-semibold mt-[-15px] mb-4`}>Branded Podcasts</h3>
-                                <h4 className={`${features({color:"green"})} text-lg mb-2`}>Podcast Content</h4>
-                                <h4 className={`${features({color:"green"})} text-lg mb-2`}>Podcast Production</h4>
-                                <h4 className={`${features({color:"green"})} text-lg mb-2`}>Podcast Publishing</h4>
+                                <h3 className={`${title({color:"green"})} text-3xl font-semibold mt-[-15px]`}>Branded Podcasts</h3>
+                                <h4 className={`${features({color:"green"})} text-lg`}>360 Production Services</h4>
 
                                 {/* Button */}
                                 <div className="mt-4 mb-7 flex justify-center">
