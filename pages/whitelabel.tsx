@@ -21,7 +21,7 @@ const WhiteLabelPage = () => {
                     <Card className="flex flex-col border-4 border-green-800 lg:flex-row bg-white shadow-lg lg:max-w-7xl">
                         <div className="flex justify-center items-center w-full lg:w-3/5 p-5"> {/* Add margin-top on small screens, remove it on lg screens */}
                             <Image
-                                src="/images/hero.png"
+                                src="/images/hero2.jpg"
                                 alt="Turnkey Designs"
                                 className="w-full lg:w-auto" // Make sure the image takes the full width on small screens, and auto on larger screens
                             />
