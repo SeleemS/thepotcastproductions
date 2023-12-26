@@ -67,17 +67,14 @@ interface ProductionCardProps {
 
                   {/* Embedded Spotify Player */}
                   <div className="flex justify-center items-center mb-[-60px] md:mb-[-30px] md:px-6 ">
-                    <motion.iframe 
-                      initial="initial"
-                      animate="animate"
-                      variants={wiggleVariants}
+                    <iframe 
                       className="w-[120%] sm:w-[80%] md:w-full h-[220px] md:h-[270px]" 
                       src={spotifyEmbed}
                       title="Spotify Podcast Player" 
                       frameBorder="0" 
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                       allowFullScreen>
-                    </motion.iframe>
+                    </iframe>
                   </div>
 
                   {/* Subtitle */}
