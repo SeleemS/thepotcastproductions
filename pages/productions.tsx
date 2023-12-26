@@ -1,6 +1,9 @@
 import DefaultLayout from '@/layouts/default';
 import React from 'react';
 import ProductionCard from '@/components/productioncard';
+import Link from 'next/link';
+import {Button} from '@nextui-org/react';
+import { FaArrowRight } from 'react-icons/fa';
 
 const ProductionsPage = () => {
     return (
@@ -40,19 +43,33 @@ const ProductionsPage = () => {
                 appleLink="https://podcasts.apple.com/us/podcast/kabarni-podcast-%D9%83%D8%A8%D8%B1%D9%86%D9%8A-%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA/id1705559408?ign-itscg=30200&ign-itsct=lt_p"
                 anghamiLink="https://play.anghami.com/podcast/1043057720?adj_t=dgl0aa8_64v1dnl&adj_campaign=ios&adj_adgroup=podcast&adj_creative=127495014"
             />
-            <div className="mb-[-40px]"> {/* Remove Margin Bottom from last card */}
-                <ProductionCard
-                    id='howa-fee-eh'
-                    title="!هو في إيه يا جماعة؟"
-                    description="بودكاست عن جرائم قتل، وأماكن مسكونة، وأحداث تاريخية غريبة. بودكاست عن جرائم قتل، وأماكن مسكونة، وأحداث تاريخية غريبة."
-                    imageSrc="./images/card5.png"
-                    spotifyEmbed={"https://open.spotify.com/embed-podcast/show/4BV0CDamD2RoXSIURDA3zV?utm_source=generator&theme=0"}
-                    youtubeLink="https://www.youtube.com/watch?v=uqfvFeDZccc&list=PL7TpI0K9I87JH7a-Ryk6gCStTiBrT3KhR"
-                    spotifyLink="https://open.spotify.com/show/1QLz7wgVVVdZt90vanHFNJ?si=XRsC0wHARq-GjwI3xPg2iQ&nd=1&dlsi=7ed718d582054f94"
-                    appleLink="https://podcasts.apple.com/us/podcast/kabarni-podcast-%D9%83%D8%A8%D8%B1%D9%86%D9%8A-%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA/id1705559408?ign-itscg=30200&ign-itsct=lt_p"
-                    anghamiLink="https://play.anghami.com/podcast/1031506050?adj_t=dgl0aa8_64v1dnl&adj_campaign=ios&adj_adgroup=podcast&adj_creative=20016051"
-                />
+            <ProductionCard
+                id='howa-fee-eh'
+                title="!هو في إيه يا جماعة؟"
+                description="بودكاست عن جرائم قتل، وأماكن مسكونة، وأحداث تاريخية غريبة. بودكاست عن جرائم قتل، وأماكن مسكونة، وأحداث تاريخية غريبة."
+                imageSrc="./images/card5.png"
+                spotifyEmbed={"https://open.spotify.com/embed-podcast/show/4BV0CDamD2RoXSIURDA3zV?utm_source=generator&theme=0"}
+                youtubeLink="https://www.youtube.com/watch?v=uqfvFeDZccc&list=PL7TpI0K9I87JH7a-Ryk6gCStTiBrT3KhR"
+                spotifyLink="https://open.spotify.com/show/1QLz7wgVVVdZt90vanHFNJ?si=XRsC0wHARq-GjwI3xPg2iQ&nd=1&dlsi=7ed718d582054f94"
+                appleLink="https://podcasts.apple.com/us/podcast/kabarni-podcast-%D9%83%D8%A8%D8%B1%D9%86%D9%8A-%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA/id1705559408?ign-itscg=30200&ign-itsct=lt_p"
+                anghamiLink="https://play.anghami.com/podcast/1031506050?adj_t=dgl0aa8_64v1dnl&adj_campaign=ios&adj_adgroup=podcast&adj_creative=20016051"
+            />
+
+            <div className="mt-10 flex flex-col items-center justify-center">
+                <h2 className="text-2xl font-bold text-center mb-2">Reach targeted listeners directly.</h2>
+                <p className="mb-4 text-center">Talk to us about podcast sponsorships!</p>
+                <Link href="/contactus" passHref> {/* Update the href to your contact page route */}
+                    <Button 
+                        size="lg" 
+                        radius="full" 
+                        className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 font-semibold  ease-in-out mb-4"
+                    >
+                        Contact Us
+                        <FaArrowRight className="ml-2" />
+                    </Button>
+                </Link>
             </div>
+           
             
         </DefaultLayout>
     );
