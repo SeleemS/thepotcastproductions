@@ -35,7 +35,7 @@ export default function IndexPage() {
             <Head
                 title="The Potcast Productions | ذا بوتكاست بروداكشنز"
                 description="Top-charting podcasts exploring fascinating genres and captivating narratives you won't find anywhere else."
-                ogTitle="The Potcast Productions - ذا بوتكاست بروداكشنز"
+                ogTitle="The Potcast Productions | ذا بوتكاست بروداكشنز"
                 ogDescription="Top-charting podcasts exploring fascinating genres and captivating narratives you won't find anywhere else."
             />
 
