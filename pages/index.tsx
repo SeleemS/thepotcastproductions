@@ -33,6 +33,17 @@ export default function IndexPage() {
 
             <div className="flex flex-col items-center justify-center">
 
+                <Card className="w-full max-w-9xl mb-10">
+                    <Image
+                        src="/images/onload.png"
+                        alt="The Potcast Productions"
+                        objectFit="cover"
+                        width="100%"
+                        height="auto"
+                        className="max-h-[500px]" // Replace 500px with your desired max height
+                    />
+                </Card>
+
                 {/* Hero Container */}
                 <div className="rounded-lg max-w-9xl mt-[-10px] md:mb-10">
 
