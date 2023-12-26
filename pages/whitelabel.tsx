@@ -87,6 +87,21 @@ const WhiteLabelPage = () => {
                             </div>
                         </div>
                     </Card>
+
+                    <div className="mt-10 flex flex-col items-center justify-center">
+                        <h2 className="text-2xl font-bold text-center mb-2">Build a podcast that drives results.</h2>
+                        <p className="mb-4 text-center px-2">Contact us today to ignite your brand story with audio</p>
+                        <Link href="/contactus" passHref> {/* Update the href to your contact page route */}
+                            <Button 
+                                size="lg" 
+                                radius="full" 
+                                className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 font-semibold  ease-in-out mb-4"
+                            >
+                                Contact Us
+                                <FaArrowRight className="ml-2" />
+                            </Button>
+                        </Link>
+                    </div>
                 </div>
             </div>
         </DefaultLayout>
