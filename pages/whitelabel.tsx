@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Card, Image } from "@nextui-org/react";
 import DefaultLayout from "@/layouts/default";
-import { title, features } from "@/components/primitives";
+import { title, features, subtitle } from "@/components/primitives";
 import { FaArrowRight } from 'react-icons/fa';
 import Link from "next/link";
 
@@ -10,6 +10,11 @@ const WhiteLabelPage = () => {
     return (
         <DefaultLayout>
             <div className="flex flex-col items-center justify-center mt-[-5px]">
+
+                <div className="flex flex-col items-center justify-center mb-10 mt-5">
+                    <h2 className={`${title({color:"green"})} text-3xl text-center font-semibold mt-[-15px] mb-4 px-2`}>We create premium, customized podcasts that amplify your brand message, engage your audience, and drive results. </h2>
+                    <p className={`${subtitle({className:"mt-2"})}`}>We offer 360º productions services, that include initial content conceptualization and development to branding, set design, recording, sound engineering and publishing. We work with you to define your unique goals, then build a podcast strategy that delivers.</p>
+                </div>
 
                 <div className="flex flex-col space-y-6 w-full">
 
