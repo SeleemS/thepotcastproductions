@@ -78,7 +78,7 @@ interface ProductionCardProps {
                   </div>
 
                   {/* Subtitle */}
-                  <p className={`${subtitle({className:"mt-2"})}`}>{description}</p>
+                  <p className={`${subtitle({className:"mt-2 md:px-5"})}`}>{description}</p>
                 </div>
               </div>
 

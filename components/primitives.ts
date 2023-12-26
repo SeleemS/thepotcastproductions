@@ -41,7 +41,7 @@ export const title = tv({
 });
 
 export const subtitle = tv({
-	base: "w-full md:w-1/2  text-lg lg:text-xl text-default-600 text-center block max-w-full",
+	base: "w-full md:w-1/2  text-lg lg:text-xl text-default-600 text-center block max-w-full nunito",
 	variants: {
 		fullWidth: {
 			true: "!w-full",
