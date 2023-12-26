@@ -45,7 +45,7 @@ interface ProductionCardProps {
     <div id={id}>
       <Card
         isBlurred
-        className="border-4 border-green-800 bg-white dark:bg-gray-900 shadow-xl rounded-lg overflow-hidden w-full mb-10 mt-[-5px] "
+        className="border-4 border-green-800 bg-white dark:bg-gray-900 shadow-xl rounded-lg overflow-hidden max-w-7xl mb-10 mt-[-5px] "
         shadow="lg"
       >
         <CardBody className="p-4">
@@ -67,14 +67,14 @@ interface ProductionCardProps {
 
                   {/* Embedded Spotify Player */}
                   <div className="flex justify-center items-center mb-[-60px] md:mb-[-30px] md:px-6 ">
-                    <iframe 
+                    <motion.iframe 
                       className="w-[120%] sm:w-[80%] md:w-full h-[220px] md:h-[270px]" 
                       src={spotifyEmbed}
                       title="Spotify Podcast Player" 
                       frameBorder="0" 
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                       allowFullScreen>
-                    </iframe>
+                    </motion.iframe>
                   </div>
 
                   {/* Subtitle */}

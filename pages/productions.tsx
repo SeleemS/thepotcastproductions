@@ -10,12 +10,12 @@ const ProductionsPage = () => {
     return (
         <DefaultLayout>
 
-            <div className="flex flex-col items-center justify-center mb-10 ">
-                <h2 className={`${title({color:"green"})} text-3xl text-center font-semibold mb-2 px-2`}>Our top-charting podcasts explore fascinating genres and captivating narratives you won&apos;t find anywhere else.</h2>
+            <div className="flex flex-col items-center justify-center mb-10 px-20">
+                <h2 className={`${title({color:"green"})} text-3xl text-center font-semibold mb-2`}>Our top-charting podcasts explore fascinating genres and captivating narratives you won&apos;t find anywhere else.</h2>
                 <p className={`${subtitle({className:"mt-2"})}`}>Discover fresh perspectives, diverse voices, and thought-provoking topics; there&apos;s something for every curious mind.</p>
             </div>
 
-            
+            <div className="flex flex-col items-center justify-center mt-[-10px]">
 
             <ProductionCard
                 id="eshtry-menny"
@@ -62,6 +62,8 @@ const ProductionsPage = () => {
                 appleLink="https://podcasts.apple.com/us/podcast/kabarni-podcast-%D9%83%D8%A8%D8%B1%D9%86%D9%8A-%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA/id1705559408?ign-itscg=30200&ign-itsct=lt_p"
                 anghamiLink="https://play.anghami.com/podcast/1031506050?adj_t=dgl0aa8_64v1dnl&adj_campaign=ios&adj_adgroup=podcast&adj_creative=20016051"
             />
+
+            </div>
 
             <div className="flex flex-col items-center justify-center mt-[-10px]">
                 <h2 className="text-2xl font-bold text-center mb-2">Reach targeted listeners directly.</h2>
