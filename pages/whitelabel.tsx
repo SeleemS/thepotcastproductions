@@ -4,11 +4,19 @@ import DefaultLayout from "@/layouts/default";
 import { title, features, subtitle } from "@/components/primitives";
 import { FaArrowRight } from 'react-icons/fa';
 import Link from "next/link";
+import { Head } from "@/layouts/head";
 
 const WhiteLabelPage = () => {
     
     return (
         <DefaultLayout>
+
+            <Head
+                title="The Potcast Productions | Branded Podcasts"
+                description="Premium, customized podcasts that amplify your brand message, engage your audience, and drive results."
+                ogTitle="The Potcast Productions | Branded Podcasts"
+                ogDescription="Premium, customized podcasts that amplify your brand message, engage your audience, and drive results."
+            />
             <div className="flex flex-col items-center justify-center">
 
                 <div className="flex flex-col items-center justify-center mb-10 lg:px-20">

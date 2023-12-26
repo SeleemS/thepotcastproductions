@@ -3,6 +3,7 @@ import { Card, Button, Input, Textarea, Select, SelectItem } from "@nextui-org/r
 import DefaultLayout from "@/layouts/default";
 import { title } from "@/components/primitives";
 import { FaPaperPlane } from 'react-icons/fa';
+import {Head} from '@/layouts/head';
 
 export default function ContactUsPage() {
     const subjects = [
@@ -14,6 +15,14 @@ export default function ContactUsPage() {
 
     return (
         <DefaultLayout>
+
+            <Head
+                title="The Potcast Productions | Contact Us"
+                description="Reach out to us for any inquiries, feedback, or advertising opportunities."
+                ogTitle="The Potcast Productions | Contact Us"
+                ogDescription="Reach out to us for any inquiries, feedback, or advertising opportunities."
+            />
+
             <div className="flex flex-col items-center justify-center w-[325px] md:w-[500px] mt-[-5px] md:bg-[url('/images/landing2.png')] bg-no-repeat bg-contain bg-center">
                 <Card className="bg-white/90 backdrop-blur-md border-4 border-green-800 w-full p-4 " isBlurred radius="lg">
                     <h2 className={`${title({ color: "green" })} font-semibold mb-4 text-center`}>Contact Us</h2>

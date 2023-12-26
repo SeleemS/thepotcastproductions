@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react";
+import { Head } from "@/layouts/head";
 import { Card, Button, Image } from "@nextui-org/react";
 import Link from "next/link";
 import DefaultLayout from "@/layouts/default";
@@ -30,6 +31,13 @@ export default function IndexPage() {
 
     return (
         <DefaultLayout>
+
+            <Head
+                title="The Potcast Productions | ذا بوتكاست بروداكشنز"
+                description="Top-charting podcasts exploring fascinating genres and captivating narratives you won't find anywhere else."
+                ogTitle="The Potcast Productions - ذا بوتكاست بروداكشنز"
+                ogDescription="Top-charting podcasts exploring fascinating genres and captivating narratives you won't find anywhere else."
+            />
 
             <div className="flex flex-col items-center justify-center">
 

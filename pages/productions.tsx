@@ -5,10 +5,18 @@ import Link from 'next/link';
 import { Card, CardBody, Image, Button,} from "@nextui-org/react";
 import { FaArrowRight,  FaYoutube, FaSpotify, FaApple  } from 'react-icons/fa';
 import {title, subtitle} from '@/components/primitives';
+import {Head} from '@/layouts/head';
 
 const ProductionsPage = () => {
     return (
         <DefaultLayout>
+
+            <Head
+                title="The Potcast Productions | Original Productions"
+                description="Discover fresh perspectives, diverse voices, and thought-provoking topics; there's something for every curious mind."
+                ogTitle="The Potcast Productions | Original Productions"
+                ogDescription="Discover fresh perspectives, diverse voices, and thought-provoking topics; there's something for every curious mind."
+            />
 
             <div className="flex flex-col items-center justify-center mb-10 lg:px-20">
                 <h2 className={`${title({color:"green"})} text-3xl text-center font-semibold mb-2`}>Our top-charting podcasts explore fascinating genres and captivating narratives you won&apos;t find anywhere else.</h2>
