@@ -42,7 +42,7 @@ const ProductionsPage = () => {
                 description="
                 كفاية بقى مع علاء الشيخ. قعدة دردشة صحاب مع بعض بننتقد حاجات و ناس معينة في المجتمع، بصراحة و بدون رحمة او تهاون و بدون وضع فيلتر يزين الكلام (ليس لاصحاب القلوب الضعيفة)."
                 imageSrc="./images/card2.jpeg"
-                youtubeLink="https://www.youtube.com/watch?v=77XzsJZUojg&list=PL7TpI0K9I87JKd80KoWFhtVyf9T2jY2vW"
+                youtubeLink="https://www.youtube.com/watch?v=_f859rlxUW8&list=PL7TpI0K9I87JKd80KoWFhtVyf9T2jY2vW&index=2"
                 spotifyEmbed={"https://open.spotify.com/embed-podcast/show/1XhboCKaeAmNU4hObnaTpd?utm_source=generator&theme=0"}
                 spotifyLink="https://open.spotify.com/show/1XhboCKaeAmNU4hObnaTpd?si=0kLUupamQsWSPYH3PmRbJQ&utm_source=copy-link&dl_branch=1&nd=1&dlsi=5b37ceaa8fe244d4"
                 appleLink="https://podcasts.apple.com/us/podcast/%D9%83%D9%81%D8%A7%D9%8A%D8%A9-%D8%A8%D9%82%D9%89-kefaya-ba2a/id1553857121"
