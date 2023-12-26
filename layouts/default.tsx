@@ -13,7 +13,12 @@ export default function DefaultLayout({
 }) {
 	return (
 		<div className="relative flex flex-col h-screen">
-			<Head />
+			<Head
+                title="The Potcast Productions | ذا بوتكاست بروداكشنز"
+                description="Top-charting podcasts exploring fascinating genres and captivating narratives you won't find anywhere else."
+                ogTitle="The Potcast Productions - ذا بوتكاست بروداكشنز"
+                ogDescription="Top-charting podcasts exploring fascinating genres and captivating narratives you won't find anywhere else."
+            />
 			<Navbar />
 			<main className="container mx-auto max-w-10xl p-4">
 				{children}
