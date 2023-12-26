@@ -27,7 +27,7 @@ const WhiteLabelPage = () => {
                             />
                         </div>
                         <div className="flex flex-col items-center justify-center p-4 lg:p-1 w-full lg:mr-5 lg:w-2/5">
-                            <h3 className={`${title({color:"violet"})} text-center lg:text-2xl lg:py-2`}>Design</h3>
+                            <h3 className={`${title({color:"violet", size:"lg"})} text-center text-2xl mt-[-15px] lg:mt-0 lg:py-2`}>Design</h3>
                             <h4 className={`${subtitle()} text-lg p-2 text-center mb-2`}>Our team specializes in creating captivating branding elements for your podcast. From logo design to set aesthetics and episode artwork, we ensure that your podcast visually aligns with your brand identity, leaving a lasting impression on your audience.</h4>
                         </div>
                     </Card>
