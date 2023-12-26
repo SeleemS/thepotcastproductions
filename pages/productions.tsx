@@ -4,10 +4,18 @@ import ProductionCard from '@/components/productioncard';
 import Link from 'next/link';
 import {Button} from '@nextui-org/react';
 import { FaArrowRight } from 'react-icons/fa';
+import {title, subtitle} from '@/components/primitives';
 
 const ProductionsPage = () => {
     return (
         <DefaultLayout>
+
+            <div className="flex flex-col items-center justify-center mb-10 mt-5">
+                <h2 className={`${title({color:"green"})} text-3xl text-center font-semibold mt-[-15px] mb-4 px-2`}>Our top-charting podcasts explore fascinating genres and captivating narratives you won't find anywhere else.</h2>
+                <p className={`${subtitle({className:"mt-2"})}`}>Discover fresh perspectives, diverse voices, and thought-provoking topics; there's something for every curious mind.</p>
+            </div>
+
+            
 
             <ProductionCard
                 id="eshtry-menny"
