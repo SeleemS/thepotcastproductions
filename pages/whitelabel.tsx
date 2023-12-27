@@ -36,7 +36,7 @@ const WhiteLabelPage = () => {
                         </div>
                         <div className="flex flex-col items-center justify-center p-4 lg:p-1 w-full lg:mr-5 lg:w-2/5">
                             <h3 className={`${title({color:"green", size:"lg"})} text-center text-2xl mt-[-15px] lg:mt-0 lg:py-2`}>Design</h3>
-                            <h4 className={`${subtitle({color:"green"})} text-lg p-2 text-center mb-2`}>Our team specializes in creating captivating branding elements for your podcast. From logo design to set aesthetics and episode artwork, we ensure that your podcast visually aligns with your brand identity, leaving a lasting impression on your audience.</h4>
+                            <h4 className={`${subtitle({color:"green"})} text-lg p-2 text-center mb-2`}>Elevate your podcast's visual appeal with our expert design services. We craft striking logos, set designs, and episode artwork that perfectly embody your brand, making a memorable impact on your audience.</h4>
                         </div>
                     </Card>
 
@@ -53,7 +53,7 @@ const WhiteLabelPage = () => {
                         </div>
                         <div className="flex flex-col items-center justify-center p-4 lg:p-1 w-full lg:mr-10 lg:w-2/5">
                             <h3 className={`${title({color:"green", size:"lg"})} text-center text-2xl mt-[-15px] lg:mt-0 lg:py-2`}>Content</h3>
-                            <h4 className={`${subtitle({color:"green"})} text-lg p-2 text-center mb-2`}>We understand the significance of compelling content in podcasting. Our services include comprehensive consultation sessions, research to identify relevant topics, development of engaging narratives, and proficient writing that resonates with your target audience. We strive to deliver content that keeps your listeners engaged and coming back for more.</h4>
+                            <h4 className={`${subtitle({color:"green"})} text-lg p-2 text-center mb-2`}>Enhance your podcast with our content mastery. We offer in-depth consultations, targeted research for hot topics, captivating storytelling, and skilled writing that connects with your audience. Our goal? To create content that captivates your listeners, keeping them eager for your next episode.</h4>
                         </div>
                     </Card>
 
@@ -68,7 +68,7 @@ const WhiteLabelPage = () => {
                         </div>
                         <div className="flex flex-col items-center justify-center p-4 lg:p-1 w-full lg:mr-10 lg:w-2/5">
                             <h3 className={`${title({color:"green", size:"lg"})} text-center text-2xl mt-[-15px] lg:mt-0 lg:py-2`}>Production</h3>
-                            <h4 className={`${subtitle({color:"green"})} text-lg p-2 text-center mb-2`}>With our expertise in production, we take care of the technical aspects of podcasting. Our services encompass professional recording, ensuring high-quality audio, as well as sound design to enhance the overall listening experience. Additionally, we offer video shooting services for those looking to incorporate visual elements into their podcasts, allowing you to connect with your audience on multiple platforms.</h4>
+                            <h4 className={`${subtitle({color:"green"})} text-lg p-2 text-center mb-2`}>Streamline your podcast production with our technical prowess. We provide professional recording for crystal-clear audio and dynamic sound design for an immersive listening experience. Plus, our video shooting services enable visual storytelling, broadening your reach across various platforms. Let us handle the technicalities, so you can focus on your message.</h4>
                         </div>
                     </Card>
 
@@ -83,7 +83,7 @@ const WhiteLabelPage = () => {
                         </div>
                         <div className="flex flex-col items-center justify-center p-4 lg:p-1 w-full lg:mr-10 lg:w-2/5">
                             <h3 className={`${title({color:"green", size:"lg"})} text-center text-2xl mt-[-15px] lg:mt-0 lg:py-2`}>Publishing</h3>
-                            <h4 className={`${subtitle({color:"green"})} text-lg p-2 text-center mb-2`}>We provide seamless solutions for hosting your podcast, ensuring its accessibility to listeners across various podcast platforms. Additionally, we offer YouTube management services, enabling you to expand your reach and leverage the power of video content. Our publishing services guarantee that your podcast is readily available to your audience, maximizing its visibility and impact.</h4>
+                            <h4 className={`${subtitle({color:"green"})} text-lg p-2 text-center mb-2`}>Our hosting solutions make your podcast easily accessible across multiple platforms. We also manage YouTube channels, helping you tap into the world of video content. With our publishing expertise, your podcast gains maximum visibility and impact, ensuring your audience never misses an episode.</h4>
                         </div>
                     </Card>
 
