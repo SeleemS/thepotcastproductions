@@ -36,7 +36,7 @@ const WhiteLabelPage = () => {
                         </div>
                         <div className="flex flex-col items-center justify-center p-4 lg:p-1 w-full lg:mr-5 lg:w-2/5">
                             <h3 className={`${title({color:"green", size:"lg"})} text-center text-2xl mt-[-15px] lg:mt-0 lg:py-2`}>Design</h3>
-                            <h4 className={`${subtitle({color:"green"})} text-lg p-2 text-center mb-2`}>Elevate your podcast's visual appeal with our expert design services. We craft striking logos, set designs, and episode artwork that perfectly embody your brand, making a memorable impact on your audience.</h4>
+                            <h4 className={`${subtitle({color:"green"})} text-lg p-2 text-center mb-2`}>Elevate your podcast&apos;s visual appeal with our expert design services. We craft striking logos, set designs, and episode artwork that perfectly embody your brand, making a memorable impact on your audience.</h4>
                         </div>
                     </Card>
 
