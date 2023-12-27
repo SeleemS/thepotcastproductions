@@ -55,7 +55,7 @@ export default function IndexPage() {
                 <div className="rounded-lg max-w-7xl mt-[-10px] md:mb-10">
 
                     {/* Title */}
-                    <div className="flex flex-row items-center justify-center px-4 mt-[-4px] mb-4 lg:mb-[-8px]">
+                    <div className="flex flex-row items-center justify-center px-4 mt-[-4px] mb-8">
                         <h2 className={`${title({ color: "green" })} text-4xl`}>Streaming Now..</h2>
                     </div>
 
