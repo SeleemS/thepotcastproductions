@@ -43,7 +43,7 @@ export default function IndexPage() {
 
                 <Card className="w-full max-w-5xl mb-10">
                     <Image
-                        src="/images/onload.png"
+                        src="/images/onload2.png"
                         alt="The Potcast Productions"
                         width="auto"
                         height="auto"
