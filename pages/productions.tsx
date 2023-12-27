@@ -78,7 +78,7 @@ const ProductionsPage = () => {
                 spotifyEmbed={"https://open.spotify.com/embed/show/0AMUgnXP7V3tYxZIlH12UH?utm_source=generator&theme=0"}
                 youtubeLink="https://www.youtube.com/@thepotcastproductions"
                 spotifyLink="https://open.spotify.com/show/0AMUgnXP7V3tYxZIlH12UH?si=5fece504caa94a36&nd=1&dlsi=7ac9e5025f404011"
-                appleLink="https://www.thepotcastproductions.com/productions#entahet-holool"
+                appleLink="https://podcasts.apple.com/eg/podcast/%D8%A5%D8%B9%D9%84%D8%A7%D9%86-%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA-%D8%A7%D9%86%D8%AA%D9%87%D8%AA-%D8%AD%D9%84%D9%88%D9%84-%D8%A7%D9%84%D8%A3%D8%B1%D8%B6/id1723153394?i=1000639803258"
                 anghamiLink="https://www.thepotcastproductions.com/productions#entahet-holool"
             />
 
