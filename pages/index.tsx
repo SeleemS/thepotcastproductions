@@ -68,7 +68,7 @@ export default function IndexPage() {
                         </div>
                         {/* Button */}
                         <div className="col-span-1 md:col-span-3 lg:col-span-3 flex justify-center items-center">
-                            <Link href="./whitelabel">
+                            <Link href="./productions">
                                 <Button 
                                     size="lg" 
                                     radius="full" 
