@@ -47,137 +47,71 @@ export default function IndexPage() {
                         alt="The Potcast Productions"
                         width="auto"
                         height="auto"
-                        className="max-h-[500px]" // Replace 500px with your desired max height
+                        className="max-h-[500px]"
                     />
                 </Card>
 
-                {/* Hero Container */}
-                <div className="rounded-lg max-w-7xl mt-[-10px] md:mb-10">
 
-                    {/* Title */}
-                    <div className="flex flex-row items-center justify-center px-4 mt-[-4px] mb-8">
-                        <h2 className={`${title({ color: "green" })} text-4xl`}>Streaming Now..</h2>
+                 {/* Original Productions */}
+                 <Card className="flex flex-col border-4 border-green-800 lg:flex-row bg-white shadow-lg lg:max-w-7xl lg:w-[90vw] mb-10">
+                    <div className="flex justify-center items-center w-full lg:w-4/5 p-5"> {/* Add margin-top on small screens, remove it on lg screens */}
+                        <Image
+                            src="/images/hero2.jpg"
+                            alt="Original Productions"
+                            className="w-full lg:w-auto max-w-xl" // Make sure the image takes the full width on small screens, and auto on larger screens
+                        />
                     </div>
-
-                    {/* Cards */}
-                    <div className="flex items-center justify-center min-h-[70vh]">
-                        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4 w-full max-w-9xl">
-                        
-                            {/* Manually specify links for each card */}
-                            <Link href="/productions" passHref>
-                                <motion.div
-                                    variants={cardVariants}
-                                    initial="offscreen"
-                                    animate="onscreen"
+                    <div className="flex flex-col items-center justify-center p-4 lg:p-1 w-full lg:mr-5 lg:w-2/5">
+                        <div>
+                            <h3 className={`${title({color:"green", size:"lg"})} text-center text-2xl mt-[-15px] lg:mt-0 lg:py-2`}>Original Productions</h3>
+                            <h4 className={`${subtitle({color:"green"})} text-lg p-2 text-center mb-2`}>Top Charting Content</h4>
+                        </div>
+                        {/* Button */}
+                        <div className="col-span-1 md:col-span-3 lg:col-span-3 flex justify-center items-center">
+                            <Link href="./whitelabel">
+                                <Button 
+                                    size="lg" 
+                                    radius="full" 
+                                    className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 font-semibold  ease-in-out lg:mb-8 mb-4"
                                 >
-                                    <Card className="bg-transparent border-4 border-green-800 cursor-pointer" isFooterBlurred radius="lg">
-                                        <Image
-                                            src="./images/card1.jpeg"
-                                            alt="Card Image 1"
-                                            width="100%"
-                                            height="100%"
-                                        />
-                                    </Card>
-                                </motion.div>
+                                    Listen Now
+                                    <FaArrowRight className="ml-2" />
+                                </Button>
                             </Link>
-                            
-                            <Link href="/productions#kefaya-ba2a" passHref>
-                                <motion.div
-                                    variants={cardVariants}
-                                    initial="offscreen"
-                                    animate="onscreen"
-                                >
-                                    <Card className="bg-transparent border-4 border-green-800 cursor-pointer" isFooterBlurred radius="lg">
-                                        <Image
-                                            src="./images/card2.jpeg"
-                                            alt="Card Image 2"
-                                            width="100%"
-                                            height="100%"
-                                        />
-                                    </Card>
-                                </motion.div>
-                            </Link>
-                            
-                            <Link href="/productions#kabarni" passHref>
-                                <motion.div
-                                    variants={cardVariants}
-                                    initial="offscreen"
-                                    animate="onscreen"
-                                >
-                                    <Card className="bg-transparent border-4 border-green-800 cursor-pointer" isFooterBlurred radius="lg">
-                                        <Image
-                                            src="./images/card3.jpeg"
-                                            alt="Card Image 3"
-                                            width="100%"
-                                            height="100%"
-                                        />
-                                    </Card>
-                                </motion.div>
-                            </Link>
-
-                            {/* Button */}
-                            <div className="col-span-1 md:col-span-3 lg:col-span-3 flex justify-center items-center">
-                                <Link href="./productions">
-                                    <Button 
-                                        size="lg" 
-                                        radius="full" 
-                                        className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 font-semibold  ease-in-out lg:mb-8 mb-4"
-                                    >
-                                        Listen Now
-                                        <FaArrowRight className="ml-2" />
-                                    </Button>
-                                </Link>
-                            </div>
                         </div>
                     </div>
-                </div>
+                </Card>
 
-                {/* White Label Services Card*/}
-                <div className="w-full max-w-7xl md:mt-[-30px] lg:mt-[-50px] ">
-                
-                    <Link href="./whitelabel" passHref> {/* Wrap Card in Link */}
-                        <Card isHoverable isPressable className="flex flex-col md:flex-row bg-white border-4 border-green-800 shadow-lg cursor-pointer">
-                            <div className="md:w-1/2 p-4">
-                                <Image
-                                    src="/images/whitehero.jpg"
-                                    width="100%"
-                                    height="100%"
-                                    alt="White Label Services"
-                                />
-                            </div>
 
-                            {/* Card Body */}
-                            <div className="p-8 flex flex-col items-center justify-center md:w-1/2 lg:mt-10">
-
-                                {/* Features */}
-                                <h3 className={`${title({color:"green"})} text-3xl font-semibold mt-[-15px]`}>Branded Podcasts</h3>
-                                <h4 className={`${features({color:"green"})} text-lg`}>360 Production Services</h4>
-
-                                {/* Button */}
-                                <div className="mt-4 mb-7 flex justify-center">
-                                    <Button 
-                                        size="lg" 
-                                        radius="full" 
-                                        className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 font-semibold ease-in-out"
-                                    >
-                                        See More
-                                        <FaArrowRight className="ml-2" />
-                                    </Button>
-                                </div>
-
-                                {/* Additional Image */}
-                                <div className="max-w-[500px] mx-auto">
-                                    <Image
-                                        src="/images/hero.png"
-                                        alt="Additional Details"
-                                        width="100%"
-                                        height="auto"
-                                    />
-                                </div>
-                            </div>
-                        </Card>
-                    </Link>
-                </div>
+                {/* White Label Card */}
+                <Card className="flex flex-col border-4 border-green-800 lg:flex-row bg-white shadow-lg lg:max-w-7xl lg:w-[90vw] ">
+                    <div className="flex justify-center items-center w-full lg:w-4/5 p-5"> {/* Add margin-top on small screens, remove it on lg screens */}
+                        <Image
+                            src="/images/whitehero.jpg"
+                            alt="Branded Podcasts"
+                            className="w-full lg:w-auto max-w-xl" // Make sure the image takes the full width on small screens, and auto on larger screens
+                        />
+                    </div>
+                    <div className="flex flex-col items-center justify-center p-4 lg:p-1 w-full lg:mr-5 lg:w-2/5">
+                        <div>
+                            <h3 className={`${title({color:"green", size:"lg"})} text-center text-2xl mt-[-15px] lg:mt-0 lg:py-2`}>Branded Podcasts</h3>
+                            <h4 className={`${subtitle({color:"green"})} text-lg p-2 text-center mb-2`}>360 Production</h4>
+                        </div>
+                        {/* Button */}
+                        <div className="col-span-1 md:col-span-3 lg:col-span-3 flex justify-center items-center">
+                            <Link href="./whitelabel">
+                                <Button 
+                                    size="lg" 
+                                    radius="full" 
+                                    className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 font-semibold  ease-in-out lg:mb-8 mb-4"
+                                >
+                                    See More
+                                    <FaArrowRight className="ml-2" />
+                                </Button>
+                            </Link>
+                        </div>
+                    </div>
+                </Card>
             </div>
         </DefaultLayout>
     );
