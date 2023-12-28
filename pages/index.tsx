@@ -3,31 +3,10 @@ import { Head } from "@/layouts/head";
 import { Card, Button, Image } from "@nextui-org/react";
 import Link from "next/link";
 import DefaultLayout from "@/layouts/default";
-import { AnimatePresence, motion } from "framer-motion";
 import { FaArrowRight, FaBroadcastTower } from 'react-icons/fa';
 import { title, subtitle, features } from "@/components/primitives";
 
 export default function IndexPage() {
-
-    const cardVariants = {
-        offscreen: { rotate: 0 },
-        onscreen: {
-            rotate: [0, 5, -5, 5, -5, 0],
-            transition: { duration: 0.5 }
-        }
-    };
-
-    const pulseVariants = {
-        pulse: {
-            scale: [1, 1.05, 1],
-            transition: {
-                duration: 2,
-                ease: "easeInOut",
-                repeat: Infinity,
-                repeatType: "loop" as "loop" // Explicitly specify the type
-            }
-        }
-    };
 
     return (
         <DefaultLayout>
