@@ -1,8 +1,7 @@
 import React from "react";
-import { Card, CardBody, Image, Button,} from "@nextui-org/react";
-import { FaYoutube, FaSpotify, FaApple } from 'react-icons/fa';
-import {subtitle } from "@/components/primitives";
-import { motion } from 'framer-motion';
+import { Card, CardBody, Image, Button} from "@nextui-org/react";
+import { FaYoutube, FaSpotify, FaApple} from 'react-icons/fa';
+import {subtitle} from "@/components/primitives";
 
 
 interface ProductionCardProps {
@@ -28,18 +27,6 @@ interface ProductionCardProps {
     appleLink, 
     anghamiLink 
   }: ProductionCardProps) {
-  const [liked, setLiked] = React.useState(false);
-
-  const wiggleVariants = {
-    initial: { rotate: 0 },
-    animate: {
-      rotate: [0, -10, 10, -10, 10, 0], // A sequence of rotations
-      transition: {
-        duration: 0.6, // Total duration for the entire sequence
-        ease: "easeInOut",
-      },
-    },
-  };
 
   return (
     <div id={id}>
@@ -67,14 +54,13 @@ interface ProductionCardProps {
 
                   {/* Embedded Spotify Player */}
                   <div className="flex justify-center items-center mb-[-60px] md:mb-[-30px] md:px-6 ">
-                    <motion.iframe 
+                    <iframe 
                       className="w-[120%] sm:w-[80%] md:w-full h-[220px] md:h-[270px]" 
                       src={spotifyEmbed}
                       title="Spotify Podcast Player" 
-                      frameBorder="0" 
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                       allowFullScreen>
-                    </motion.iframe>
+                    </iframe>
                   </div>
 
                   {/* Subtitle */}
