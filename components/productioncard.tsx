@@ -50,7 +50,7 @@ interface ProductionCardProps {
 
             <div className="flex flex-col col-span-6 md:col-span-8">
               <div className="flex justify-between items-start">
-                <div className="flex flex-col">
+                <div className="flex flex-col w-full">
 
                   {/* Embedded Spotify Player */}
                   <div className="flex justify-center items-center mb-[-60px] md:mb-[-30px] md:px-6 ">

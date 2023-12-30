@@ -81,6 +81,39 @@ const ProductionsPage = () => {
                 appleLink="https://podcasts.apple.com/eg/podcast/%D8%A5%D8%B9%D9%84%D8%A7%D9%86-%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA-%D8%A7%D9%86%D8%AA%D9%87%D8%AA-%D8%AD%D9%84%D9%88%D9%84-%D8%A7%D9%84%D8%A3%D8%B1%D8%B6/id1723153394?i=1000639803258"
                 anghamiLink="https://www.thepotcastproductions.com/productions#entahet-holool"
             />
+            <ProductionCard
+                id='nos-nos'
+                title="nos-nos"
+                description=" ...بودكاست نصه جد نصه هزار، نصه أحمد حسن نصه محمد جمال. هل البودكاست حلو؟ نص نص"                
+                imageSrc="./images/nos.png"
+                spotifyEmbed={"https://open.spotify.com/embed/episode/1LzI9o8rtnnUn9lz5anVRd?utm_source=generator&theme=0"}
+                youtubeLink="https://www.youtube.com/watch?v=T9FqiX9K6MQ&list=PL7TpI0K9I87KuHYOwKCV0cTcalMDUs8Zb"
+                spotifyLink="https://open.spotify.com/show/6WWUzhMkrC8DcPOfLojRdm"
+                appleLink="https://podcasts.apple.com/eg/podcast/nos-nos-%D9%86%D8%B5-%D9%86%D8%B5/id1633045471"
+                anghamiLink="https://play.anghami.com/podcast/1030016057?adj_adgroup=podcast&adj_t=dgl0aa8_64v1dnl&adj_campaign=android&adj_creative=59082139"
+            />
+            <ProductionCard
+                id='teh-marboota'
+                title="teh-marboota"
+                description="بودكاست اجتماعي نسائي كوميدي"
+                imageSrc="./images/marboota.jpg"
+                spotifyEmbed={"https://open.spotify.com/embed/show/4otWZeRNqSSKIdyrMYSEzC?utm_source=generator&theme=0"}
+                youtubeLink="https://www.youtube.com/watch?v=GdQg02jmOl8&list=PL7TpI0K9I87Ip1qaWo6G_8dIcOe3k2jwz"
+                spotifyLink="https://open.spotify.com/show/4otWZeRNqSSKIdyrMYSEzC"
+                appleLink="https://podcasts.apple.com/eg/podcast/%D8%A9-%D9%85%D8%B1%D8%A8%D9%88%D8%B7%D8%A9/id1646081113"
+                anghamiLink="https://play.anghami.com/podcast/1032154429"
+            />
+            <ProductionCard
+                id='potcast-show'
+                title="potcast-show"
+                description="Real and unfiltered conversations about life, love and spirituality."
+                imageSrc="./images/potcastshow.png"
+                spotifyEmbed={"https://open.spotify.com/embed/show/0AMUgnXP7V3tYxZIlH12UH?utm_source=generator&theme=0"}
+                youtubeLink="https://www.youtube.com/watch?v=mnw5_jN_N8E&list=PL7TpI0K9I87Ls7_VRlqNJPrrG1RxavR8x"
+                spotifyLink="https://open.spotify.com/show/0AMUgnXP7V3tYxZIlH12UH?si=5fece504caa94a36&nd=1&dlsi=7ac9e5025f404011"
+                appleLink="https://podcasts.apple.com/eg/podcast/the-potcast-show/id1521488794"
+                anghamiLink="https://www.thepotcastproductions.com/productions#entahet-holool"
+            />
 
             
 
