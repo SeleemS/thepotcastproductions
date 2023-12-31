@@ -55,7 +55,7 @@ const ProductionsPage = () => {
                 imageSrc="./images/card3.jpeg"
                 spotifyEmbed={"https://open.spotify.com/embed/show/1QLz7wgVVVdZt90vanHFNJ?utm_source=generator&theme=0"}
                 youtubeLink={"https://www.youtube.com/watch?v=0hr3z4Gz06I&list=PL7TpI0K9I87JnLcqY8x5d4lBP3eLlHCMX"}
-                spotifyLink="https://open.spotify.com/show/1XhboCKaeAmNU4hObnaTpd?si=0kLUupamQsWSPYH3PmRbJQ&utm_source=copy-link&dl_branch=1&nd=1&dlsi=4ab227a26466438a"
+                spotifyLink="https://open.spotify.com/show/1QLz7wgVVVdZt90vanHFNJ?si=XRsC0wHARq-GjwI3xPg2iQ&nd=1&dlsi=b7581753e99e4b70"
                 appleLink="https://podcasts.apple.com/us/podcast/kabarni-podcast-%D9%83%D8%A8%D8%B1%D9%86%D9%8A-%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA/id1705559408?ign-itscg=30200&ign-itsct=lt_p"
                 anghamiLink="https://play.anghami.com/podcast/1043057720?adj_t=dgl0aa8_64v1dnl&adj_campaign=ios&adj_adgroup=podcast&adj_creative=127495014"
             />
@@ -66,8 +66,8 @@ const ProductionsPage = () => {
                 imageSrc="./images/card5.png"
                 spotifyEmbed={"https://open.spotify.com/embed/episode/0zroGmO7uzfzDFBZkkFcFc?utm_source=generator&theme=0"}
                 youtubeLink="https://www.youtube.com/watch?v=uqfvFeDZccc&list=PL7TpI0K9I87JH7a-Ryk6gCStTiBrT3KhR"
-                spotifyLink="https://open.spotify.com/show/1QLz7wgVVVdZt90vanHFNJ?si=XRsC0wHARq-GjwI3xPg2iQ&nd=1&dlsi=7ed718d582054f94"
-                appleLink="https://podcasts.apple.com/us/podcast/kabarni-podcast-%D9%83%D8%A8%D8%B1%D9%86%D9%8A-%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA/id1705559408?ign-itscg=30200&ign-itsct=lt_p"
+                spotifyLink="https://open.spotify.com/show/4BV0CDamD2RoXSIURDA3zV"
+                appleLink="https://podcasts.apple.com/eg/podcast/howa-fi-eh-ya-gama3a-%D9%87%D9%88-%D9%81%D9%8A-%D8%A5%D9%8A%D9%87-%D9%8A%D8%A7-%D8%AC%D9%85%D8%A7%D8%B9%D8%A9/id1642322795"
                 anghamiLink="https://play.anghami.com/podcast/1031506050?adj_t=dgl0aa8_64v1dnl&adj_campaign=ios&adj_adgroup=podcast&adj_creative=20016051"
             />
             <ProductionCard
@@ -89,7 +89,7 @@ const ProductionsPage = () => {
                 spotifyEmbed={"https://open.spotify.com/embed/episode/1LzI9o8rtnnUn9lz5anVRd?utm_source=generator&theme=0"}
                 youtubeLink="https://www.youtube.com/watch?v=T9FqiX9K6MQ&list=PL7TpI0K9I87KuHYOwKCV0cTcalMDUs8Zb"
                 spotifyLink="https://open.spotify.com/show/6WWUzhMkrC8DcPOfLojRdm"
-                appleLink="https://podcasts.apple.com/eg/podcast/nos-nos-%D9%86%D8%B5-%D9%86%D8%B5/id1633045471"
+                appleLink="https://podcasts.apple.com/us/podcast/nos-nos-%D9%86%D8%B5-%D9%86%D8%B5/id1633045471"
                 anghamiLink="https://play.anghami.com/podcast/1030016057?adj_adgroup=podcast&adj_t=dgl0aa8_64v1dnl&adj_campaign=android&adj_creative=59082139"
             />
             <ProductionCard
