@@ -108,9 +108,9 @@ const ProductionsPage = () => {
                 title="potcast-show"
                 description="Real and unfiltered conversations about life, love and spirituality."
                 imageSrc="./images/potcastshow.png"
-                spotifyEmbed={"https://open.spotify.com/embed/show/0AMUgnXP7V3tYxZIlH12UH?utm_source=generator&theme=0"}
+                spotifyEmbed={"https://open.spotify.com/embed/show/7h8m8wf0u6MlNM9ors75z3?utm_source=generator&theme=0"}
                 youtubeLink="https://www.youtube.com/watch?v=mnw5_jN_N8E&list=PL7TpI0K9I87Ls7_VRlqNJPrrG1RxavR8x"
-                spotifyLink="https://open.spotify.com/show/0AMUgnXP7V3tYxZIlH12UH?si=5fece504caa94a36&nd=1&dlsi=7ac9e5025f404011"
+                spotifyLink="https://open.spotify.com/show/7h8m8wf0u6MlNM9ors75z3?si=af4e3cc351274f62"
                 appleLink="https://podcasts.apple.com/eg/podcast/the-potcast-show/id1521488794"
                 anghamiLink="https://play.anghami.com/podcast/1013624358"
             />
