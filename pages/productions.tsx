@@ -114,10 +114,6 @@ const ProductionsPage = () => {
                 appleLink="https://podcasts.apple.com/eg/podcast/the-potcast-show/id1521488794"
                 anghamiLink="https://play.anghami.com/podcast/1013624358"
             />
-
-            
-
-
             </div>
 
             <div className="flex flex-col items-center justify-center mt-[-10px]">

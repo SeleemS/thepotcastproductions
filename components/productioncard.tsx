@@ -57,6 +57,7 @@ interface ProductionCardProps {
                     <iframe 
                       className="w-[120%] sm:w-[80%] md:w-full h-[220px] md:h-[270px]" 
                       src={spotifyEmbed}
+                      loading="lazy"
                       title="Spotify Podcast Player" 
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                       allowFullScreen>
