@@ -35,7 +35,7 @@ export default async (req, res) => {
             const mailOptions = {
                 from: process.env.EMAIL_FROM,
                 to: process.env.EMAIL_TO,
-                subject: `New Form Submission: ${subject}`,
+                subject: `${subject}`,
                 text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${message}`,
             };
 
