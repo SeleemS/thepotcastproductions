@@ -33,7 +33,7 @@ export default async (req, res) => {
 
             // Set up email data
             const mailOptions = {
-                from: "Nodemailer",
+                from: process.env.EMAIL_FROM,
                 to: process.env.EMAIL_TO,
                 subject: `${subject}`,
                 text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${message}`,
