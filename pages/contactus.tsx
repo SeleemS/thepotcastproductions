@@ -9,7 +9,7 @@ import {Head} from '@/layouts/head';
 export default function ContactUsPage() {
     const subjects = [
         { value: 'Advertising', label: 'Advertising' },
-        { value: 'White Label Solutions', label: 'White Label Solutions' },
+        { value: 'Branded Podcasts', label: 'Branded Podcasts' },
         { value: 'Feedback', label: 'Feedback' },
         { value: 'General Inquiry', label: 'General Inquiry' }
     ];
