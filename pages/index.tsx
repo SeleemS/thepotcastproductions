@@ -74,7 +74,7 @@ export default function IndexPage() {
                     <div className="flex flex-col items-center justify-center p-4 lg:p-1 w-full lg:mr-5 lg:w-2/5">
                         <div>
                             <h3 className={`${title({color:"green", size:"lg"})} text-center text-2xl mt-[-15px] lg:mt-0 lg:py-2`}>Branded Podcasts</h3>
-                            <h4 className={`${subtitle({color:"green"})} text-lg p-2 text-center mb-2`}>360 Production Services</h4>
+                            <h4 className={`${subtitle({color:"green"})} text-lg p-2 text-center mb-2`}>360° Production Services</h4>
                         </div>
                         {/* Button */}
                         <div className="col-span-1 md:col-span-3 lg:col-span-3 flex justify-center items-center">
