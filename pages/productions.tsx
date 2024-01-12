@@ -82,6 +82,17 @@ const ProductionsPage = () => {
                 anghamiLink="https://play.anghami.com/podcast/1047025945"
             />
             <ProductionCard
+                id='poetry-behind-borders'
+                title="!هو في إيه يا جماعة؟"
+                description="Poetry goes beyond all borders, a language unto itself. Listen to literary experts, Dr. Magda Hasabelnaby and  Dr. Rafey Habib, recite and discuss poetry from diverse cultures and eras, enabling you to grasp the power of spoken poetry."
+                imageSrc="./images/card12.png"
+                spotifyEmbed={"https://open.spotify.com/embed/show/4BeqLfyxqIZUmqlIpKZoMD?utm_source=generator&theme=0"}
+                youtubeLink="https://youtu.be/JyNhvIfkBmE?si=Wc1CGbpA8Gvdg4ZT"
+                spotifyLink="https://open.spotify.com/show/4BeqLfyxqIZUmqlIpKZoMD"
+                appleLink="https://podcasts.apple.com/eg/podcast/poetry-beyond-borders-%D8%B4%D8%B9%D8%B1-%D8%A8%D9%84%D8%A7-%D8%AD%D8%AF%D9%88%D8%AF/id1725300616"
+                anghamiLink="https://open.anghami.com/JWsbC3nFiGb"
+            />
+            <ProductionCard
                 id='nos-nos'
                 title="nos-nos"
                 description=" ...بودكاست نصه جد نصه هزار، نصه أحمد حسن نصه محمد جمال. هل البودكاست حلو؟ نص نص"                
@@ -123,7 +134,7 @@ const ProductionsPage = () => {
                     <Button 
                         size="lg" 
                         radius="full" 
-                        className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 font-semibold  ease-in-out mb-4"
+                        className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg text-xl transition-all duration-300 font-semibold  ease-in-out mb-4"
                     >
                         Contact Us
                         <FaArrowRight className="ml-2" />
