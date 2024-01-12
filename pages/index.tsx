@@ -51,7 +51,7 @@ export default function IndexPage() {
                                 <Button 
                                     size="lg" 
                                     radius="full" 
-                                    className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 font-semibold  ease-in-out lg:mb-8 mb-4"
+                                    className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 font-semibold  text-xl ease-in-out lg:mb-8 mb-4"
                                 >
                                     Listen Now
                                     <FaArrowRight className="ml-2" />
@@ -82,7 +82,7 @@ export default function IndexPage() {
                                 <Button 
                                     size="lg" 
                                     radius="full" 
-                                    className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 font-semibold  ease-in-out lg:mb-8 mb-4"
+                                    className="bg-gradient-to-tr from-[#03a07d] to-[#006400] hover:from-[#029d70] hover:to-[#005700] text-white shadow-lg transition-all duration-300 font-semibold text-xl ease-in-out lg:mb-8 mb-4"
                                 >
                                     See More
                                     <FaArrowRight className="ml-2" />
