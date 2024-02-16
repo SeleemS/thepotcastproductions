@@ -39,6 +39,10 @@ export const siteConfig = {
 			href: "/whitelabel",
 		},
 		{
+			label: "Careers",
+			href: "/careers",
+		  },
+		{
 			label: "Contact Us",
 			href: "/contactus",
 		},
