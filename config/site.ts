@@ -16,6 +16,10 @@ export const siteConfig = {
       label: "Branded Podcasts",
       href: "/whitelabel",
     },
+	{
+		label: "Careers",
+		href: "/careers",
+	  },
     {
       label: "Contact Us",
       href: "/contactus",
