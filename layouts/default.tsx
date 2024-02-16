@@ -43,9 +43,9 @@ export default function DefaultLayout({
 						<Link href={siteConfig.links.youtube} isExternal>
 							<FaYoutube size={30} style={{ color: '#03a07d' }} />
 						</Link>
-						{/*<Link href={siteConfig.links.email}>
+						<Link href={siteConfig.links.email}>
 							<FaEnvelope size={30} style={{ color: '#03a07d' }} />
-	</Link>*/}
+						</Link>
 						<Link href={siteConfig.links.facebook} isExternal>
 							<FaFacebookF size={30} style={{ color: '#03a07d' }} />
 						</Link>
