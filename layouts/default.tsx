@@ -35,7 +35,7 @@ export default function DefaultLayout({
 					</Link>
 					</div>
 					
-					{/* Social Media Icons - Center on desktop */}
+					{/* Social Media Icons - Centered */}
 					<div className="flex-1 flex justify-center order-3 md:order-none gap-4 mb-4 md:mb-0">
 						<Link href={siteConfig.links.instagram} isExternal>
 							<FaInstagram size={30} style={{ color: '#03a07d' }} />
