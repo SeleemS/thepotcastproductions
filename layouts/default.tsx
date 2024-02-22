@@ -28,7 +28,7 @@ export default function DefaultLayout({
 
 			<footer className="bg-gray-100 py-2">
 				<div className="container mx-auto flex flex-col lg:flex-row justify-between items-center px-10">
-					{/* Logo */}
+					{/*Logo*/}
 					<div className="flex-1 flex justify-center md:justify-start mb-4 md:mb-0">
 					<Link href="./">
 						<img src="/images/logo3.png" alt="Logo" width="100" height="36" />
