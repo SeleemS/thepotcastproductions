@@ -20,7 +20,7 @@ const ProductionsPage = () => {
 
             <div className="flex flex-col items-center justify-center mb-10 lg:px-20">
                 <h2 className={`${title({color:"green"})} text-3xl text-center font-semibold mb-2`}>Top-charting podcasts that explore fascinating genres and captivating narratives you won&apos;t find anywhere else.</h2>
-                <p className={`${subtitle({className:"mt-2"})}`}>Discover fresh perspectives, diverse voices, and thought-provoking topics; there&apos;s something for every curious mind.</p>
+                <p className={`${subtitle({className:"mt-2"})}`}>Discover fresh perspectives, diverse voices, and thought-provoking topics; we have something for every curious mind.</p>
             </div>
 
             <div className="flex flex-col items-center justify-center mt-[-10px]">
