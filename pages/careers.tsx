@@ -4,7 +4,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
   return {
     redirect: {
       destination: 'https://thepotcastproductions.notion.site/Hiring-3a9f64f8c693463ab4557287dd0d85b8?pvs=4',
-      permanent: true, // set to true if this is a permanent redirect
+      permanent: true, // Set to true if this is a permanent redirect
     },
   };
 };
