@@ -143,7 +143,7 @@ const ProductionsPage = () => {
             <div className="flex flex-col items-center justify-center mt-[-10px]">
                 <h2 className="text-2xl font-bold text-center mb-2">Reach targeted listeners directly.</h2>
                 <p className="mb-4 text-center">Talk to us about podcast sponsorships!</p>
-                <Link href="/contactus" passHref> {/* Update the href to your contact page route */}
+                <Link href="/contactus" passHref>
                     <Button 
                         size="lg" 
                         radius="full" 
