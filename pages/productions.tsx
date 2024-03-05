@@ -77,7 +77,7 @@ const ProductionsPage = () => {
                 description="
                 بودكاست من غير تفكير هو فرصة عشان نتكلم في كل حاجة بس بطريقة بسيطة، يمكن نفرفش في الأيام اللي احنا فيها دي. ونتعشم إن ليفل الضحك يكون عالي، وتحبوا الشلوحة، ومحمود يحبكم، وننسى العالم باللي فيه مع أحمد خيري. من إنتاج ذا بوتكاست برودكشنز - The Potcast Productions ."
                 imageSrc="./images/khairy.jpg"
-                spotifyEmbed={"https://open.spotify.com/embed/show/6K0YFNiPbUQhgiRL0nUGKI?utm_source=generator&theme=0"}
+                spotifyEmbed={"https://open.spotify.com/embed/episode/4ksiZGyRJRRb6DJ6YpHKbj?utm_source=generator&theme=0"}
                 youtubeLink="https://www.youtube.com/watch?v=uqfvFeDZccc&list=PL7TpI0K9I87JH7a-Ryk6gCStTiBrT3KhR"
                 spotifyLink="https://open.spotify.com/show/6K0YFNiPbUQhgiRL0nUGKI?si=Zz-J3evoQiOgPLdonJn4mQ&nd=1&dlsi=b861e3e0bc1543b5"
                 appleLink="https://podcasts.apple.com/us/podcast/min-gheer-tafkeer-%D9%85%D9%86-%D8%BA%D9%8A%D8%B1-%D8%AA%D9%81%D9%83%D9%8A%D8%B1/id1734111430?ign-itscg=30200&ign-itsct=lt_p"
