@@ -74,7 +74,8 @@ const ProductionsPage = () => {
             <ProductionCard
                 id='mgt'
                 title="!هو في إيه يا جماعة؟"
-                description="بودكاست عن جرائم قتل، وأماكن مسكونة، وأحداث تاريخية غريبة. بودكاست عن جرائم قتل، وأماكن مسكونة، وأحداث تاريخية غريبة"
+                description="
+                بودكاست من غير تفكير هو فرصة عشان نتكلم في كل حاجة بس بطريقة بسيطة، يمكن نفرفش في الأيام اللي احنا فيها دي. ونتعشم إن ليفل الضحك يكون عالي، وتحبوا الشلوحة، ومحمود يحبكم، وننسى العالم باللي فيه مع أحمد خيري. من إنتاج ذا بوتكاست برودكشنز - The Potcast Productions ."
                 imageSrc="./images/khairy.jpg"
                 spotifyEmbed={"https://open.spotify.com/embed/show/6K0YFNiPbUQhgiRL0nUGKI?utm_source=generator&theme=0"}
                 youtubeLink="https://www.youtube.com/watch?v=uqfvFeDZccc&list=PL7TpI0K9I87JH7a-Ryk6gCStTiBrT3KhR"
