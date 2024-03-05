@@ -72,6 +72,17 @@ const ProductionsPage = () => {
                 anghamiLink="https://play.anghami.com/podcast/1031506050?adj_t=dgl0aa8_64v1dnl&adj_campaign=ios&adj_adgroup=podcast&adj_creative=20016051"
             />
             <ProductionCard
+                id='mgt'
+                title="!هو في إيه يا جماعة؟"
+                description="بودكاست عن جرائم قتل، وأماكن مسكونة، وأحداث تاريخية غريبة. بودكاست عن جرائم قتل، وأماكن مسكونة، وأحداث تاريخية غريبة"
+                imageSrc="./images/khairy.jpg"
+                spotifyEmbed={"https://open.spotify.com/embed/show/6K0YFNiPbUQhgiRL0nUGKI?utm_source=generator&theme=0"}
+                youtubeLink="https://www.youtube.com/watch?v=uqfvFeDZccc&list=PL7TpI0K9I87JH7a-Ryk6gCStTiBrT3KhR"
+                spotifyLink="https://open.spotify.com/show/6K0YFNiPbUQhgiRL0nUGKI?si=Zz-J3evoQiOgPLdonJn4mQ&nd=1&dlsi=b861e3e0bc1543b5"
+                appleLink="https://podcasts.apple.com/us/podcast/min-gheer-tafkeer-%D9%85%D9%86-%D8%BA%D9%8A%D8%B1-%D8%AA%D9%81%D9%83%D9%8A%D8%B1/id1734111430?ign-itscg=30200&ign-itsct=lt_p"
+                anghamiLink="https://play.anghami.com/podcast/1039614080"
+            />
+            <ProductionCard
                 id='entahet-holool'
                 title="!هو في إيه يا جماعة؟"
                 description="حنتكلم عن المشاكل بس من غير مانحلها. حنتكلم فيها بس علشان مافيش حلول و صدقونا احنا دورنا كتير على حلول ومالقناش. وعلشان أكيد انتو كمان مالقتوش حلول فاحنا جايين هنا نصيح مع بعض في كل حاجة مش عاجبانا"
