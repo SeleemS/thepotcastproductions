@@ -10,7 +10,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 };
 
 const CareersPage = () => {
-  return null; // the component doesn't need to render anything
+  return null; // The component doesn't need to render anything
 };
 
 export default CareersPage;
