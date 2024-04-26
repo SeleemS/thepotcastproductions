@@ -61,6 +61,17 @@ const ProductionsPage = () => {
                 anghamiLink="https://play.anghami.com/podcast/1043057720?adj_t=dgl0aa8_64v1dnl&adj_campaign=ios&adj_adgroup=podcast&adj_creative=127495014"
             />
             <ProductionCard
+                id="thew"
+                title="The W by Dina Ghabbour"
+                description="The W هو مساحة داعمة لكل ست، وهو كمان بودكاست عن مواضيع مختلفة في حياتك، مواضيع بتهمك وبتهم المجتمع كله زي مجال العمل، الصحة النفسية، الأمومة، العلاقات ومواضيع اجتماعية تانية مش بنتكلم عنها كتي"
+                imageSrc="./images/thew.jpg"
+                spotifyEmbed={"https://open.spotify.com/embed/show/1a5ewecMGnYX1rl2xYF7fv?utm_source=generator&theme=0"}
+                youtubeLink={"https://www.youtube.com/watch?v=zdpSiEjXdcY&list=PL7TpI0K9I87LFolJ-3zeQekItr1rWDFWC"}
+                spotifyLink="https://open.spotify.com/show/1a5ewecMGnYX1rl2xYF7fv"
+                appleLink="https://podcasts.apple.com/us/podcast/the-w-by-dina-ghabbour/id1742463096"
+                anghamiLink="https://play.anghami.com/podcast/1051678975"
+            />
+            <ProductionCard
                 id='howa-fee-eh'
                 title="!هو في إيه يا جماعة؟"
                 description="بودكاست عن جرائم قتل، وأماكن مسكونة، وأحداث تاريخية غريبة. بودكاست عن جرائم قتل، وأماكن مسكونة، وأحداث تاريخية غريبة"
