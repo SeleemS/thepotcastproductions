@@ -63,7 +63,7 @@ const ProductionsPage = () => {
             <ProductionCard
                 id="thew"
                 title="The W by Dina Ghabbour"
-                description=" هو مساحة داعمة لكل ست، وهو كمان بودكاست عن مواضيع مختلفة في حياتك، مواضيع بتهمك وبتهم المجتمع كله زي مجال العمل، الصحة النفسية، الأمومة، العلاقات ومواضيع اجتماعية تانية مش بنتكلم عنها كتي The W"
+                description="The W هو مساحة داعمة لكل ست، وهو كمان بودكاست عن مواضيع مختلفة في حياتك، مواضيع بتهمك وبتهم المجتمع كله زي مجال العمل، الصحة النفسية، الأمومة، العلاقات ومواضيع اجتماعية تانية مش بنتكلم عنها كتي"
                 imageSrc="./images/thew.jpg"
                 spotifyEmbed={"https://open.spotify.com/embed/show/1a5ewecMGnYX1rl2xYF7fv?utm_source=generator&theme=0"}
                 youtubeLink={"https://www.youtube.com/watch?v=zdpSiEjXdcY&list=PL7TpI0K9I87LFolJ-3zeQekItr1rWDFWC"}
