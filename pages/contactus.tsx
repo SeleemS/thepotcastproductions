@@ -86,7 +86,7 @@ export default function ContactUsPage() {
                         className="max-w-full border-2 border-green-800 rounded-lg"
                         />
 
-                        {/* Dropdown for Subject */}
+                        {/*Dropdown for Subject*/}
                         <Select
                         isRequired
                         name="subject"
